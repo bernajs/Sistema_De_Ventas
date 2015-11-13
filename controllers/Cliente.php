@@ -13,6 +13,11 @@
 			$this->view->render(explode("\\", get_class($this))[1], "listar", $this->getErrores);
 		}*/
 
+		public function mostrar_clientes(){
+			$clientes=$this->model->listarInventarios();
+			$this->view->render(explode("\\",get_class($this))[1], "mostrar_clientes", $clientes,$this->getErrores());
+		}
+
 
 		public function cliente_inicio(){
 
