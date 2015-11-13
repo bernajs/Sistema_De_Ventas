@@ -44,22 +44,22 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
 				
 					
                     <li>
-                        <a href="index_usuarios.html"><i class="fa fa-user fa-3x"></i>Usuarios</a>
+                        <a href="<?php echo URL_BASE;?>/index.php/Usuario/usuario_inicio"><i class="fa fa-user fa-3x"></i>Usuarios</a>
                     </li>
                      <li>
-                        <a class="active-menu" href="index_clientes.html"><i class="fa fa-users fa-3x"></i>Clientes</a>
+                        <a class="active-menu" href="<?php echo URL_BASE;?>/index.php/Cliente/cliente_inicio"><i class="fa fa-users fa-3x"></i>Clientes</a>
                     </li>
                     <li>
-                        <a  href="index_productos.html"><i class="fa fa-shopping-cart fa-3x"></i>Productos</a>
+                        <a  href="<?php echo URL_BASE;?>/index.php/Producto/producto_inicio"><i class="fa fa-shopping-cart fa-3x"></i>Productos</a>
                     </li>
 						   <li  >
-                        <a   href="index_proveedores.html"><i class="fa fa-truck fa-3x"></i>Proveedores</a>
+                        <a   href="<?php echo URL_BASE;?>/index.php/Proveedor/proveedor_inicio"><i class="fa fa-truck fa-3x"></i>Proveedores</a>
                     </li>	
                       <li  >
-                        <a  href="index_pedidos.html"><i class="fa fa-credit-card fa-3x"></i>Pedidos</a>
+                        <a  href="<?php echo URL_BASE;?>/index.php/Pedido/pedido_inicio"><i class="fa fa-credit-card fa-3x"></i>Pedidos</a>
                     </li>
                     <li>
-                        <a href="index.html">
+                        <a href="<?php echo URL_BASE;?>/index.php/Inicio/inicio">
                             <i class="fa fa-bolt fa-3x">
                                 <!--::before-->
                             </i>
@@ -111,26 +111,26 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
             <div id="page-inner">
                 <div class="row">
                     <div class="col-md-12">
-                     <h2>Menú usuarios</h2>   
+                     <h2>Menú clientes</h2>   
                         <h5>Elige la acción que desees realizar. </h5>
                     </div>
                 </div>              
                  <!-- /. ROW  -->
                   <hr />
-                <div class="row">
+                <div class="row container">
                 <div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-red set-icon">
                     <i class="fa fa-user-plus"></i>
                 </span>
                 <div class="text-box" >
-                    <a  href="registrar_usuario.html">
+                    <a  href="<?php echo URL_BASE;?>/index.php/Cliente/guardar">
                     <p class="main-text">Registrar cliente</p></a>
                     <!--<p class="text-muted">Messages</p>-->
                 </div>
              </div>
 		     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6">           
+                    <!--<div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-green set-icon">
                     <i class="fa fa-user"></i>
@@ -138,7 +138,6 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
                 <div class="text-box" >
                     <a  href="buscar_usuario.html">
                     <p class="main-text">Modificar cliente</p></a>
-                    <!--<p class="text-muted">Remaining</p>-->
                 </div>
              </div>
 		     </div>
@@ -150,10 +149,9 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
                 <div class="text-box" >
                     <a  href="buscar_usuario.html">
                     <p class="main-text">Eliminar cliente</p></a>
-                    <!--<p class="text-muted">Notifications</p>-->
                 </div>
              </div>
-		     </div>
+		     </div>-->
                     <div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-brown set-icon">
