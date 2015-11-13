@@ -1,12 +1,13 @@
 <?php
 	namespace controllers;	
 	use libs\Controller;
+	use libs\View;
 
 	class Cliente extends Controller {
 
 		public function __construct(){
 			parent::__construct();
-			
+			$this->loadModel();
 		}
 
 		/*public function listarInventario(){
@@ -18,8 +19,23 @@
 			$this->view->render(explode("\\",get_class($this))[1], "mostrar_clientes", $clientes,$this->getErrores());
 		}
 
-		public function modificar_cliente(){
-			$this->view->render(explode("\\",get_class($this))[1], "modificar_cliente", $this->getErrores());
+		public function modificar_cliente($params=array()){
+			if(count($params) > 0){
+				$c = $this->model->getClienteById($params['identificador']);
+
+				if(empty($c)){
+					View::renderErrors(array("No existe el cliente con identificador ".$params['identificador']));
+				}
+				else{
+					$this->view->render(explode("\\",get_class($this))[1], "modificar_cliente", $c[0], $this->getErrores());
+				}
+				
+			}
+			else{
+				
+				View::renderErrors(array("No se envio el identificador del cliente"));	
+			}
+			
 		}
 
 
