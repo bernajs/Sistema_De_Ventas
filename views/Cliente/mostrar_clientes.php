@@ -388,7 +388,7 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
     <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <script> 
     function x(){
-      var id = document.getElementsByTagName("td")[0].value;
+      var id = document.getElementsByTagName("td")[0].innerHTML;
       alert(id);
     }</script>
     
