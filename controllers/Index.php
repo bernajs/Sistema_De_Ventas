@@ -2,12 +2,13 @@
 	
 	namespace controllers;
 	use libs\Controller;
+	use libs\View;
 	
 	class Index extends Controller{
 
 		public function __construct(){
 			parent::__construct();
-			//$this->loadModel();
+			$this->loadModel();
 		}
 		
 
