@@ -50,7 +50,7 @@ setcookie('lastVisit', date("G:i - m/d/y"), $timeframe);
 if(isset($_COOKIE['lastVisit']))
     $visit = $_COOKIE['lastVisit'];
 else
-    echo "Welcome to out web page!";
+echo "Welcome to out web page!";
 echo "Último acceso: ". $visit;
 ?>
  &nbsp; <a style="border-radius: 5px" href="#" class="btn btn-danger square-btn-adjust">Salir</a> </div>
@@ -119,7 +119,7 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="<?php echo URL_BASE;?>/index.php/Usuario/guardar_usuario">
-                    <p class="main-text">Registrar usuario</p>
+                    <p class="main-text">Registrar usuario</p></a>
                     <!--<p class="text-muted">Messages</p>-->
                 </div>
              </div>
@@ -131,7 +131,7 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="buscar_usuario.html">
-                    <p class="main-text">Modificar usuario</p>
+                    <p class="main-text">Modificar usuario</p></a>
                     <!--<p class="text-muted">Remaining</p>-->
                 </div>
              </div>
@@ -143,7 +143,7 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="buscar_usuario.html">
-                    <p class="main-text">Eliminar usuario</p>
+                    <p class="main-text">Eliminar usuario</p></a>
                     <!--<p class="text-muted">Notifications</p>-->
                 </div>
              </div>
@@ -155,7 +155,7 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="consulta_usuario.html">
-                    <p class="main-text">Consultar usuario</p>
+                    <p class="main-text">Consultar usuario</p></a>
                     <!--<p class="text-muted">Pending</p>-->
                 </div>
              </div>
