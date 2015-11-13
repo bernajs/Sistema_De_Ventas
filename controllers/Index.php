@@ -4,9 +4,12 @@
 	use libs\Controller;
 	
 	class Index extends Controller{
-		function __construct(){
+
+		public function __construct(){
 			parent::__construct();
+			//$this->loadModel();
 		}
+		
 
 		function index(){
 			echo 'Index/index';
@@ -15,7 +18,11 @@
 			echo $a;
 			$this->errores[0] = "Pepito no vino a la escuela";
 			$this->view->render($a,"index",$this->getErrores());
+		}
 
-
+		public function showLogin(){
+			$a = explode("\\",get_class($this))[1];
+			$this->errores[0] = "Pepito no vino a la escuela";
+			$this->view->render($a, "showLogin", null, $this->getErrores());
 		}
 	}
