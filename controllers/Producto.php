@@ -1,11 +1,14 @@
 <?php
 	namespace controllers;	
 	use libs\Controller;
+	use libs\View;
 
 	class Producto extends Controller{
 
 		public function __construct(){
 			parent::__construct();
+			$this->loadModel();
+
 			
 		}
 
