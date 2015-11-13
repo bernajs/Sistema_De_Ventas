@@ -44,7 +44,7 @@
                                             <?php if(isset($this->errores['nombre'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['nombre'];?></span><?php endif;?>
                                         </div>
                                         <div class="form-group input-group <?php if (isset($this->errores['aPaterno'])) echo 'has-error' ; ?>">
-                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-circle-o-notch"></i></span>
                                             <input class="form-control" name="aPaterno" id="aPaterno" placeholder="Apellido Paterno" type="text">
                                             <?php if(isset($this->errores['aPaterno'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['aPaterno'];?></span><?php endif;?>
                                         </div>
