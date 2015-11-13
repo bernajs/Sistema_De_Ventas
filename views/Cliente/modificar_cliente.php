@@ -16,7 +16,9 @@
                         <strong>Cliente</strong>  
                         
                             </div>
-                            <?php $c = $this->getDatos(); ?>
+                            <?php $c = $this->getDatos(); $d=$this->getDatos1(); ?>
+                            
+
                             <div class="panel-body">
                               <!--<div class="alert alert-danger" role="alert"><?php //echo $this->errores['global']?></div>-->
                                 <form role="form" class="form" id="form1" method="POST" action="">
@@ -27,54 +29,54 @@
                                         </div>
                                         <div class="form-group input-group <?php if (isset($this->errores['aPaterno'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="aPaterno" id="aPaterno" placeholder="Apellido Paterno" type="text">
+                                            <input class="form-control" name="aPaterno" id="aPaterno" placeholder="Apellido Paterno" type="text" value="<?php echo $c->aPaterno;?>">
                                             <?php if(isset($this->errores['aPaterno'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['aPaterno'];?></span><?php endif;?>
                                         </div>
                                          <div class="form-group input-group <?php if (isset($this->errores['aMaterno'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="aMaterno" id="aMaterno" placeholder="Apellido Materno" type="text">
+                                            <input class="form-control" name="aMaterno" id="aMaterno" placeholder="Apellido Materno" type="text" value="<?php echo $c->aMaterno;?>">
                                             <?php if(isset($this->errores['aMaterno'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['aMaterno'];?></span><?php endif;?>
                                         </div>
                                       <div class="form-group input-group <?php if (isset($this->errores['fechaNacimiento'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="fechaNacimiento" id="fechaNacimiento" placeholder="Fecha de Nacimiento" type="text">
+                                            <input class="form-control" name="fechaNacimiento" id="fechaNacimiento" placeholder="Fecha de Nacimiento" type="text" value="<?php echo $c->fechaNacimiento;?>">
                                             <?php if(isset($this->errores['fechaNacimiento'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['fechaNacimiento'];?></span><?php endif;?>
                                         </div>
 
 
                                       <div class="form-group input-group <?php if (isset($this->errores['ciudad'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="ciudad" id="ciudad" placeholder="Ciudad" type="text">
+                                            <input class="form-control" name="ciudad" id="ciudad" placeholder="Ciudad" type="text" value="<?php echo $d->ciudad;?>">
                                             <?php if(isset($this->errores['ciudad'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['ciudad'];?></span><?php endif;?>
                                         </div>
 
                                         <div class="form-group input-group <?php if (isset($this->errores['cp'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="cp" id="cp" placeholder="C.P." type="number">
+                                            <input class="form-control" name="cp" id="cp" placeholder="C.P." type="number" value="<?php echo $d->cp;?>">
                                             <?php if(isset($this->errores['cp'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['cp'];?></span><?php endif;?>
                                         </div>
 
                                         <div class="form-group input-group <?php if (isset($this->errores['colonia'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="colonia" id="colonia" placeholder="Colonia" type="text">
+                                            <input class="form-control" name="colonia" id="colonia" placeholder="Colonia" type="text" value="<?php echo $d->colonia;?>">
                                             <?php if(isset($this->errores['colonia'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['colonia'];?></span><?php endif;?>
                                         </div>
 
                                         <div class="form-group input-group <?php if (isset($this->errores['calle'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="calle" id="calle" placeholder="Calle" type="text">
+                                            <input class="form-control" name="calle" id="calle" placeholder="Calle" type="text" value="<?php echo $d->calle;?>">
                                             <?php if(isset($this->errores['calle'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['calle'];?></span><?php endif;?>
                                         </div>
 
                                         <div class="form-group input-group <?php if (isset($this->errores['numero'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="numero" id="numero" placeholder="Numero" type="number">
+                                            <input class="form-control" name="numero" id="numero" placeholder="Numero" type="number" value="<?php echo $d->numero;?>">
                                             <?php if(isset($this->errores['numero'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['numero'];?></span><?php endif;?>
                                         </div>
 
                                         <div class="form-group input-group <?php if (isset($this->errores['detalle'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="detalle" id="detalle" placeholder="Detalles" type="text">
+                                            <input class="form-control" name="detalle" id="detalle" placeholder="Detalles" type="text" value="<?php echo $d->detalle;?>">
                                             <?php if(isset($this->errores['detalle'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['detalle'];?></span><?php endif;?>
                                         </div>
 
