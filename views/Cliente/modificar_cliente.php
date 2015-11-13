@@ -14,6 +14,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                         <strong>Cliente</strong>  
+                        
                             </div>
                             <div class="panel-body">
                               <!--<div class="alert alert-danger" role="alert"><?php //echo $this->errores['global']?></div>-->
@@ -96,7 +97,7 @@
                                      
                                      
                                      <!--<a href="index_usuarios.html" class="btn btn-success ">Guardar</a>-->
-                                     <button name="enviarDatos" id="sendBtn" type="submit" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Guardar</button>
+                                     <button name="enviarDatos" id="sendBtn" type="submit" class="btn btn-warning btn-lg" style="width: 100%"><span class="glyphicon glyphicon-ok-sign"></span> Update</button>
                                     </form>
                             </div>
                            
