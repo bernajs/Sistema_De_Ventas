@@ -1,20 +1,5 @@
 <?php
 
-	/*class Controller{
-
-		function __construct(){
-			Session::init();
-			$this->view = new View();
-			//$this->loadModel();
-		}
-
-		function loadModel(){
-
-		}
-
-	}*/
-
-	
 namespace libs;
 
 abstract class Controller{
@@ -26,12 +11,11 @@ abstract class Controller{
 		//Iniciamos la sesion PHP
 		Session::init();
 		$this->view = new View();
-		$this->loadModel();
 		$errors=array();
 	}
 
 
-	private function loadModel(){
+	protected function loadModel(){
 		$class= get_class($this);
 		$model = explode("\\",$class)[1]."Model";
 		$modelPath = "models".DS.$model.".php";
