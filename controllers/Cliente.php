@@ -22,12 +22,14 @@
 		public function modificar_cliente($params=array()){
 			if(count($params) > 0){
 				$c = $this->model->getClienteById($params['identificador']);
+				$d = $this->model->getClienteDireccionById($params['identificador']);
 
+				//var_dump($d);
 				if(empty($c)){
 					View::renderErrors(array("No existe el cliente con identificador ".$params['identificador']));
 				}
 				else{
-					$this->view->render(explode("\\",get_class($this))[1], "modificar_cliente", $c[0], $this->getErrores());
+					$this->view->render2(explode("\\",get_class($this))[1], "modificar_cliente", $c[0], $d[0], $this->getErrores());
 				}
 				
 			}
