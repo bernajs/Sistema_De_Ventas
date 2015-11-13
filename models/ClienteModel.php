@@ -178,6 +178,17 @@ echo "holsfdasd";
 		return $cliente;
 	}
 
+	public function getClienteDireccionById($id){
+		$con = DBConexion::getInstance();
+		if (is_null($con)) {
+			throw new Exception("Error en la conexion a la base de datos, verifique",1);
+		}
+
+		$dir = $con->executeQuery("SELECT * FROM direccion_cliente WHERE CLIENTE_dni = ?;",array($id), __NAMESPACE__.'\ClienteModel');
+		//var_dump($dir);
+		return $dir;
+	}
+
 
 }
 
