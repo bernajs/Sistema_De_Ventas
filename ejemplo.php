@@ -50,7 +50,6 @@ $("#mytable #checkall").click(function () {
                    
                    <thead>
                    <tr>
-                    luis
                     <th><input type="checkbox" id="checkall" /></th>
                     <th>Color</th>
                     <th>Hex#</th>
