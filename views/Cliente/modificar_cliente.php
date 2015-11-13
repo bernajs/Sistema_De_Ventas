@@ -20,10 +20,9 @@
     <div class="container">
         <div class="row text-center  ">
             <div class="col-md-12">
-                <br><br>
                 <h2>Modificar cliente</h2>
                 <!--<h5>(Registre todos sus clientes)</h5>-->
-                 <br>
+                 
             </div>
         </div>        
          
@@ -39,7 +38,7 @@
                                 <form role="form" class="form" id="form1" method="POST" action="">
                                         <div class="form-group input-group <?php if (isset($this->errores['nombre'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="nombre" id="nombre" placeholder="               <?php
+                                            <input class="form-control" name="nombre" id="nombre" placeholder="Nombre"             <?php
                  $inputu=$_POST['user'];
                  print $inputu;
                  ?>" type="text">

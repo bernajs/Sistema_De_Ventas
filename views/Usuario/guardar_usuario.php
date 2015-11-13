@@ -18,8 +18,7 @@
 <body>
     <div class="container">
         <div class="row text-center  ">
-            <div class="col-md-12">
-                <br><br>
+            <div class="col-md-12">                
                 <h2> Regístrate</h2>
                
                 <h5>( Regístrate para poder acceder al sistema)</h5>
@@ -35,7 +34,6 @@
                             </div>
                             <div class="panel-body">
                                 <form role="form">
-<br>
                                         <div class="form-group input-group">
                                             <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                             <input class="form-control" placeholder="Usuario" type="text">
@@ -45,7 +43,7 @@
                                             <input class="form-control" placeholder="Contraseña" type="password">
                                         </div>
                                          <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-circle-o-notch"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="Nombre" type="text">
                                         </div>
                                       <div class="form-group input-group">
@@ -58,7 +56,7 @@
 alert('Guardado');
 else alert('No Guardado')" data-toggle="modal" class="btn btn-success" data-target="#myModal">Guardar</a>
                                     <hr>
-                                    ¿Ya estás registrado?  <a href="login.html">Entra aquí</a>
+                                    ¿Ya estás registrado?  <a href="<?php echo URL_BASE;?>/index.php/Inicio/login">Entra aquí</a>
                                     </form>
                             </div>
                            

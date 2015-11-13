@@ -20,7 +20,7 @@
     <div class="container">
         <div class="row text-center  ">
             <div class="col-md-12">
-                <br><br>
+                
                 <h2> Registrar pedido</h2>
                
                 <h5>(Registra un pedido en el sistema)</h5>
@@ -62,7 +62,7 @@
                                           </span>
                                       </div></div>
                                          <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-circle-o-notch"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="Estado" type="text">
                                         </div>                                      
                                         </button>

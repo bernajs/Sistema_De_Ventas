@@ -106,7 +106,7 @@ echo "Último acceso: ". $visit;
                 </div>              
                  <!-- /. ROW  -->
                   <hr />
-                <div class="row">
+                <div class="row container">
                 <div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-red set-icon">
@@ -119,15 +119,14 @@ echo "Último acceso: ". $visit;
                 </div>
              </div>
 		     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6">           
+                    <!--<div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-green set-icon">
                     <i class="fa fa-user"></i>
                 </span>
                 <div class="text-box" >
                     <a  href="modificar_cliente.html">
-                    <p class="main-text">Modificar cliente</p></a>
-                    <!--<p class="text-muted">Remaining</p>-->
+                    <p class="main-text">Modificar cliente</p></a>                    
                 </div>
              </div>
 		     </div>
@@ -138,11 +137,10 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="buscar_cliente.html">
-                    <p class="main-text">Eliminar cliente</p></a>
-                    <!--<p class="text-muted">Notifications</p>-->
+                    <p class="main-text">Eliminar cliente</p></a>                    
                 </div>
              </div>
-		     </div>
+		     </div>-->
                     <div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-brown set-icon">

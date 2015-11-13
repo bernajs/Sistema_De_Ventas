@@ -111,7 +111,7 @@ echo "Último acceso: ". $visit;
                 </div>              
                  <!-- /. ROW  -->
                   <hr />
-                <div class="row">
+                <div class="row container">
                 <div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-red set-icon">
@@ -124,7 +124,7 @@ echo "Último acceso: ". $visit;
                 </div>
              </div>
 		     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6">           
+                   <!-- <div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-green set-icon">
                     <i class="fa fa-user"></i>
@@ -132,11 +132,10 @@ echo "Último acceso: ". $visit;
                 <div class="text-box" >
                     <a  href="buscar_usuario.html">
                     <p class="main-text">Modificar usuario</p></a>
-                    <!--<p class="text-muted">Remaining</p>-->
                 </div>
              </div>
-		     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6">           
+		     </div>-->
+                    <!--<div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-blue set-icon">
                     <i class="fa fa-user-times"></i>
@@ -144,10 +143,9 @@ echo "Último acceso: ". $visit;
                 <div class="text-box" >
                     <a  href="buscar_usuario.html">
                     <p class="main-text">Eliminar usuario</p></a>
-                    <!--<p class="text-muted">Notifications</p>-->
                 </div>
              </div>
-		     </div>
+		     </div>-->
                     <div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-brown set-icon">

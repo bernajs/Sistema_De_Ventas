@@ -31,7 +31,7 @@
 
 		public function guardar($params=array()){
 			//Llamando al metodo del modelo
-			echo "jeje";
+			//echo "jeje";
 			//print_r($params1);
 			if(isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
 				//$this->guardarDireccion($params1);

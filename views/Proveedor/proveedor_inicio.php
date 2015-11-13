@@ -130,28 +130,27 @@ echo "Último acceso: ". $visit;
 
 
 
-                 <div class="row">
+                 <div class="row container">
                 <div class="col-md-3 col-sm-6 col-xs-6">           
             <div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-red set-icon">
-                    <i class="fa fa-envelope-o"></i>
+                    <i class="fa fa-truck"></i>
                 </span>
                 <div class="text-box" >
                     <a  href="<?php echo URL_BASE;?>/index.php/Proveedor/guardar_proveedor">
-                    <p class="main-text">Registrar proveedor</p>
+                    <p class="main-text">Registrar proveedor</p></a>
                     <!--<p class="text-muted">Messages</p>-->
                 </div>
              </div>
              </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6">           
+                    <!--<div class="col-md-3 col-sm-6 col-xs-6">           
             <div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-green set-icon">
                     <i class="fa fa-bars"></i>
                 </span>
                 <div class="text-box" >
                     <a  href="modificar_proveedor.html">
-                    <p class="main-text">Modificar proveedor</p>
-                    <!--<p class="text-muted">Remaining</p>-->
+                    <p class="main-text">Modificar proveedor</p></a>                    
                 </div>
              </div>
              </div>
@@ -162,19 +161,18 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="buscar_proveedor.html">
-                    <p class="main-text">Eliminar proveedor</p>
-                    <!--<p class="text-muted">Notifications</p>-->
+                    <p class="main-text">Eliminar proveedor</p></a>                    
                 </div>
              </div>
-             </div>
+             </div>-->
                     <div class="col-md-3 col-sm-6 col-xs-6">           
             <div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-brown set-icon">
-                    <i class="fa fa-rocket"></i>
+                    <i class="fa fa-search"></i>
                 </span>
                 <div class="text-box" >
                     <a  href="buscar_proveedor.html">
-                    <p class="main-text">Consultar proveedor</p>
+                    <p class="main-text">Consultar proveedor</p></a>
                     <!--<p class="text-muted">Pending</p>-->
                 </div>
              </div>

@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row text-center  ">
             <div class="col-md-12">
-                <br><br>
+                
                 <h2>Registrar producto</h2>
                
                 <h5>(Registre todos sus productos)</h5>
@@ -36,23 +36,23 @@
                             <div class="panel-body">
                                 <form role="form">
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="Nombre del Producto" type="text">
                                         </div>
                                      <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="Precio unitario" type="text">
                                         </div>
                                          <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-circle-o-notch"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="Descripción" type="text">
                                         </div>
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-circle-o-notch"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="Cantidad" type="number" min="1">
                                         </div>
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-circle-o-notch"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="Proveedor" type="text">
                                         </div>
                                      

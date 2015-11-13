@@ -13,14 +13,12 @@
      <!-- GOOGLE FONTS-->
    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-
 </head>
 <body>
     <div class="container">
         <div class="row text-center  ">
             <div class="col-md-12">
-                <br><br>
+                
                 <h2>Registrar cliente</h2>
                
                 <h5>(Registre todos sus clientes)</h5>
@@ -39,17 +37,17 @@
                               <!--<div class="alert alert-danger" role="alert"><?php //echo $this->errores['global']?></div>-->
                                 <form role="form" class="form" id="form1" method="POST" action="">
                                         <div class="form-group input-group <?php if (isset($this->errores['nombre'])) echo 'has-error' ; ?>">
-                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" name="nombre" id="nombre" placeholder="Nombre" type="text">
                                             <?php if(isset($this->errores['nombre'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['nombre'];?></span><?php endif;?>
                                         </div>
                                         <div class="form-group input-group <?php if (isset($this->errores['aPaterno'])) echo 'has-error' ; ?>">
-                                            <span class="input-group-addon"><i class="fa fa-circle-o-notch"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" name="aPaterno" id="aPaterno" placeholder="Apellido Paterno" type="text">
                                             <?php if(isset($this->errores['aPaterno'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['aPaterno'];?></span><?php endif;?>
                                         </div>
                                          <div class="form-group input-group <?php if (isset($this->errores['aMaterno'])) echo 'has-error' ; ?>">
-                                            <span class="input-group-addon"><i class="fa fa-circle-o-notch"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" name="aMaterno" id="aMaterno" placeholder="Apellido Materno" type="text">
                                             <?php if(isset($this->errores['aMaterno'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['aMaterno'];?></span><?php endif;?>
                                         </div>

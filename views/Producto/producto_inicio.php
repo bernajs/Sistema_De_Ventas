@@ -103,28 +103,27 @@ echo "Último acceso: ". $visit;
                 </div>              
                  <!-- /. ROW  -->
                   <hr />
-                <div class="row">
+                <div class="row container">
                 <div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-red set-icon">
-                    <i class="fa fa-user-plus"></i>
+                    <i class="fa fa-shopping-cart"></i>
                 </span>
                 <div class="text-box" >
                     <a  href="<?php echo URL_BASE;?>/index.php/Producto/guardar_producto">
-                    <p class="main-text">Registrar producto</p>
+                    <p class="main-text">Registrar producto</p></a>
                     <!--<p class="text-muted">Messages</p>-->
                 </div>
              </div>
 		     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-6">           
+                    <!--<div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-green set-icon">
                     <i class="fa fa-user"></i>
                 </span>
                 <div class="text-box" >
                     <a  href="modificar_producto.html">
-                    <p class="main-text">Modificar producto</p>
-                    <!--<p class="text-muted">Remaining</p>-->
+                    <p class="main-text">Modificar producto</p>                    
                 </div>
              </div>
 		     </div>
@@ -135,11 +134,10 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="buscar_producto.html">
-                    <p class="main-text">Eliminar producto</p>
-                    <!--<p class="text-muted">Notifications</p>-->
+                    <p class="main-text">Eliminar producto</p>                    
                 </div>
              </div>
-		     </div>
+		     </div>-->
                     <div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">
                 <span class="icon-box bg-color-brown set-icon">
@@ -147,7 +145,7 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="consulta_producto.html">
-                    <p class="main-text">Consultar producto</p>
+                    <p class="main-text">Consultar producto</p></a>
                     <!--<p class="text-muted">Pending</p>-->
                 </div>
              </div>

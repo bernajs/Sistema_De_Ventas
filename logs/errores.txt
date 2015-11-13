@@ -752,3 +752,73 @@
 
 2015-11-12 21:06:35 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\cliente_inicio.php 52
 
+2015-11-13 01:01:55 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\modificar_cliente.php 43
+
+2015-11-13 01:02:03 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\modificar_cliente.php 43
+
+2015-11-13 01:15:58 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\modificar_cliente.php 43
+
+2015-11-13 01:16:06 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\proyectoEjemplo\views\Producto\producto_inicio.php 49
+
+2015-11-13 01:16:20 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\pedido_inicio.php 37
+
+2015-11-13 01:25:01 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:25:01 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:25:08 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:25:08 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:25:12 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:25:12 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:25:56 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:25:56 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:26:04 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:26:04 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:26:11 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:26:11 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:31:06 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\proyectoEjemplo\views\Proveedor\proveedor_inicio.php 35
+
+2015-11-13 01:39:38 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:39:38 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:40:16 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:40:16 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:40:26 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:40:26 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:40:30 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:40:30 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:40:30 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:40:30 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:40:55 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\modificar_cliente.php 43
+
+2015-11-13 01:41:38 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\modificar_cliente.php 42
+
+2015-11-13 01:41:57 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\modificar_cliente.php 42
+
+2015-11-13 01:42:16 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\modificar_cliente.php 42
+
+2015-11-13 01:42:53 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-13 01:42:53 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+
+2015-11-13 01:43:09 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\modificar_cliente.php 42
+

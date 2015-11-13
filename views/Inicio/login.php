@@ -33,7 +33,7 @@
                                 <form action="" method="POST" role="form">
                                        <br>
                                      <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-tag"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                             <input class="form-control" placeholder="Usuario " type="text" name="user">
                                         </div>
                                             <div class="form-group input-group">
@@ -51,7 +51,7 @@
                                      <input type="submit" name="submit" value="Iniciar sesión">
                                     <hr>
 
-                                    ¿No estáregistrado?<a href="registeration.html"> Registrarse</a> 
+                                    ¿No estáregistrado?<a href="<?php echo URL_BASE;?>/index.php/Usuario/guardar_usuario"> Registrarse</a> 
                                     </form>
 
                              

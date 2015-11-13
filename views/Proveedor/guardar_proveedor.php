@@ -18,8 +18,7 @@
 <body>
     <div class="container">
         <div class="row text-center  ">
-            <div class="col-md-12">
-                <br><br>
+            <div class="col-md-12">                
                 <h2> Registrar proveedor</h2>
                
                 <h5>(Registra un proveedor en el sistema)</h5>
@@ -35,17 +34,17 @@
                             </div>
                             <div class="panel-body">
                                 <form role="form">
-<br>
+
                                         <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="RFC" type="text">
                                         </div>
                                      <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="Nombre" type="text">
                                         </div>
                                          <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-circle-o-notch"></i></span>
+                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="Teléfono" type="text">
                                         </div>
                                       <div class="form-group input-group">
