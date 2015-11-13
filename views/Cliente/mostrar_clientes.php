@@ -39,7 +39,7 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
 				<li class="text-center">
-                    <img src="assets/img/find_user.png" class="user-image img-responsive"/>
+                    <img src="<?php echo URL_BASE."/public/assets/img/find_user.png";?>" class="user-image img-responsive"/>
 					</li>
 				
 					
@@ -160,8 +160,8 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
                     <i class="fa fa-search"></i>
                 </span>
                 <div class="text-box" >
-                    <!--<a  href="consulta_usuario.html">-->
-                    <p class="main-text">Consultar cliente</p>
+                    <a  href="<?php echo URL_BASE;?>/index.php/Cliente/mostrar_clientes">
+                    <p class="main-text">Consultar cliente</p></a>
                     <!--<p class="text-muted">Pending</p>-->
                 </div>
              </div>
@@ -207,7 +207,7 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
           <td><?php echo $cliente->aPaterno;?></td>
           <td><?php echo $cliente->aMaterno;?></td>
           <td><?php echo $cliente->fechaNacimiento;?></td>
-          <td><p data-placement="top" data-toggle="tooltip" title="Edit"><a href="<?php echo URL_BASE;?>/index.php/Inicio/inicio"><button class="btn btn-primary btn-xs" data-title="Edit" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
+          <td><p data-placement="top" data-toggle="tooltip" title="Edit"><a href="<?php echo URL_BASE;?>/index.php/Cliente/modificar_cliente"><button class="btn btn-primary btn-xs" data-title="Edit" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>                       
       </tr>
         <?php endforeach;?>
