@@ -210,7 +210,8 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
           <td><?php echo $cliente->aPaterno;?></td>
           <td><?php echo $cliente->aMaterno;?></td>
           <td><?php echo $cliente->fechaNacimiento;?></td>
-          <td><p data-placement="top" data-toggle="tooltip" title="Edit"><a href="<?php echo URL_BASE;?>/index.php/Cliente/modificar_cliente"><button class="btn btn-primary btn-xs" onclick="x()" data-title="Edit" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
+          <!--<td><p data-placement="top" data-toggle="tooltip" title="Edit"><a href="<?php //echo URL_BASE;?>/index.php/Cliente/modificar_cliente"><button value="<?php //echo $cliente->dni;?>" class="btn btn-primary btn-xs" onclick="x()" data-title="Edit" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>-->
+          <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button value="<?php echo $cliente->dni;?>" data-toggle="modal" class="btn btn-primary btn-xs prueba" data-title="Edit"  data-target="#edit"><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>          
     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>                       
       </tr>
         <?php endforeach;?>
@@ -306,9 +307,9 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
         <h4 class="modal-title custom_align" id="Heading">Edit Your Detail</h4>
       </div>
-          <div class="modal-body">
-          <div class="form-group">
-        <input class="form-control " type="text" placeholder="Mohsin">
+          <div class="modal-body" id="modal-edit">
+          <div class="form-group">            
+        <input class="form-control " type="text" placeholder="<?php echo $cliente->dni;?>">
         </div>
         <div class="form-group">
         
@@ -384,11 +385,23 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
     <script src="<?php echo URL_BASE."/public/assets/js/custom.js";?>"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    <script> 
+    
+
+    <script type="text/javascript"> 
     function x(){
       var id = document.getElementsByTagName("td")[8].innerHTML;
       alert(id);
-    }</script>
+    }
+
+    $(".prueba").on("click", function(){
+      
+
+      $("#modal-edit").load("<?php echo URL_BASE;?>/index.php/Cliente/modificar_cliente", {identificador:$(this).val()});
+      
+      
+    });
+
+    </script>
     
 
    
