@@ -69,6 +69,7 @@
                       $inputc=$_POST['pass'];
                       setcookie("usuario", $inputu, time()+3600,"/","");
                       setcookie("contrasenia", $inputc, time()+3600,"/","");
+                      
 
                     ?>
                 

@@ -179,6 +179,11 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
         <h4>Bootstrap Snipp for Datatable</h4>
         <div class="table-responsive">
 
+       <form action="modificar_cliente" method="POST" role="form">
+       <input class="form-control" placeholder="Usuario " type="text" name="user">
+       <input type="submit" name="submit" value="Iniciar sesión">
+       </form>
+
                 
               <table id="mytable" class="table table-bordred table-striped">
                    
@@ -350,10 +355,6 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
       <!-- /.modal-dialog --> 
     </div>
 
-
-
-
-
                  <!-- /. ROW  -->
                 
              <!-- /. PAGE INNER  -->
@@ -368,7 +369,6 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
 
 
     
-
 
 
      <!-- /. WRAPPER  -->
@@ -388,7 +388,7 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
     <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <script> 
     function x(){
-      var id = document.getElementsByTagName("td")[0].innerHTML;
+      var id = document.getElementsByTagName("td")[8].innerHTML;
       alert(id);
     }</script>
     
