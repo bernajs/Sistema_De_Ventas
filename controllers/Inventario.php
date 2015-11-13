@@ -1,11 +1,13 @@
 <?php
 	namespace controllers;	
 	use libs\Controller;
+	use libs\View;
 
 	class Inventario extends Controller {
 
 		public function __construct(){
 			parent::__construct();
+			$this->loadModel();
 			
 		}
 
