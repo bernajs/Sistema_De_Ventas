@@ -114,7 +114,7 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="<?php echo URL_BASE;?>/index.php/Cliente/guardar">
-                    <p class="main-text">Registrar cliente</p>
+                    <p class="main-text">Registrar cliente</p></a>
                     <!--<p class="text-muted">Messages</p>-->
                 </div>
              </div>
@@ -126,7 +126,7 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="modificar_cliente.html">
-                    <p class="main-text">Modificar cliente</p>
+                    <p class="main-text">Modificar cliente</p></a>
                     <!--<p class="text-muted">Remaining</p>-->
                 </div>
              </div>
@@ -138,7 +138,7 @@ echo "Último acceso: ". $visit;
                 </span>
                 <div class="text-box" >
                     <a  href="buscar_cliente.html">
-                    <p class="main-text">Eliminar cliente</p>
+                    <p class="main-text">Eliminar cliente</p></a>
                     <!--<p class="text-muted">Notifications</p>-->
                 </div>
              </div>
@@ -149,8 +149,8 @@ echo "Último acceso: ". $visit;
                     <i class="fa fa-search"></i>
                 </span>
                 <div class="text-box" >
-                    <a  href="consulta_cliente.html">
-                    <p class="main-text">Consultar cliente</p>
+                    <a  href="<?php echo URL_BASE;?>/index.php/Cliente/mostrar_clientes">
+                    <p class="main-text">Consultar cliente</p></a>
                     <!--<p class="text-muted">Pending</p>-->
                 </div>
              </div>
