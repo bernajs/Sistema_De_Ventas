@@ -155,6 +155,17 @@ echo "holsfdasd";
 
 	}
 
+	public function listarInventarios(){
+		$con = DBConexion::getInstance();
+		if (is_null($con)) {
+			throw new Exception("Error en la conexion a la base de datos, verifique",1);
+		}
+
+		$clientes = $con->executeQuery('SELECT * FROM cliente;',null, __NAMESPACE__.'\ClienteModel');
+
+		return $clientes;
+	}
+
 	/*public function listarInventarios(){
 		$con = DBConexion::getInstance();
 		if (is_null($con)) {
