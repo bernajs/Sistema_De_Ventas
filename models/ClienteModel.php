@@ -14,7 +14,8 @@ class ClienteModel {
 	public $colonia;
 	public $calle;
 	public $numero;
-	public $detalle;	
+	public $detalle;
+	public $dni;	
 	//public $DIRECCION_idDireccion;
 
 	/*public function __construct(){
@@ -166,16 +167,16 @@ echo "holsfdasd";
 		return $clientes;
 	}
 
-	/*public function listarInventarios(){
+	public function getClienteById($id){
 		$con = DBConexion::getInstance();
 		if (is_null($con)) {
 			throw new Exception("Error en la conexion a la base de datos, verifique",1);
 		}
 
-		$inventarios = $con->executeQuery('SELECT * FROM inventario;',null, __NAMESPACE__.'\InventarioModel');
+		$cliente = $con->executeQuery("SELECT * FROM cliente WHERE dni = ?;",array($id), __NAMESPACE__.'\ClienteModel');
 
-		return $inventarios;
-	}*/
+		return $cliente;
+	}
 
 
 }
