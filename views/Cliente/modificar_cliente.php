@@ -16,12 +16,13 @@
                         <strong>Cliente</strong>  
                         
                             </div>
+                            <?php $c = $this->getDatos(); ?>
                             <div class="panel-body">
                               <!--<div class="alert alert-danger" role="alert"><?php //echo $this->errores['global']?></div>-->
                                 <form role="form" class="form" id="form1" method="POST" action="">
                                         <div class="form-group input-group <?php if (isset($this->errores['nombre'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" name="nombre" id="nombre" placeholder="Nombre"  type="text">
+                                            <input class="form-control" name="nombre" id="nombre" placeholder="Nombre"  type="text" value="<?php echo $c->nombre;?>">
                                             <?php if(isset($this->errores['nombre'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['nombre'];?></span><?php endif;?>
                                         </div>
                                         <div class="form-group input-group <?php if (isset($this->errores['aPaterno'])) echo 'has-error' ; ?>">
