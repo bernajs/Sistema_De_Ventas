@@ -180,8 +180,8 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
         <div class="table-responsive">
 
        <form action="modificar_cliente" method="POST" role="form">
-       <input class="form-control" placeholder="Usuario " type="text" name="user">
-       <input type="submit" name="submit" value="Iniciar sesión">
+       <input class="form-control" placeholder="idCliente " type="text" name="user">
+       <input type="submit" name="submit" value="Modificar">
        </form>
 
                 
