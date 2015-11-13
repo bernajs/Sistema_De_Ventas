@@ -18,6 +18,10 @@
 			$this->view->render(explode("\\",get_class($this))[1], "mostrar_clientes", $clientes,$this->getErrores());
 		}
 
+		public function modificar_cliente(){
+			$this->view->render(explode("\\",get_class($this))[1], "modificar_cliente", $this->getErrores());
+		}
+
 
 		public function cliente_inicio(){
 
