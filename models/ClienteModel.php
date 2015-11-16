@@ -189,6 +189,10 @@ echo "holsfdasd";
 		return $dir;
 	}
 
+	public function updateCliente(){
+		
+	}
+
 
 }
 
