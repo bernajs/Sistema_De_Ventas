@@ -171,7 +171,7 @@ echo "Último acceso: ". $visit;
                     <i class="fa fa-search"></i>
                 </span>
                 <div class="text-box" >
-                    <a  href="buscar_proveedor.html">
+                    <a  href="<?php echo URL_BASE;?>/index.php/Proveedor/mostrar_proveedores">
                     <p class="main-text">Consultar proveedor</p></a>
                     <!--<p class="text-muted">Pending</p>-->
                 </div>
