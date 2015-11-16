@@ -23,6 +23,7 @@
 			if(count($params) > 0){
 				$c = $this->model->getClienteById($params['identificador']);
 				$d = $this->model->getClienteDireccionById($params['identificador']);
+				$var = $params['identificador'];
 
 				//var_dump($d);
 				if(empty($c)){
@@ -30,6 +31,13 @@
 				}
 				else{
 					$this->view->render2(explode("\\",get_class($this))[1], "modificar_cliente", $c[0], $d[0], $this->getErrores());
+					//if(isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
+						//$this->guardarDireccion($params1);
+
+					/*	print_r($params);
+						$this->updateCliente($params);
+				
+					}*/
 				}
 				
 			}
@@ -68,6 +76,10 @@
 				echo "bbb";
 			}
 		}*/
+
+		public function updateCliente($params){
+
+		}
 
 
 		
