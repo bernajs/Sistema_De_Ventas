@@ -33,45 +33,49 @@
                         <strong>  Nuevo Proveedor </strong>  
                             </div>
                             <div class="panel-body">
-                                <form role="form">
+                                <form role="form" class="form" id="form1" method="POST" action="">
 
-                                        <div class="form-group input-group">
+                                        <div class="form-group input-group <?php if (isset($this->errores['rfc'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="RFC" type="text">
+                                            <input class="form-control" name="rfc" id="rfc" placeholder="RFC" type="text">
+                                            <?php if(isset($this->errores['rfc'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['rfc'];?></span><?php endif;?>
                                         </div>
-                                     <div class="form-group input-group">
+                                        <div class="form-group input-group <?php if (isset($this->errores['nombre'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Nombre" type="text">
+                                            <input class="form-control" name="nombre" id="nombre" placeholder="Nombre" type="text">
+                                            <?php if(isset($this->errores['nombre'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['nombre'];?></span><?php endif;?>
                                         </div>
-                                         <div class="form-group input-group">
+                                        <div class="form-group input-group <?php if (isset($this->errores['telefono'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Teléfono" type="text">
+                                            <input class="form-control" name="telefono" id="telefono" placeholder="Telefono" type="text">
+                                            <?php if(isset($this->errores['telefono'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['telefono'];?></span><?php endif;?>
                                         </div>
-                                      <div class="form-group input-group">
+                                        <div class="form-group input-group <?php if (isset($this->errores['representanteLegal'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Representante legal" type="text">
+                                            <input class="form-control" name="representanteLegal" id="representanteLegal" placeholder="representante Legal" type="text">
+                                            <?php if(isset($this->errores['representanteLegal'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['representanteLegal'];?></span><?php endif;?>
                                         </div>
-                                      <div class="form-group input-group">
+                                        <div class="form-group input-group <?php if (isset($this->errores['fax'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Fax" type="text">
-                                        </div>
-                                      <div class="form-group input-group">
+                                            <input class="form-control" name="fax" id="fax" placeholder="Fax" type="text">
+                                            <?php if(isset($this->errores['fax'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['fax'];?></span><?php endif;?>
+                                        </div> 
+                                        <div class="form-group input-group <?php if (isset($this->errores['correoElectronico'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Email" type="text">
-                                        </div>
-                                      <div class="form-group input-group">
+                                            <input class="form-control" name="correoElectronico" id="correoElectronico" placeholder="Email" type="text">
+                                            <?php if(isset($this->errores['correoElectronico'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['correoElectronico'];?></span><?php endif;?>
+                                        </div>     
+                                        <div class="form-group input-group <?php if (isset($this->errores['webProveedor'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Página web" type="text">
-                                        </div>
-                                      <div class="form-group input-group">
+                                            <input class="form-control" name="webProveedor" id="webProveedor" placeholder="Pagina web" type="text">
+                                            <?php if(isset($this->errores['webProveedor'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['webProveedor'];?></span><?php endif;?>
+                                        </div>  
+                                        <div class="form-group input-group <?php if (isset($this->errores['observaciones'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Observaciones" type="text">
-                                        </div>
-                                      <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Dirección" type="text">
-                                        </div>
-
+                                            <input class="form-control" name="observaciones" id="observaciones" placeholder="Observaciones" type="text">
+                                            <?php if(isset($this->errores['observaciones'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['observaciones'];?></span><?php endif;?>
+                                        </div>                                                                                                               
+                                                                            
                                         <div class="form-group input-group <?php if (isset($this->errores['ciudad'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" name="ciudad" id="ciudad" placeholder="Ciudad" type="text">
@@ -112,7 +116,7 @@
                                       
                                      
                                      
-                                     <a href="index_proveedores.html" class="btn btn-success ">Guardar</a>
+                                     <button name="enviarDatos" id="sendBtn" type="submit" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Guardar</button>
                                     
                                     
                                     </form>
