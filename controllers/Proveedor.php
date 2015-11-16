@@ -18,6 +18,40 @@
 
 		}
 
+		public function mostrar_proveedores(){
+			$proveedores=$this->model->listarInventarios();
+			$this->view->render(explode("\\",get_class($this))[1], "mostrar_proveedores", $proveedores,$this->getErrores());
+		}
+
+		public function modificar_proveedor($params=array()){
+			if(count($params) > 0){
+				$p = $this->model->getProveedorById($params['identificador']);
+				$d = $this->model->getProveedorDireccionById($params['identificador']);
+				$var = $params['identificador'];
+
+				//var_dump($d);
+				if(empty($p)){
+					View::renderErrors(array("No existe el proveedor con identificador ".$params['identificador']));
+				}
+				else{
+					$this->view->render2(explode("\\",get_class($this))[1], "modificar_proveedor", $p[0], $d[0], $this->getErrores());
+					//if(isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
+						//$this->guardarDireccion($params1);
+
+					/*	print_r($params);
+						$this->updateCliente($params);
+				
+					}*/
+				}
+				
+			}
+			else{
+				
+				View::renderErrors(array("No se envio el identificador del cliente"));	
+			}
+			
+		}
+
 		public function guardar_proveedor($params=array()){
 			if(isset($params['rfc']) && isset($params['nombre']) && isset($params['telefono']) && isset($params['representanteLegal']) && isset($params['fax']) && isset($params['correoElectronico']) && isset($params['webProveedor']) && isset($params['observaciones']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
 				//$this->guardarDireccion($params1);
