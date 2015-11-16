@@ -4,5 +4,110 @@
 	use libs\DBConexion;
 
 	class ProveedorModel {
+		public $rfc;
+		public $nombre;
+		public $telefono;
+		public $representanteLegal;
+		public $fax;
+		public $correoElectronico;
+		public $webProveedor;
+		public $observaciones;
+		public $ciudad;
+		public $cp;
+		public $colonia;
+		public $calle;
+		public $numero;
+		public $detalle;
+		public $PROVEEDOR_rfc;
+
+		public function crearProveedor($rfc,$nombre,$telefono,$representanteLegal,$fax,$correoElectronico,$webProveedor,$observaciones,$ciudad,$cp,$colonia,$calle,$numero,$detalle){
+			//Dia de trabajo en el ingenio.
+			$this->rfc=$rfc;
+			//Produccion y demanda del dia
+			$this->nombre = $nombre;
+			$this->telefono = $telefono;
+			$this->representanteLegal = $representanteLegal;
+			$this->fax = $fax;
+			$this->correoElectronico = $correoElectronico;
+			$this->webProveedor = $webProveedor;
+			$this->observaciones = $observaciones;
+			$this->ciudad = $ciudad;
+			$this->cp = $cp;
+			$this->colonia = $colonia;
+			$this->calle = $calle;
+			$this->numero = $numero;
+			$this->detalle = $detalle;
+			$this->PROVEEDOR_rfc = $rfc;
+			//$this->DIRECCION_idDireccion = $DIRECCION_idDireccion;
+
+							
+			//Guardando el proveedor*/
+			echo "holaaa";
+			$this->guardar();
+		}
+
+		public function guardar(){
+		//Solicito un objeto conexion, usando el patron Singleton
+		$con = DBConexion::getInstance();
+		$params = array(			
+			$this->rfc,
+			$this->nombre,
+			$this->telefono,
+			$this->representanteLegal,
+			$this->fax,
+			$this->correoElectronico,
+			$this->webProveedor,
+			$this->observaciones
+			//$this->DIRECCION_idDireccion
+			);
+		/*$params1 = array(
+			$this->ciudad,
+			$this->cp,
+			$this->colonia,
+			$this->calle,
+			$this->numero,
+			$this->detalle
+			//ciudad,$cp,$colonia,$calle,$numero,$detall
+			);*/
+		//print_r($params1);
+echo "holsfdasd";
+		$sql1 = vsprintf("INSERT INTO proveedor(rfc,nombre,telefono,representanteLegal,fax,correoElectronico,webProveedor,observaciones) VALUES(%s, '%s', %s, '%s', %s,'%s','%s','%s');", $params);
+		echo $sql1;
+		$con->executeUpdate(array($sql1));
+		//$sql2 = vsprintf("SELECT max(dni) as dni FROM cliente;");
+
+		//echo $sql2;
+
+		//$CLIENTE_dni = $con->executeUpdate(array($sql2));
+		echo "HASTA AQUI BIEN";
+		//$CLIENTE_dni = $con->executeQuery('SELECT max(dni) as dni FROM cliente;',null, __NAMESPACE__.'\ClienteModel');
+		//$sql= "SELECT max(dni) as dni FROM cliente;";
+		//$DNI = $con->executeQuery($sql);
+		//print_r($DNI[0]->dni);
+		//$CLIENTE_dni = $DNI[0]->dni;
+		//return $CLIENTE_dni;
+
+		//echo "PASO ESTO";
+
+
+		$params1 = array(
+			$this->ciudad,
+			$this->cp,
+			$this->colonia,
+			$this->calle,
+			$this->numero,
+			$this->detalle,
+			$this->PROVEEDOR_rfc
+			);
+		print_r($params1);
+		$sql3 = vsprintf("INSERT INTO direccion_proveedor(ciudad,cp,colonia,calle,numero,detalle,PROVEEDOR_rfc) VALUES('%s', %s, '%s', '%s', %s, '%s', %s);", $params1);
+		$con->executeUpdate(array($sql3));
+		echo $sql3;
+		echo "PASOOO TODO";
 		
+
+	}
+
+
+
 	}
