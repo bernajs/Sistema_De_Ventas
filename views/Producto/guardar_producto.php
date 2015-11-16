@@ -33,6 +33,7 @@
                             <div class="panel-heading">
                         <strong>  Nuevo Producto </strong>  
                             </div>
+                            
                             <div class="panel-body">
                                 <form role="form">
                                         <div class="form-group input-group">
@@ -51,9 +52,13 @@
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" placeholder="Cantidad" type="number" min="1">
                                         </div>
-                                        <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Proveedor" type="text">
+                                        <div class="form-group">
+                                          <label for="proveedor">Proveedor</label>
+                                            <select class="form-control" name="proveedor" id="proveedor">
+                                                <?php $datos=$this->getDatos();foreach ($datos as $key => $proveedor):?> 
+                                                <option value="<?php echo $proveedor->rfc;?>"><?php echo $proveedor->nombre;?></option>
+                                              <?php endforeach;?>
+                                            </select>
                                         </div>
                                      
                                      
