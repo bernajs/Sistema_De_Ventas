@@ -108,6 +108,40 @@ echo "holsfdasd";
 
 	}
 
+	public function listarInventarios(){
+		$con = DBConexion::getInstance();
+		if (is_null($con)) {
+			throw new Exception("Error en la conexion a la base de datos, verifique",1);
+		}
+
+		$proveedores = $con->executeQuery('SELECT * FROM proveedor;',null, __NAMESPACE__.'\ProveedorModel');
+
+		return $proveedores;
+	}
+
+	public function getProveedorById($id){
+		$con = DBConexion::getInstance();
+		if (is_null($con)) {
+			throw new Exception("Error en la conexion a la base de datos, verifique",1);
+		}
+
+		$proveedor = $con->executeQuery("SELECT * FROM proveedor WHERE rfc = ?;",array($id), __NAMESPACE__.'\ProveedorModel');
+
+		return $proveedor;
+	}
+
+		
+	public function getProveedorDireccionById($id){
+		$con = DBConexion::getInstance();
+		if (is_null($con)) {
+			throw new Exception("Error en la conexion a la base de datos, verifique",1);
+		}
+
+		$dir = $con->executeQuery("SELECT * FROM direccion_proveedor WHERE PROVEEDOR_rfc = ?;",array($id), __NAMESPACE__.'\ProveedorModel');
+		//var_dump($dir);
+		return $dir;
+	}
+
 
 
 	}
