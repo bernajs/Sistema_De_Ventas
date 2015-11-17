@@ -82,7 +82,7 @@
                                   <div class="form-group">
                                     <label for="PRODUCTO_codigo">Producto</label>
                                       <select class="form-control" name="PRODUCTO_codigo" id="PRODUCTO_codigo">
-                                        <?php $datos=$this->getDatos();foreach ($datos as $key => $producto):?> 
+                                        <?php $datos1=$this->getDatos1();foreach ($datos1 as $key => $producto):?> 
                                           <option value="<?php echo $producto->codigo;?>"><?php echo $producto->nombre;?></option>
                                         <?php endforeach;?>
                                       </select>
@@ -91,7 +91,7 @@
                                       <!--</form>-->
                                   <div class="form-group input-group <?php if (isset($this->errores['cantProducto'])) echo 'has-error' ; ?>">
                                     <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                      <input class="form-control" name="cantProducto" id="cantProducto" placeholder="Direccion de Envio" type="text">
+                                      <input class="form-control" name="cantProducto" id="cantProducto" placeholder="Cantidad" type="text">
                                     <?php if(isset($this->errores['cantProducto'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['cantProducto'];?></span><?php endif;?>
                                   </div>                                     
 
