@@ -32,67 +32,75 @@
                 <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                        <strong>  Nuevo Pedido </strong>  
+                        <strong>Nuevo Pedido</strong>  
                             </div>
                             <div class="panel-body">
                                 <form role="form">
 
-                                        <div class="form-group">
-                                            <label>Cliente</label>
-                                            <select class="form-control">
-                                                <option>José Eduardo</option>
-                                                <option>Aurora Pérez</option>
-                                                <option>Luis Bernardo</option>
-                                            </select>
-                                        </div>
-                                     <div class="form-group">
-                                            <label>Forma de Pago</label>
-                                            <select class="form-control">
-                                                <option>Crédito</option>
-                                                <option>Contado</option>
-                                                <option>Cheque</option>
-                                            </select>
-                                        </div>
-                                      <div class="form-group">
-                                          <label for="fecha">Fecha</label>
-                                          <div class='input-group date' id='datetimepicker1'>
-                                          <input type='text' class="form-control" name="fecha" id="fecha" placeholder="Fecha" />
-                                          <span class="input-group-addon">
-                                            <span class="glyphicon glyphicon-calendar"></span>
-                                          </span>
-                                      </div></div>
-                                         <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Estado" type="text">
-                                        </div>                                      
-                                        </button>
-                                      <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Dirección de envío" type="text">
-                                        </div>
+                                  <div class="form-group">
+                                    <label for="dni">Cliente</label>
+                                      <select class="form-control" name="dni" id="dni">
+                                        <?php $datos=$this->getDatos();foreach ($datos as $key => $cliente):?> 
+                                          <option value="<?php echo $cliente->dni;?>"><?php echo $cliente->nombre;?></option>
+                                        <?php endforeach;?>
+                                      </select>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label>Forma de Pago</label>
+                                      <select class="form-control" name="formaPago" id="formaPago">
+                                        <option value="Credito">Crédito</option>
+                                        <option value="Contado">Contado</option>
+                                        <option value="Cheque">Cheque</option>
+                                      </select>
+                                  </div>
+
+                                  <div class="form-group input-group <?php if (isset($this->errores['fecha'])) echo 'has-error' ; ?>">
+                                    <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
+                                      <input class="form-control" name="fecha" id="fecha" placeholder="Fecha" type="text">
+                                    <?php if(isset($this->errores['fecha'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['fecha'];?></span><?php endif;?>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label>Estado</label>
+                                      <select class="form-control" name="estado" id="estado">
+                                        <option value="Entregado">Entregado</option>
+                                        <option value="No Entregado">No Entregado</option>
+                                        <option value="Pagado">Pagado</option>
+                                        <option value="Retrasado">Retrasado</option>
+                                      </select>
+                                  </div>
+
+                                  <div class="form-group input-group <?php if (isset($this->errores['direccionEnvio'])) echo 'has-error' ; ?>">
+                                    <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
+                                      <input class="form-control" name="direccionEnvio" id="direccionEnvio" placeholder="Direccion de Envio" type="text">
+                                    <?php if(isset($this->errores['direccionEnvio'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['direccionEnvio'];?></span><?php endif;?>
+                                  </div>                                                                           
+                                        
+                                      
                                       <!--<form class="form-inline" role="form">-->
-                                        <div>
-                                            <label>Producto</label>
-                                            <select class="form-control">
-                                                <option>Monitor</option>
-                                                <option>Mouse</option>
-                                                <option>Teclado</option>
-                                            </select>                          
-                                        </div>
-                                        <br>
+                                  <div class="form-group">
+                                    <label for="PRODUCTO_codigo">Producto</label>
+                                      <select class="form-control" name="PRODUCTO_codigo" id="PRODUCTO_codigo">
+                                        <?php $datos=$this->getDatos();foreach ($datos as $key => $producto):?> 
+                                          <option value="<?php echo $producto->codigo;?>"><?php echo $producto->nombre;?></option>
+                                        <?php endforeach;?>
+                                      </select>
+                                  </div>
                                       
                                       <!--</form>-->
-                                      <div class="form-group input-group">
-                                            <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Cantidad" type="number" min="1">
-                                        </div>                                    
+                                  <div class="form-group input-group <?php if (isset($this->errores['cantProducto'])) echo 'has-error' ; ?>">
+                                    <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
+                                      <input class="form-control" name="cantProducto" id="cantProducto" placeholder="Direccion de Envio" type="text">
+                                    <?php if(isset($this->errores['cantProducto'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['cantProducto'];?></span><?php endif;?>
+                                  </div>                                     
 
 
 
                                       
                                      
                                      
-                                     <a href="index_pedidos.html" class="btn btn-success ">Guardar</a>
+                                  <button name="enviarDatos" id="sendBtn" type="submit" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Guardar</button>
                                     
                                     
                                     </form>
