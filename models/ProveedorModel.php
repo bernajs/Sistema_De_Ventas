@@ -71,7 +71,7 @@
 			);*/
 		//print_r($params1);
 echo "holsfdasd";
-		$sql1 = vsprintf("INSERT INTO proveedor(rfc,nombre,telefono,representanteLegal,fax,correoElectronico,webProveedor,observaciones) VALUES(%s, '%s', %s, '%s', %s,'%s','%s','%s');", $params);
+		$sql1 = vsprintf("INSERT INTO proveedor(rfc,nombre,telefono,representanteLegal,fax,correoElectronico,webProveedor,observaciones) VALUES('%s', '%s', '%s', '%s', '%s','%s','%s','%s');", $params);
 		echo $sql1;
 		$con->executeUpdate(array($sql1));
 		//$sql2 = vsprintf("SELECT max(dni) as dni FROM cliente;");
@@ -100,7 +100,8 @@ echo "holsfdasd";
 			$this->PROVEEDOR_rfc
 			);
 		print_r($params1);
-		$sql3 = vsprintf("INSERT INTO direccion_proveedor(ciudad,cp,colonia,calle,numero,detalle,PROVEEDOR_rfc) VALUES('%s', %s, '%s', '%s', %s, '%s', %s);", $params1);
+		$sql3 = vsprintf("INSERT INTO direccion_proveedor(ciudad,cp,colonia,calle,numero,detalle,PROVEEDOR_rfc) VALUES('%s', %s, '%s', '%s', %s, '%s', '%s');", $params1);
+		echo $sql3;
 		$con->executeUpdate(array($sql3));
 		echo $sql3;
 		echo "PASOOO TODO";
