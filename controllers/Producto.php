@@ -12,6 +12,43 @@
 			
 		}
 
+		public function mostrar_productos(){
+			$productos=$this->model->listarProductos();
+			$this->view->render(explode("\\",get_class($this))[1], "mostrar_productos", $productos,$this->getErrores());
+		}
+
+
+		public function modificar_producto($params=array()){
+			if(count($params) > 0){
+				$p = $this->model->getProductoById($params['identificador']);
+				//$d = $this->model->getClienteDireccionById($params['identificador']);
+				//$var = $params['identificador'];
+
+				//var_dump($d);
+				if(empty($p)){
+					View::renderErrors(array("No existe el producto con identificador ".$params['identificador']));
+				}
+				else{
+					$this->view->render(explode("\\",get_class($this))[1], "modificar_producto", $p[0], $this->getErrores());
+					//if(isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
+						//$this->guardarDireccion($params1);
+
+					/*	print_r($params);
+						$this->updateCliente($params);
+				
+					}*/
+				}
+				
+			}
+			else{
+				
+				View::renderErrors(array("No se envio el identificador del producto"));	
+			}
+			
+		}
+
+
+
 		public function producto_inicio(){
 
 			$this->view->render(explode("\\",get_class($this))[1], "producto_inicio",$this->getErrores());
