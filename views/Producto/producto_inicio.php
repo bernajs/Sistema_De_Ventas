@@ -144,7 +144,7 @@ echo "Último acceso: ". $visit;
                     <i class="fa fa-search"></i>
                 </span>
                 <div class="text-box" >
-                    <a  href="consulta_producto.html">
+                    <a  href="<?php echo URL_BASE;?>/index.php/Producto/mostrar_productos">
                     <p class="main-text">Consultar producto</p></a>
                     <!--<p class="text-muted">Pending</p>-->
                 </div>
