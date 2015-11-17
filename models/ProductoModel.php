@@ -50,4 +50,26 @@
 			echo "PASOO TODOO!";
 
 		}
+
+		public function listarProductos(){
+			$con = DBConexion::getInstance();
+			if (is_null($con)) {
+				throw new Exception("Error en la conexion a la base de datos, verifique",1);
+			}
+
+			$productos = $con->executeQuery('SELECT * FROM producto;',null, __NAMESPACE__.'\ProductoModel');
+
+			return $productos;
+		}
+
+		public function getProductoById($id){
+			$con = DBConexion::getInstance();
+			if (is_null($con)) {
+				throw new Exception("Error en la conexion a la base de datos, verifique",1);
+			}
+
+			$producto = $con->executeQuery("SELECT * FROM producto WHERE codigo = ?;",array($id), __NAMESPACE__.'\ProductoModel');
+
+			return $producto;
+		}
 	}
