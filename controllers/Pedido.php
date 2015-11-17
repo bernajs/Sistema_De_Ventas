@@ -17,7 +17,7 @@
 
 		}
 
-		public function guardar_pedido(){
+		public function guardar_pedido(){			
 			$this->view->render(explode("\\",get_class($this))[1], "guardar_pedido",$this->getErrores());			
 		}
 
