@@ -35,26 +35,31 @@
                             </div>
                             
                             <div class="panel-body">
-                                <form role="form">
-                                        <div class="form-group input-group">
+                                <form role="form" class="form" id="form1" method="POST">
+                                        <div class="form-group input-group <?php if (isset($this->errores['nombre'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Nombre del Producto" type="text">
+                                            <input class="form-control" name="nombre" id="nombre" placeholder="Nombre del producto" type="text">
+                                            <?php if(isset($this->errores['nombre'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['nombre'];?></span><?php endif;?>
                                         </div>
-                                     <div class="form-group input-group">
+                                        <div class="form-group input-group <?php if (isset($this->errores['precioUnitario'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Precio unitario" type="text">
+                                            <input class="form-control" name="precioUnitario" id="precioUnitario" placeholder="Precio Unitario" type="text">
+                                            <?php if(isset($this->errores['precioUnitario'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['precioUnitario'];?></span><?php endif;?>
                                         </div>
-                                         <div class="form-group input-group">
+                                        <div class="form-group input-group <?php if (isset($this->errores['descripcion'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Descripción" type="text">
+                                            <input class="form-control" name="descripcion" id="descripcion" placeholder="Descripcion" type="text">
+                                            <?php if(isset($this->errores['descripcion'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['descripcion'];?></span><?php endif;?>
                                         </div>
-                                        <div class="form-group input-group">
+                                        <div class="form-group input-group <?php if (isset($this->errores['cantidad'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
-                                            <input class="form-control" placeholder="Cantidad" type="number" min="1">
-                                        </div>
+                                            <input class="form-control" name="cantidad" id="cantidad" placeholder="Cantidad" type="text">
+                                            <?php if(isset($this->errores['cantidad'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['cantidad'];?></span><?php endif;?>
+                                        </div>                                  
+                                                                                                                                                              
                                         <div class="form-group">
-                                          <label for="proveedor">Proveedor</label>
-                                            <select class="form-control" name="proveedor" id="proveedor">
+                                          <label for="PROVEEDOR_rfc">Proveedor</label>
+                                            <select class="form-control" name="PROVEEDOR_rfc" id="PROVEEDOR_rfc">
                                                 <?php $datos=$this->getDatos();foreach ($datos as $key => $proveedor):?> 
                                                 <option value="<?php echo $proveedor->rfc;?>"><?php echo $proveedor->nombre;?></option>
                                               <?php endforeach;?>
@@ -62,7 +67,7 @@
                                         </div>
                                      
                                      
-                                     <a href="index_usuarios.html" class="btn btn-success ">Guardar</a>
+                                     <button name="enviarDatos" id="sendBtn" type="submit" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Guardar</button>
                                     </form>
                             </div>
                            
