@@ -108,14 +108,69 @@ echo "Último acceso: ". $visit;
                         </a>
                     </li>	
 
-                    <li>
-                        <a href="javascript:void(0)" id="loadPage">
-                            <i class="fa fa-weixin fa-3x">
-                                <!--::before-->
-                            </i>
-                            Cargar chat
-                        </a>
-                    </li>   
+
+                        <style>
+
+                        #historial{
+                        border:1px solid gray;
+                        width:230px;
+                        height:400px;
+                        overflow:auto; 
+                        color: white;
+                        }
+
+                        fieldset{
+                        width:150px;
+                        }
+
+                        </style>
+
+                        <script src="<?php echo URL_BASE."/views/Usuario";?>/ajax.js"></script>
+                        <script>
+
+                        function mostrar()
+                        {
+                          loadDoc(null,"<?php echo URL_BASE."/views/Usuario";?>/mensajes.php",function()
+                            {
+                            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                            {
+                            document.getElementById("historial").innerHTML=xmlhttp.responseText;
+                            }
+                            });
+                        }
+
+                        setInterval(mostrar,3000);
+
+                        function agregar()
+                        {
+                          var u=document.getElementById('nombre').value;
+                          var c=document.getElementById('contenido').value;
+
+                          if(u!="" && c!=""){
+                            loadDoc("usuario="+u+"&cont="+c,"<?php echo URL_BASE."/views/Usuario";?>/proceso.php",function()
+                              {
+                              if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                              {
+                              document.getElementById("historial").innerHTML=xmlhttp.responseText;
+                              }
+                              });
+                              
+                          }else{ alert("No deje campos vacios"); }
+                        }
+                        </script>
+                        </head>
+
+                        <body>
+                        <hr />
+
+                        <div id="historial"><img src="<?php echo URL_BASE."/views/Usuario";?>/ajax-loader.gif" /></div>
+                        <fieldset>
+                        <input type="text" id="nombre" placeholder="usuario" /><br />
+                        <textarea id="contenido" placeholder="mensaje"></textarea><br />
+                        <button onclick="agregar()">Enviar</button>
+                        </fieldset>
+
+                        <hr />
                 </ul>
                 <div id="pagecontainer" />
             </div>
