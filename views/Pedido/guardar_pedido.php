@@ -35,11 +35,11 @@
                         <strong>Nuevo Pedido</strong>  
                             </div>
                             <div class="panel-body">
-                                <form role="form">
+                                <form role="form" class="form" id="form1"method="POST" action="">
 
                                   <div class="form-group">
-                                    <label for="dni">Cliente</label>
-                                      <select class="form-control" name="dni" id="dni">
+                                    <label for="CLIENTE_dni">Cliente</label>
+                                      <select class="form-control" name="CLIENTE_dni" id="CLIENTE_dni">
                                         <?php $datos=$this->getDatos();foreach ($datos as $key => $cliente):?> 
                                           <option value="<?php echo $cliente->dni;?>"><?php echo $cliente->nombre;?></option>
                                         <?php endforeach;?>
