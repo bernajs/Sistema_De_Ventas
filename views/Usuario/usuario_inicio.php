@@ -135,9 +135,9 @@ echo "Último acceso: ". $visit;
                                     <div class="modal-header modal-header-success">
                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 
-                                            <div class="container">
+                                            <!--<div class="container">-->
                                                 <div class="row text-center  ">
-                                                    <div class="col-md-4">                
+                                                    <div class="col-md-12">                
                                                         <h2> Regístrate</h2>
                                                        
                                                         <h5>( Regístrate para poder acceder al sistema)</h5>
@@ -146,7 +146,7 @@ echo "Último acceso: ". $visit;
                                                 </div>
                                                  <div class="row">
                                                        
-                                                        <div class="col-md-4">
+                                                        <div class="col-md-12 col-sm-12">
                                                                 <div class="panel panel-default">
                                                                     <div class="panel-heading">
                                                                 <strong>Nuevo Usuario</strong>  
@@ -181,7 +181,7 @@ echo "Último acceso: ". $visit;
                                                                 </div>
                                                             </div>
                                                 </div>
-                                            </div>
+                                            <!--</div>-->
 
 
                                              <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
@@ -210,9 +210,9 @@ echo "Último acceso: ". $visit;
                                     </div>
                                     <div class="modal-body">
                                     </div>
-                                    <div class="modal-footer">
+                                    <!--<div class="modal-footer">
                                         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                                    </div>
+                                    </div>-->
                                 </div><!-- /.modal-content -->
                             </div><!-- /.modal-dialog -->
                         </div><!-- /.modal -->
