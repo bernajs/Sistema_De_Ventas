@@ -19,7 +19,11 @@
 
 		public function guardar_pedido($params=array()){				
 			$clientes=$this->model->listarInventarios();
-			$productos=$this->model->listarProductos();			
+			$productos=$this->model->listarProductos();	
+			$productos1=$this->model->listarProductos();
+			//print_r($productos);
+			echo "lol";
+			//print_r($productos1);
 			//print_r($clientes);
 			//$this->view->render(explode("\\",get_class($this))[1], "guardar_producto",$proveedores,$this->getErrores());			
 			//$this->guardar($params);
@@ -35,7 +39,7 @@
 				//$this->crearProveedor($params);
 				
 			}
-			$this->view->render2(explode("\\",get_class($this))[1], "guardar_pedido",$clientes,$productos,$this->getErrores());			
+			$this->view->render3(explode("\\",get_class($this))[1], "guardar_pedido",$clientes,$productos,$productos1,$this->getErrores());			
 		}
 
 		public function registrarPedido($params){
