@@ -16,6 +16,9 @@
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
    <script type="text/javascript">
     jQuery(function(){
@@ -26,6 +29,23 @@
         });
     })
    </script>
+
+   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+   <style type="text/css">
+    .modal-header-primary {
+        color:#fff;
+        padding:9px 15px;
+        border-bottom:1px solid #eee;
+        background-color: #428bca;
+        -webkit-border-top-left-radius: 5px;
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+         border-top-left-radius: 5px;
+         border-top-right-radius: 5px;
+    }
+   </style>
 </head>
 <body>
     <div id="wrapper">
@@ -107,6 +127,98 @@ echo "Último acceso: ". $visit;
                     <div class="col-md-12">
                      <h2>Menú usuarios</h2>   
                         <h5>Elige la acción que desees realizar. </h5>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header modal-header-success">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+                                            <div class="container">
+                                                <div class="row text-center  ">
+                                                    <div class="col-md-4">                
+                                                        <h2> Regístrate</h2>
+                                                       
+                                                        <h5>( Regístrate para poder acceder al sistema)</h5>
+                                                         <br>
+                                                    </div>
+                                                </div>
+                                                 <div class="row">
+                                                       
+                                                        <div class="col-md-4">
+                                                                <div class="panel panel-default">
+                                                                    <div class="panel-heading">
+                                                                <strong>Nuevo Usuario</strong>  
+                                                                    </div>
+                                                                    <div class="panel-body">
+                                                                        <form role="form">
+                                                                                <div class="form-group input-group">
+                                                                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                                                    <input class="form-control" placeholder="Usuario" type="text">
+                                                                                </div>
+                                                                             <div class="form-group input-group">
+                                                                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                                                                    <input class="form-control" placeholder="Contraseña" type="password">
+                                                                                </div>
+                                                                                 <div class="form-group input-group">
+                                                                                    <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
+                                                                                    <input class="form-control" placeholder="Nombre" type="text">
+                                                                                </div>
+                                                                              <div class="form-group input-group">
+                                                                                    <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
+                                                                                    <input class="form-control" placeholder="Apellidos" type="text">
+                                                                                </div>                                      
+                                                                             
+                                                                             
+                                                                             <a onClick="if(confirm('¿Desea registrar este usuario?'))
+                                        alert('Guardado');
+                                        else alert('No Guardado')" data-toggle="modal" class="btn btn-success" data-target="#myModal">Guardar</a>
+                                                                            <hr>
+                                                                            ¿Ya estás registrado?  <a href="<?php echo URL_BASE;?>/index.php/Inicio/login">Entra aquí</a>
+                                                                            </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+
+
+                                             <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+                                            <!-- JQUERY SCRIPTS -->
+                                            <script src="//www.google-analytics.com/analytics.js" async=""></script>
+                                          <script src="<?php echo URL_BASE."/public/assets/js/jquery-1.10.2.js";?>"></script>
+                                              <!-- BOOTSTRAP SCRIPTS -->
+                                            <script src="<?php echo URL_BASE."/public/assets/js/bootstrap.min.js";?>"></script>
+                                            <!-- METISMENU SCRIPTS -->
+                                            <script src="<?php echo URL_BASE."/public/assets/js/jquery.metisMenu.js";?>"></script>
+                                              <!-- CUSTOM SCRIPTS -->
+                                            <script src="<?php echo URL_BASE."/public/assets/js/custom.js";?>"></script>
+                                        <script>
+                                          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                                          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                                          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                                          ga('create', 'UA-38955291-1', 'auto');
+                                          ga('send', 'pageview');
+
+                                        </script>
+
+
+
+                                    </div>
+                                    <div class="modal-body">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+                        <!-- Modal -->
+
+
                     </div>
                 </div>              
                  <!-- /. ROW  -->
@@ -118,7 +230,7 @@ echo "Último acceso: ". $visit;
                     <i class="fa fa-user-plus"></i>
                 </span>
                 <div class="text-box" >
-                    <a  href="<?php echo URL_BASE;?>/index.php/Usuario/guardar_usuario">
+                    <a  class="" href="#success" data-toggle="modal">
                     <p class="main-text">Registrar usuario</p></a>
                     <!--<p class="text-muted">Messages</p>-->
                 </div>
@@ -178,7 +290,21 @@ echo "Último acceso: ". $visit;
     <script src="<?php echo URL_BASE."/public/assets/js/morris/morris.js";?>"></script>
       <!-- CUSTOM SCRIPTS -->
     <script src="<?php echo URL_BASE."/public/assets/js/custom.js";?>"></script>
-    
+    <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-primary">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h1><i class="glyphicon glyphicon-thumbs-up"></i> Primary Modal</h1>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
    
 </body>
