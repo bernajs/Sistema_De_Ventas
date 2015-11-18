@@ -25,9 +25,11 @@
 			//$this->guardar($params);
 			if(isset($params['CLIENTE_dni']) && isset($params['formaPago']) && isset($params['fecha']) && isset($params['estado']) && isset($params['direccionEnvio']) && isset($params['PRODUCTO_codigo']) && isset($params['cantProducto']) ) {
 				//$this->guardarProducto($params);
-				echo "lol";
-				print_r($params);
+				//echo "lol";
+				//print_r($params);
 				$this->registrarPedido($params);
+				//echo $PEDIDO_idPedido;	
+				//echo "yaaa";			
 				//$this->guardarProducto($params);
 				//$proveedores=$this->model->listarInventarios();
 				//$this->crearProveedor($params);
@@ -43,6 +45,9 @@
 			$estado = $params['estado'];
 			$direccionEnvio = $params['direccionEnvio'];
 			$CLIENTE_dni = $params['CLIENTE_dni'];
+
+			$PRODUCTO_codigo = $params['PRODUCTO_codigo'];
+			$cantProducto = $params['cantProducto'];
 			/*echo $formaPago;
 			echo $fecha;
 			echo $estado;
@@ -51,12 +56,16 @@
 
 			if(count($this->errores) ==0 ){
 		    	try{
-		        	$this->model->registrarPedido($formaPago,$fecha,$estado,$direccionEnvio,$CLIENTE_dni);
+		        	$this->model->registrarPedido($formaPago,$fecha,$estado,$direccionEnvio,$CLIENTE_dni,$PRODUCTO_codigo,$cantProducto);
 		    	}
 		    	catch(\Exception $e){
 					$this->errores['global']=$e->getMessage();
 				}
 		    }
+
+		}
+
+		public function registarProductohaspedido(){
 
 		}
 	}	
