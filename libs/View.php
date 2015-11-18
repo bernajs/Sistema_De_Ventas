@@ -37,6 +37,23 @@ class View{
 			
 		}
 	}
+
+	public function render3($controler, $view, $data=null,$data1=null,$data2=null, $errors=array()){
+		$this->errores = $errors;
+		$this->datos = $data;
+		$this->datos1 = $data1;
+		$this->datos2 = $data2;
+
+		$view = "views".DS.$controler.DS.$view.".php";
+		if(file_exists($view)){
+			require_once($view);
+		}
+		else{
+			throw new \Exception("No existe una vista asociada a esta petición: $view no existe", 1);
+			
+		}
+	}
+
 	public function getErrores(){
 		return $this->errores;
 	}
@@ -46,6 +63,9 @@ class View{
 	}
 	public function getDatos1(){
 		return $this->datos1;
+	}
+	public function getDatos2(){
+		return $this->datos2;
 	}
 
 	public static function renderErrors($errors){
