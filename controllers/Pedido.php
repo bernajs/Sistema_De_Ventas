@@ -17,22 +17,46 @@
 
 		}
 
-		public function guardar_pedido(){				
+		public function guardar_pedido($params=array()){				
 			$clientes=$this->model->listarInventarios();
-			$productos=$this->model->listarProductos();
-			echo "lol";
+			$productos=$this->model->listarProductos();			
 			//print_r($clientes);
 			//$this->view->render(explode("\\",get_class($this))[1], "guardar_producto",$proveedores,$this->getErrores());			
 			//$this->guardar($params);
-			if(isset($params['dni']) && isset($params['formaPago']) && isset($params['fecha']) && isset($params['estado']) && isset($params['direccionEnvio']) && isset($params['PRODUCTO_codigo']) && isset($params['cantProducto']) ) {
+			if(isset($params['CLIENTE_dni']) && isset($params['formaPago']) && isset($params['fecha']) && isset($params['estado']) && isset($params['direccionEnvio']) && isset($params['PRODUCTO_codigo']) && isset($params['cantProducto']) ) {
 				//$this->guardarProducto($params);
 				echo "lol";
 				print_r($params);
+				$this->registrarPedido($params);
 				//$this->guardarProducto($params);
 				//$proveedores=$this->model->listarInventarios();
 				//$this->crearProveedor($params);
 				
 			}
 			$this->view->render2(explode("\\",get_class($this))[1], "guardar_pedido",$clientes,$productos,$this->getErrores());			
+		}
+
+		public function registrarPedido($params){
+			//echo "registrarPedido";
+			$formaPago = $params['formaPago'];
+			$fecha = $params['fecha'];
+			$estado = $params['estado'];
+			$direccionEnvio = $params['direccionEnvio'];
+			$CLIENTE_dni = $params['CLIENTE_dni'];
+			/*echo $formaPago;
+			echo $fecha;
+			echo $estado;
+			echo $direccionEnvio;
+			echo $CLIENTE_dni;*/
+
+			if(count($this->errores) ==0 ){
+		    	try{
+		        	$this->model->registrarPedido($formaPago,$fecha,$estado,$direccionEnvio,$CLIENTE_dni);
+		    	}
+		    	catch(\Exception $e){
+					$this->errores['global']=$e->getMessage();
+				}
+		    }
+
 		}
 	}	
