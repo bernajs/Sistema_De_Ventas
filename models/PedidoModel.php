@@ -10,6 +10,12 @@
 		public $direccionEnvio;
 		public $CLIENTE_dni;
 
+		public $PEDIDO_idPedido;
+		public $PRODUCTO_codigo;
+		public $cantProducto;
+		public $costoTotal=0;
+
+
 		public function listarInventarios(){
 			$con = DBConexion::getInstance();
 			if (is_null($con)) {
@@ -32,12 +38,15 @@
 			return $productos;
 		}
 
-		public function registrarPedido($formaPago,$fecha,$estado,$direccionEnvio,$CLIENTE_dni){
+		public function registrarPedido($formaPago,$fecha,$estado,$direccionEnvio,$CLIENTE_dni,$PRODUCTO_codigo,$cantProducto){
 			$this->formaPago = $formaPago;
 			$this->fecha = $fecha;
 			$this->estado = $estado;
 			$this->direccionEnvio = $direccionEnvio;
 			$this->CLIENTE_dni = $CLIENTE_dni;
+
+			$this->PRODUCTO_codigo = $PRODUCTO_codigo;
+			$this->cantProducto = $cantProducto;
 
 			$this->guardar();
 		}
@@ -57,6 +66,41 @@
 			$con->executeUpdate(array($sql));
 			echo "PASOOOTOOODO!";
 
+			$sql1= "SELECT max(idPedido) as idPedido FROM pedido;";
+			$id_Pedido = $con->executeQuery($sql1);
+			//print_r($id_Pedido[0]->idPedido);
+			$this->PEDIDO_idPedido = $id_Pedido[0]->idPedido;
+			//$CLIENTE_dni = $DNI[0]->dni;
+			echo $this->PEDIDO_idPedido;
+			//return $idPedido;
+			$this->registarProductohaspedido();
+
+
+		}
+
+		public function registarProductohaspedido(){
+			$con = DBConexion::getInstance();
+			//echo "jeje lol";			
+			$sql="SELECT precioUnitario FROM producto where codigo = $this->PRODUCTO_codigo;";
+			$sql1= $con->executeQuery($sql);
+			//print_r($precioUni);
+			$precioUni = $sql1[0]->precioUnitario;
+			$this->costoTotal = $this->cantProducto*$precioUni;
+
+			$params1 = array(
+					$this->PRODUCTO_codigo,
+					$this->PEDIDO_idPedido,
+					$this->costoTotal,
+					$this->cantProducto
+				);
+
+			$sql2 = vsprintf("INSERT INTO producto_has_pedido(PRODUCTO_codigo,PEDIDO_idPedido,costoTotal,cantProducto) VALUES(%s, %s, %s,%s);", $params1);
+			$con->executeUpdate(array($sql2));
+			echo "LISTOOOOOOO";
+
+
+			//echo $precioUni;
+			//echo "lolololol";			
 		}
 		
 	}
