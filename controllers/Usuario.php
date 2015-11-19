@@ -14,6 +14,13 @@
 
 			$this->view->render(explode("\\",get_class($this))[1], "usuario_inicio",$this->getErrores());
 
+		}		
+		public function guardar(){
+
+			//$this->view->render(explode("\\",get_class($this))[1], "usuario_inicio",$this->getErrores());
+			$this->view->render(explode("\\",get_class($this))[1], "guardar_usuario",$this->getErrores());
+			
+
 		}
 
 		public function guardar_usuario(){

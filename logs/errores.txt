@@ -822,3 +822,55 @@
 
 2015-11-13 01:43:09 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\modificar_cliente.php 42
 
+2015-11-19 11:54:02 (CST)      Undefined variable: datos2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 79
+
+2015-11-19 11:54:02 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 79
+
+2015-11-19 11:55:43 (CST)      Undefined variable: producto2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Undefined variable: producto2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Undefined variable: producto2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Undefined variable: producto2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Undefined variable: producto2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Undefined variable: producto2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Undefined variable: producto2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Undefined variable: producto2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 11:55:43 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 106
+
+2015-11-19 12:19:44 (CST)      Undefined variable: producto2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 105
+
+2015-11-19 12:19:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 105
+
+2015-11-19 12:19:44 (CST)      Undefined variable: producto2 C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 105
+
+2015-11-19 12:19:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Pedido\guardar_pedido.php 105
+
+2015-11-19 14:33:50 (CST)      Undefined variable: cliente C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\mostrar_clientes.php 312
+
+2015-11-19 14:33:50 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\mostrar_clientes.php 312
+
+2015-11-19 14:46:02 (CST)      Undefined index: user C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 68
+
+2015-11-19 14:46:02 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
+

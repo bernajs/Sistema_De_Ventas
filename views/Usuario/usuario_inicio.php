@@ -192,7 +192,7 @@
                                   <strong>Nuevo Usuario</strong>
                                 </div>
                                 <div class="panel-body">
-                                  <form role="form">
+                                  <form role="form" name="form1" id="form1" method="POST" action="<?php echo URL_BASE;?>/index.php/Usuario/guardar">
                                     <div class="form-group input-group">
                                       <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                       <input class="form-control" placeholder="Usuario" type="text">
@@ -211,9 +211,7 @@
                                     </div>
                                     
                                     
-                                    <a onClick="if(confirm('¿Desea registrar este usuario?'))
-                                      alert('Guardado');
-                                    else alert('No Guardado')" data-toggle="modal" class="btn btn-success" data-target="#myModal">Guardar</a>
+                                    <a data-toggle="modal" class="btn btn-success" data-target="#myModal">Guardar</a>
                                     <hr>
                                     ¿Ya estás registrado?  <a href="<?php echo URL_BASE;?>/index.php/Inicio/login">Entra aquí</a>
                                   </form>

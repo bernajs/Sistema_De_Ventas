@@ -100,11 +100,20 @@
 
                      else {
 
-                          var newdiv = document.createElement('div');
+                          var x = document.createElement('select');
+                          x.setAttribute("name","selector");
+                          x.setAttribute("id","selector");
+
+          
                           <?php $datos2=$this->getDatos2();foreach ($datos2 as $key => $producto2):?>
-                          newdiv.innerHTML = "Producto " + (counter) + "<select class='form-control' name='PRODUCTO_codigo' id='PRODUCTO_codigo'><option value='<?php echo $producto2->codigo;?>'><?php echo $producto2->nombre;?></option>";
-                          document.getElementById(divName).appendChild(newdiv);
-                          
+                         alert(<?php echo $key; ?>);
+                        // newdiv.innerHTML = "Producto " + (counter) + "<select class='form-control' name='PRODUCTO_codigo' id='PRODUCTO_codigo'><option value='<?php echo $producto2->codigo;?>'><?php echo $producto2->nombre;?></option>";
+                        var option = document.createElement("option");
+                        option.setAttribute("value","<?php echo $producto2->nombre; ?>");
+                        option.text = "<?php echo $producto2->nombre; ?>";
+                        x.add(option);
+                        document.getElementById(divName).appendChild(x);
+                         
                           <?php endforeach;?>
                           counter++;
                      }
