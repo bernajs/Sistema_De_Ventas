@@ -20,20 +20,26 @@
 		}
 
 		public function eliminar_cliente($params=array()){
-
-			$b = $params['identificadorr'];
-			echo "<script language='javascript'>"; 
-						echo "alert('HOLA')"; 
-					echo "</script>";
-			echo "<script language='javascript'>"; 
-						echo "alert('$b')"; 
-					echo "</script>";
-			//if (count($params) > 0) {
-				$this->model->eliminarCliente($b);
+			try {
+				//$b = $params['identificadorr'];
 				echo "<script language='javascript'>"; 
-						echo "alert('Cliente eliminado correctamente.')"; 
-						echo "</script>";
-						$this->cliente_inicio();
+				echo "alert('HOLA')"; 
+				echo "</script>";
+				//echo "<script language='javascript'>"; 
+				//echo "alert('$b')"; 
+				//echo "</script>";
+				//if (count($params) > 0) {
+				$this->model->eliminarCliente($params['identificadorr']);
+				echo "<script language='javascript'>"; 
+				echo "alert('Cliente eliminado correctamente.')"; 
+				echo "</script>";
+				$this->cliente_inicio();
+				
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
+
+			
 			//}
 			  
 		}
