@@ -151,7 +151,7 @@
                                   
                                   <!--<td><p data-placement="top" data-toggle="tooltip" title="Edit"><a href="<?php //echo URL_BASE;?>/index.php/Cliente/modificar_cliente"><button value="<?php //echo $cliente->dni;?>" class="btn btn-primary btn-xs" onclick="x()" data-title="Edit" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>-->
                                   <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button value="<?php echo $cliente->dni;?>" data-toggle="modal" class="btn btn-primary btn-xs prueba" data-title="Edit"  data-target="#edit"><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
-                                  <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button value="<?php echo $cliente->dni;?>" class="btn btn-danger btn-xs prueba1" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+                                  <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button value="<?php echo $cliente->dni;?>" class="btn btn-danger btn-xs prueba1" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                                 </tr>
                                 <?php endforeach;?>
                                 
@@ -211,7 +211,7 @@
                     
                     
                     
-                    <div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+                    <!--<div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -228,10 +228,10 @@
                             <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> No</button>
                           </div>
                         </div>
-                        <!-- /.modal-content -->
-                      </div>
+                         /.modal-content -->
+                      <!--</div>-->
                       <!-- /.modal-dialog -->
-                    </div>
+                    <!--</div>-->
                     <!-- /. ROW  -->
                     
                     <!-- /. PAGE INNER  -->
@@ -268,6 +268,10 @@
                   alert("holaaaaa");
                   $("#delete").load("<?php echo URL_BASE;?>/index.php/Cliente/eliminar_cliente",{identificadorr:$("#object_id").val()});
                 });*/
+                $(".prueba1").on("click",function(){
+                  $("#modal-edit").load("<?php echo URL_BASE;?>/index.php/Cliente/eliminar_cliente",{identificadorr:$(this).val()});
+                });
+
                 $(".prueba").on("click", function(){
                   $("#modal-edit").load("<?php echo URL_BASE;?>/index.php/Cliente/modificar_cliente", {identificador:$(this).val()});
                 });
