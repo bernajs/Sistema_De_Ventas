@@ -16,12 +16,17 @@
                         <strong>Cliente</strong>  
                         
                             </div>
-                            <?php $c = $this->getDatos(); $d=$this->getDatos1(); ?>
-                            
+                            <?php $c = $this->getDatos(); $d=$this->getDatos1(); $var=$this->getDatos2(); ?>
+                                                       
 
                             <div class="panel-body">
                               <!--<div class="alert alert-danger" role="alert"><?php //echo $this->errores['global']?></div>-->
-                                <form role="form" class="form" id="form1" method="POST" action="">
+                                <form role="form" class="form" id="form1" method="POST" action="<?php echo URL_BASE;?>/index.php/Cliente/actualizar_cliente">
+                                        <div class="form-group input-group <?php if (isset($this->errores['dni'])) echo 'has-error' ; ?>">
+                                            <!--<span class="input-group-addon"><i class="fa fa-genderless"></i></span>-->
+                                            <input class="form-control" name="dni" id="dni" placeholder="dni"  type="hidden" value="<?php echo $var['identificador'];?>">
+                                            <?php if(isset($this->errores['dni'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['dni'];?></span><?php endif;?>
+                                        </div>
                                         <div class="form-group input-group <?php if (isset($this->errores['nombre'])) echo 'has-error' ; ?>">
                                             <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
                                             <input class="form-control" name="nombre" id="nombre" placeholder="Nombre"  type="text" value="<?php echo $c->nombre;?>">
