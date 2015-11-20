@@ -13,7 +13,7 @@ class ClienteModel {
 	public $calle;
 	public $numero;
 	public $detalle;
-		public $dni;
+	public $dni;
 	public $CLIENTE_dni;
 	//public $DIRECCION_idDireccion;
 	/*public function __construct(){
@@ -42,18 +42,18 @@ class ClienteModel {
 		$this->colonia = $colonia;
 		$this->calle = $calle;
 		$this->numero = $numero;
-			$this->detalle = $detalle;
+		$this->detalle = $detalle;
 		$this->CLIENTE_dni = $dni;
 		//echo "holaaa";
 		$this->update();
 	}
 	public function update(){
 		$con = DBConexion::getInstance();
-					$params = array(
-			$this->nombre,
-			$this->aPaterno,
-			$this->aMaterno,
-						$this->fechaNacimiento
+				$params = array(
+				$this->nombre,
+				$this->aPaterno,
+				$this->aMaterno,
+				$this->fechaNacimiento
 			);
 		$sql1 = vsprintf("UPDATE cliente SET nombre='%s', aPaterno='%s',aMaterno='%s',fechaNacimiento='%s' WHERE dni=$this->dni;", $params);
 		//echo $sql1;
@@ -71,27 +71,35 @@ class ClienteModel {
 				$con->executeUpdate(array($sql2));
 	}
 	public function eliminarCliente($id){
-		$dni = $id;
-		echo "<script language='javascript'>";
-			echo "alert('$dni')";
-echo "</script>";
+		try {
+			//$dni = $id;
+			echo "<script language='javascript'>";
+			echo "alert('$id')";
+			echo "</script>";
+			echo "<script language='javascript'>";
+			echo "alert('HOLAA')";
+			echo "</script>";
+			$con = DBConexion::getInstance();
 
-$con = DBConexion::getInstance();
+			if (is_null($con)) {
+			throw new Exception("Error en la conexion a la base de datos, verifique",1);
+			}
 
-if (is_null($con)) {
-throw new Exception("Error en la conexion a la base de datos, verifique",1);
-}
-
-//$cliente = $con->executeQuery("SELECT * FROM cliente WHERE dni = ?;",array($id), __NAMESPACE__.'\ClienteModel');
-$sql="DELETE FROM cliente where dni = $dni;";
-//echo $sql;
-/*echo "<script language='javascript'>";
-			echo "alert('$sql')";
-echo "</script>";*/
-$con->executeQuery($sql);
-echo "<script language='javascript'>";
+			//$cliente = $con->executeQuery("SELECT * FROM cliente WHERE dni = ?;",array($id), __NAMESPACE__.'\ClienteModel');
+			$sql="DELETE FROM cliente where dni = $id;";
+			//echo $sql;
+			echo "<script language='javascript'>";
+						echo "alert('$sql')";
+			echo "</script>";
+			$con->executeQuery($sql);
+			echo "<script language='javascript'>";
 			echo "alert('PASOO')";
-echo "</script>";
+			echo "</script>";
+			
+		} catch (Exception $e) {
+			throw $e;
+		}
+		
 //$sql1="DELETE FROM direccion_cliente where CLIENTE_dni = $dni;";
 //echo $sql1;
 //$con->executeQuery($sql1);
