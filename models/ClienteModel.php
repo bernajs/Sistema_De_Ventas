@@ -16,6 +16,7 @@ class ClienteModel {
 	public $numero;
 	public $detalle;
 	public $dni;	
+	public $CLIENTE_dni;
 	//public $DIRECCION_idDireccion;
 
 	/*public function __construct(){
@@ -39,6 +40,72 @@ class ClienteModel {
 		return $direcciones;
 
 	}*/
+
+	public function actualizarCliente($dni,$nombre, $aPaterno, $aMaterno, $fechaNacimiento,$ciudad,$cp,$colonia,$calle,$numero,$detalle){
+		$this->dni=$dni;
+		$this->nombre=$nombre;
+		$this->aPaterno = $aPaterno;
+		$this->aMaterno = $aMaterno;
+		$this->fechaNacimiento = $fechaNacimiento;
+		$this->ciudad = $ciudad;
+		$this->cp = $cp;
+		$this->colonia = $colonia;
+		$this->calle = $calle;
+		$this->numero = $numero;
+		$this->detalle = $detalle;	
+		$this->CLIENTE_dni = $dni;
+
+		//echo "holaaa";
+		$this->update();
+	}
+
+	public function update(){
+		$con = DBConexion::getInstance();
+		$params = array(			
+			$this->nombre,
+			$this->aPaterno,
+			$this->aMaterno,
+			$this->fechaNacimiento			
+			);
+		$sql1 = vsprintf("UPDATE cliente SET nombre='%s', aPaterno='%s',aMaterno='%s',fechaNacimiento='%s' WHERE dni=$this->dni;", $params);
+		//echo $sql1;
+		$con->executeUpdate(array($sql1));
+
+		$params1 = array(
+			$this->ciudad,
+			$this->cp,
+			$this->colonia,
+			$this->calle,
+			$this->numero,
+			$this->detalle
+			);
+		$sql2 = vsprintf("UPDATE direccion_cliente SET ciudad='%s', cp=%s,colonia='%s',calle='%s',numero=%s,detalle='%s' WHERE CLIENTE_dni=$this->CLIENTE_dni;", $params1);
+		//echo $sql2;
+		$con->executeUpdate(array($sql2));		
+
+
+	}
+
+	public function eliminarCliente($id){
+		$dni = $id;
+		/*echo "<script language='javascript'>"; 
+						echo "alert('$dni')"; 
+						echo "</script>";*/
+		$con = DBConexion::getInstance();
+		if (is_null($con)) {
+			throw new Exception("Error en la conexion a la base de datos, verifique",1);
+		}
+
+		//$cliente = $con->executeQuery("SELECT * FROM cliente WHERE dni = ?;",array($id), __NAMESPACE__.'\ClienteModel');
+
+		$sql="DELETE FROM cliente where dni = $dni;";
+		$con->executeQuery($sql);
+		$sql="DELETE FROM direccion_cliente where CLIENTE_dni = $dni;";
+		$con->executeQuery($sql);
+
+
+
+	}
 
 	public function crearInventario($nombre, $aPaterno, $aMaterno, $fechaNacimiento,$ciudad,$cp,$colonia,$calle,$numero,$detalle/*, $DIRECCION_idDireccion*/){
 		//Dia de trabajo en el ingenio.
