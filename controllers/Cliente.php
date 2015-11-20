@@ -23,15 +23,18 @@
 
 			$b = $params['identificadorr'];
 			echo "<script language='javascript'>"; 
+						echo "alert('HOLA')"; 
+					echo "</script>";
+			echo "<script language='javascript'>"; 
 						echo "alert('$b')"; 
-						echo "</script>";
-			if (count($params) > 0) {
-				$this->model->eliminarCliente($params['identificador']);
+					echo "</script>";
+			//if (count($params) > 0) {
+				$this->model->eliminarCliente($b);
 				echo "<script language='javascript'>"; 
 						echo "alert('Cliente eliminado correctamente.')"; 
 						echo "</script>";
 						$this->cliente_inicio();
-			}
+			//}
 			  
 		}
 		public function modificar_cliente($params=array()){
@@ -95,18 +98,24 @@
 		}
 
 		public function guardar($params=array()){
-			//Llamando al metodo del modelo
-			//echo "jeje";
-			//print_r($params1);
-			if(isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
-				//$this->guardarDireccion($params1);
 
-				print_r($params);
-				$this->crearInventario($params);
-				
+			try {
+				//Llamando al metodo del modelo
+				//echo "jeje";
+				//print_r($params1);
+				if(isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
+					//$this->guardarDireccion($params1);
+
+					print_r($params);
+					$this->crearInventario($params);
+					
+				}
+				//Renderizando la vista asociada
+				$this->view->render(explode("\\",get_class($this))[1], "guardar",$this->getErrores());
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
 			}
-			//Renderizando la vista asociada
-			$this->view->render(explode("\\",get_class($this))[1], "guardar",$this->getErrores());
+			
 		}
 
 		/*public function guardarDireccion($params1=array()){
