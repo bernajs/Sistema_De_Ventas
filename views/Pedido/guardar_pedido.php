@@ -72,7 +72,7 @@
               
               
               <!--<form class="form-inline" role="form">-->
-              <div class="form-group pro">
+              <div class="form-group pro" id="form-pedido">
                 <label for="PRODUCTO_codigo">Producto</label>
                 <div id="dynamicInput">
                   <select class="form-control" name="PRODUCTO_codigo" id="PRODUCTO_codigo">
@@ -89,7 +89,7 @@
 
                 <script>
                 var counter = 2;
-
+                var id=0;
                 var limit = 21;
 
                 function addInput(divName){
@@ -104,17 +104,32 @@
                           x.setAttribute("name","selector");
                           x.setAttribute("id","selector");
 
+                          x.setAttribute("class","form-control");
+                          x.setAttribute("name","PRODUCTO_codigo");
           
                           <?php $datos2=$this->getDatos2();foreach ($datos2 as $key => $producto2):?>
-                         alert(<?php echo $key; ?>);
+                         //alert(<?php echo $key; ?>);
                         // newdiv.innerHTML = "Producto " + (counter) + "<select class='form-control' name='PRODUCTO_codigo' id='PRODUCTO_codigo'><option value='<?php echo $producto2->codigo;?>'><?php echo $producto2->nombre;?></option>";
                         var option = document.createElement("option");
                         option.setAttribute("value","<?php echo $producto2->nombre; ?>");
                         option.text = "<?php echo $producto2->nombre; ?>";
                         x.add(option);
                         document.getElementById(divName).appendChild(x);
-                         
-                          <?php endforeach;?>
+                        <?php endforeach;?>
+
+
+                        var input = document.createElement("input");
+                        input.type = "text";
+                        input.className = "form-control pro";
+                        input.placeholder="Producto";
+                        input.id=id;
+                        id++;
+                        document.getElementById("dynamicInput").appendChild(input);
+
+                        var br=document.createElement("hr");
+
+                        document.getElementById("dynamicInput").appendChild(br);
+
                           counter++;
                      }
 
