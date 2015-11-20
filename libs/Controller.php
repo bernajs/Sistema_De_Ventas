@@ -1,5 +1,4 @@
 <?php
-
 namespace libs;
 
 abstract class Controller{
@@ -8,14 +7,27 @@ abstract class Controller{
 	protected $errores;
 
 	public function __construct(){
-		//Iniciamos la sesion PHP
-		Session::init();
-		$this->view = new View();
-		$errors=array();
+		
+		/* AJAX check  */
+		if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+			/* special ajax here */
+			
+		}else{
+			//Iniciamos la sesion PHP		
+			Session::init();
+		}
+
+		//Dos cabeceras enviadas al navegador para que no use la cache para almacenar
+		//las respuestas (quitar estas lineas cuando el sistema entre en produccion).
+		header("Cache-Control: no-cache, must-revalidate");
+		header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
+
+		$this->view = new View();		
+		$this->errores=array();
 	}
 
 
-	protected function loadModel(){
+	public function loadModel(){
 		$class= get_class($this);
 		$model = explode("\\",$class)[1]."Model";
 		$modelPath = "models".DS.$model.".php";
