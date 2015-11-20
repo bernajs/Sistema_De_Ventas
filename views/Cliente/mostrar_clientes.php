@@ -199,7 +199,7 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
                    </thead>
     <tbody>
       <!--<?php //echo "holaaa" ?>-->
-
+    
       <?php $datos=$this->getDatos();foreach ($datos as $key => $cliente):?> 
       
     
@@ -210,11 +210,14 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
           <td><?php echo $cliente->aPaterno;?></td>
           <td><?php echo $cliente->aMaterno;?></td>
           <td><?php echo $cliente->fechaNacimiento;?></td>
+          
+          
           <!--<td><p data-placement="top" data-toggle="tooltip" title="Edit"><a href="<?php //echo URL_BASE;?>/index.php/Cliente/modificar_cliente"><button value="<?php //echo $cliente->dni;?>" class="btn btn-primary btn-xs" onclick="x()" data-title="Edit" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>-->
           <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button value="<?php echo $cliente->dni;?>" data-toggle="modal" class="btn btn-primary btn-xs prueba" data-title="Edit"  data-target="#edit"><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>          
-    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>                       
+    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button value="<?php echo $cliente->dni;?>" class="btn btn-danger btn-xs prueba1" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>                       
       </tr>
         <?php endforeach;?>
+       
     <!--<tr>-->
     <!--<td><input type="checkbox" class="checkthis" /></td>-->
     <!--<td>Mohsin</td>
@@ -337,15 +340,15 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
     <div class="modal-content">
           <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
-        <h4 class="modal-title custom_align" id="Heading">Delete this entry</h4>
+        <h4 class="modal-title custom_align" id="Heading">Eliminando cliente</h4>
       </div>
           <div class="modal-body">
        
-       <div class="alert alert-danger"><span class="glyphicon glyphicon-warning-sign"></span> Are you sure you want to delete this Record?</div>
+       <div class="alert alert-danger"><span class="glyphicon glyphicon-warning-sign"></span>¿Está seguro que desea eliminar el cliente <?php echo $cliente->nombre;?> <?php echo $cliente->aPaterno;?>?</div>
        
       </div>
         <div class="modal-footer ">
-        <button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-ok-sign"></span> Yes</button>
+        <button value="<?php echo $cliente->dni;?>" type="button" class="btn btn-success prueba2" ><span class="glyphicon glyphicon-ok-sign"></span> Si</button>
         <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> No</button>
       </div>
         </div>
@@ -392,6 +395,14 @@ font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5
       var id = document.getElementsByTagName("td")[8].innerHTML;
       alert(id);
     }
+
+    $(".prueba1").on("click",function(){
+      $("#delete").load("",{identificadoor:$(this).val()});
+    });
+
+    $(".prueba2").on("click",function(){
+      $("#modal-edit").load("<?php echo URL_BASE;?>/index.php/Cliente/eliminar_cliente",{identificadorr:$(this).val()});
+    });
 
     $(".prueba").on("click", function(){
       
