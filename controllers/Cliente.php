@@ -19,18 +19,41 @@
 			$this->view->render(explode("\\",get_class($this))[1], "mostrar_clientes", $clientes,$this->getErrores());
 		}
 
+		public function eliminar_cliente($params=array()){
+
+			$b = $params['identificadorr'];
+			echo "<script language='javascript'>"; 
+						echo "alert('$b')"; 
+						echo "</script>";
+			if (count($params) > 0) {
+				$this->model->eliminarCliente($params['identificador']);
+				echo "<script language='javascript'>"; 
+						echo "alert('Cliente eliminado correctamente.')"; 
+						echo "</script>";
+						$this->cliente_inicio();
+			}
+			  
+		}
 		public function modificar_cliente($params=array()){
+			$b = $params['identificador'];
+			echo "<script language='javascript'>"; 
+						echo "alert('$b')"; 
+						echo "</script>";
 			if(count($params) > 0){
 				$c = $this->model->getClienteById($params['identificador']);
 				$d = $this->model->getClienteDireccionById($params['identificador']);
-				$var = $params['identificador'];
+				//$var = $params['identificador'];
+				//print_r($params);
+				$params1 = array();
 
 				//var_dump($d);
 				if(empty($c)){
 					View::renderErrors(array("No existe el cliente con identificador ".$params['identificador']));
 				}
-				else{
-					$this->view->render2(explode("\\",get_class($this))[1], "modificar_cliente", $c[0], $d[0], $this->getErrores());
+				else{					
+					
+					$this->view->render3(explode("\\",get_class($this))[1], "modificar_cliente", $c[0], $d[0],$params, $this->getErrores());
+
 					//if(isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
 						//$this->guardarDireccion($params1);
 
@@ -46,6 +69,22 @@
 				View::renderErrors(array("No se envio el identificador del cliente"));	
 			}
 			
+		}
+
+		public function actualizar_cliente($params=array()){
+			//echo "hola";
+			if(isset($params['dni']) && isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])){
+						//$this->guardarDireccion($params1);
+						//echo "HOLA";
+						//print_r($params);
+						$this->updateCliente($params);
+						echo "<script language='javascript'>"; 
+						echo "alert('Cliente actualizado correctamente.')"; 
+						echo "</script>";  
+						//echo "Usuario actualizado correctamente";
+						$this->cliente_inicio();
+				
+				}
 		}
 
 
@@ -78,6 +117,26 @@
 		}*/
 
 		public function updateCliente($params){
+			$dni = $params['dni'];
+			$nombre = $params['nombre'];
+		    $aPaterno = $params['aPaterno'];
+		    $aMaterno = $params['aMaterno'];
+		    $fechaNacimiento = $params['fechaNacimiento'];
+		    $ciudad = $params['ciudad'];
+		    $cp = $params['cp'];
+		    $colonia = $params['colonia'];
+		    $calle = $params['calle'];
+		    $numero = $params['numero'];
+		    $detalle = $params['detalle'];
+
+		    if(count($this->errores) ==0 ){
+		    	try{
+		        	$this->model->actualizarCliente($dni,$nombre, $aPaterno, $aMaterno, $fechaNacimiento,$ciudad,$cp,$colonia,$calle,$numero,$detalle);
+		    	}
+		    	catch(\Exception $e){
+					$this->errores['global']=$e->getMessage();
+				}
+		    }
 
 		}
 
