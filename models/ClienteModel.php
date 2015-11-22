@@ -85,13 +85,15 @@ class ClienteModel {
 			throw new Exception("Error en la conexion a la base de datos, verifique",1);
 			}
 
-			//$cliente = $con->executeQuery("SELECT * FROM cliente WHERE dni = ?;",array($id), __NAMESPACE__.'\ClienteModel');
-			$sql="DELETE FROM cliente where dni = $id;";
+			//$cliente = $con->executeQuery("DELETE FROM cliente WHERE dni = ?;",array($id), __NAMESPACE__.'\ClienteModel');
+			//$sql="DELETE FROM cliente where dni = $id;";
+			$sql1 = vsprintf("DELETE FROM cliente WHERE dni = %s", $id);
 			//echo $sql;
+			$con->executeUpdate(array($sql1));
 			echo "<script language='javascript'>";
-						echo "alert('$sql')";
+						echo "alert('$sql1')";
 			echo "</script>";
-			$con->executeQuery($sql);
+			//$con->executeQuery($sql);
 			echo "<script language='javascript'>";
 			echo "alert('PASOO')";
 			echo "</script>";
