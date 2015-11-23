@@ -55,7 +55,7 @@
 					$this->PROVEEDOR_rfc
 				);
 
-			$sql = vsprintf("INSERT INTO producto(nombre,precioUnitario,descripcion,cantidad,PROVEEDOR_rfc) VALUES('%s', %s, '%s',%s,%s);", $params);
+			$sql = vsprintf("INSERT INTO producto(nombre,precioUnitario,descripcion,cantidad,PROVEEDOR_rfc) VALUES('%s', %s, '%s',%s,'%s');", $params);
 			//echo $sql;
 			$con->executeUpdate(array($sql));
 
