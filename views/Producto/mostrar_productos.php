@@ -240,7 +240,7 @@
                   </div>
                   <div class="modal-body" id="modal-edit">
                     <div class="form-group">
-                      <input class="form-control " type="text" placeholder="<?php echo $producto->codigo;?>">
+                      <!--<input class="form-control " type="text" placeholder="<?php //echo $producto->codigo;?>">-->
                     </div>
                     <div class="form-group">
                       
