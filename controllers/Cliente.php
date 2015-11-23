@@ -27,9 +27,9 @@
 		public function eliminar_cliente($params=array()){
 			try {
 				//$b = $params['identificadorr'];
-				echo "<script language='javascript'>"; 
-				echo "alert('HOLA')"; 
-				echo "</script>";
+				//echo "<script language='javascript'>"; 
+				//echo "alert('HOLA')"; 
+				//echo "</script>";
 				//echo "<script language='javascript'>"; 
 				//echo "alert('$b')"; 
 				//echo "</script>";
@@ -51,9 +51,9 @@
 		public function modificar_cliente($params=array()){
 			try{
 			$b = $params['identificador'];
-			echo "<script language='javascript'>"; 
-						echo "alert('$b')"; 
-						echo "</script>";
+			//echo "<script language='javascript'>"; 
+			//			echo "alert('$b')"; 
+			//			echo "</script>";
 			if(count($params) > 0){
 				$c = $this->model->getClienteById($params['identificador']);
 				$d = $this->model->getClienteDireccionById($params['identificador']);
