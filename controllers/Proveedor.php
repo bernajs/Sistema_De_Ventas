@@ -13,17 +13,26 @@
 		}
 
 		public function proveedor_inicio(){
-
+			try{
 			$this->view->render(explode("\\",get_class($this))[1], "proveedor_inicio",$this->getErrores());
-
+		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
 		}
 
 		public function mostrar_proveedores(){
+			try{
 			$proveedores=$this->model->listarInventarios();
 			$this->view->render(explode("\\",get_class($this))[1], "mostrar_proveedores", $proveedores,$this->getErrores());
 		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
+		}
 
 		public function modificar_proveedor($params=array()){
+			try{
 			if(count($params) > 0){
 				$p = $this->model->getProveedorById($params['identificador']);
 				$d = $this->model->getProveedorDireccionById($params['identificador']);
@@ -49,10 +58,15 @@
 				
 				View::renderErrors(array("No se envio el identificador del cliente"));	
 			}
+		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
 			
 		}
 
 		public function guardar_proveedor($params=array()){
+			try{
 			if(isset($params['rfc']) && isset($params['nombre']) && isset($params['telefono']) && isset($params['representanteLegal']) && isset($params['fax']) && isset($params['correoElectronico']) && isset($params['webProveedor']) && isset($params['observaciones']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
 				//$this->guardarDireccion($params1);
 
@@ -63,9 +77,13 @@
 			//Renderizando la vista asociada
 			$this->view->render(explode("\\",get_class($this))[1], "guardar_proveedor",$this->getErrores());			
 		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
+		}
 
 		public function crearProveedor($params){
-			
+			try{
 		    $rfc = $params['rfc'];
 		    $nombre = $params['nombre'];
 		    $telefono = $params['telefono'];
@@ -105,6 +123,10 @@
 					$this->errores['global']=$e->getMessage();
 				}
 		    }
+		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
 				
 		}
 	}

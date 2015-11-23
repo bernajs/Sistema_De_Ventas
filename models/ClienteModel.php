@@ -32,6 +32,7 @@ class ClienteModel {
 		return $direcciones;
 	}*/
 	public function actualizarCliente($dni,$nombre, $aPaterno, $aMaterno, $fechaNacimiento,$ciudad,$cp,$colonia,$calle,$numero,$detalle){
+		try{
 		$this->dni=$dni;
 		$this->nombre=$nombre;
 		$this->aPaterno = $aPaterno;
@@ -47,7 +48,12 @@ class ClienteModel {
 		//echo "holaaa";
 		$this->update();
 	}
+	catch (Exception $e) {
+		throw $e;	
+	}
+	}
 	public function update(){
+		try{
 		$con = DBConexion::getInstance();
 				$params = array(
 				$this->nombre,
@@ -69,6 +75,10 @@ class ClienteModel {
 		$sql2 = vsprintf("UPDATE direccion_cliente SET ciudad='%s', cp=%s,colonia='%s',calle='%s',numero=%s,detalle='%s' WHERE CLIENTE_dni=$this->CLIENTE_dni;", $params1);
 		//echo $sql2;
 				$con->executeUpdate(array($sql2));
+			}
+			catch (Exception $e) {
+				throw $e;	
+			}
 	}
 	public function eliminarCliente($id){
 		try {
@@ -108,6 +118,7 @@ class ClienteModel {
 }
 public function crearInventario($nombre, $aPaterno, $aMaterno, $fechaNacimiento,$ciudad,$cp,$colonia,$calle,$numero,$detalle/*, $DIRECCION_idDireccion*/){
 //Dia de trabajo en el ingenio.
+	try{
 $this->nombre=$nombre;
 //Produccion y demanda del dia
 $this->aPaterno = $aPaterno;
@@ -153,6 +164,10 @@ $this->costo_total = $this->costo_produccion + $this->costo_faltante + $this->co
 //Guardando el inventario del dia*/
 echo "holaaa";
 $this->guardar();
+}
+catch (Exception $e) {
+	throw $e;	
+}
 }
 public function guardar(){
 //Solicito un objeto conexion, usando el patron Singleton
@@ -211,6 +226,7 @@ echo "PASOOO TODO";
 
 }
 public function listarInventarios(){
+	try{
 $con = DBConexion::getInstance();
 if (is_null($con)) {
 throw new Exception("Error en la conexion a la base de datos, verifique",1);
@@ -218,7 +234,12 @@ throw new Exception("Error en la conexion a la base de datos, verifique",1);
 $clientes = $con->executeQuery('SELECT * FROM cliente;',null, __NAMESPACE__.'\ClienteModel');
 return $clientes;
 }
+}
+catch (Exception $e) {
+	throw $e;	
+}
 public function getClienteById($id){
+	try{
 $con = DBConexion::getInstance();
 if (is_null($con)) {
 throw new Exception("Error en la conexion a la base de datos, verifique",1);
@@ -226,7 +247,12 @@ throw new Exception("Error en la conexion a la base de datos, verifique",1);
 $cliente = $con->executeQuery("SELECT * FROM cliente WHERE dni = ?;",array($id), __NAMESPACE__.'\ClienteModel');
 return $cliente;
 }
+catch (Exception $e) {
+	throw $e;	
+}
+}
 public function getClienteDireccionById($id){
+	try{
 $con = DBConexion::getInstance();
 if (is_null($con)) {
 throw new Exception("Error en la conexion a la base de datos, verifique",1);
@@ -234,6 +260,10 @@ throw new Exception("Error en la conexion a la base de datos, verifique",1);
 $dir = $con->executeQuery("SELECT * FROM direccion_cliente WHERE CLIENTE_dni = ?;",array($id), __NAMESPACE__.'\ClienteModel');
 //var_dump($dir);
 return $dir;
+}
+catch (Exception $e) {
+	throw $e;	
+}
 }
 public function updateCliente(){
 

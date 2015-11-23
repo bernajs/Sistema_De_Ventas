@@ -13,12 +13,18 @@
 		}
 
 		public function mostrar_productos(){
+			try{
 			$productos=$this->model->listarProductos();
 			$this->view->render(explode("\\",get_class($this))[1], "mostrar_productos", $productos,$this->getErrores());
+		}
+			catch (Exception $e) {
+							View::renderErrors(array($e->getMessage()));
+						}
 		}
 
 
 		public function modificar_producto($params=array()){
+			try{
 			if(count($params) > 0){
 				$p = $this->model->getProductoById($params['identificador']);
 				//$d = $this->model->getClienteDireccionById($params['identificador']);
@@ -44,18 +50,26 @@
 				
 				View::renderErrors(array("No se envio el identificador del producto"));	
 			}
+		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
 			
 		}
 
 
 
 		public function producto_inicio(){
-
+			try{
 			$this->view->render(explode("\\",get_class($this))[1], "producto_inicio",$this->getErrores());
-
+		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
 		}
 
 		public function guardar_producto($params=array()){
+			try{
 			$proveedores=$this->model->listarInventarios();
 			//$this->view->render(explode("\\",get_class($this))[1], "guardar_producto",$proveedores,$this->getErrores());			
 			//$this->guardar($params);
@@ -69,11 +83,14 @@
 				
 			}
 			$this->view->render(explode("\\",get_class($this))[1], "guardar_producto",$proveedores,$this->getErrores());			
-
-
+		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
 		}
 
 		public function guardarProducto($params){
+			try{
 			$nombre = $params['nombre'];
 		    $precioUnitario = $params['precioUnitario'];
 		    $descripcion = $params['descripcion'];
@@ -88,7 +105,10 @@
 					$this->errores['global']=$e->getMessage();
 				}
 		    }
-			
+			}
+			catch (Exception $e) {
+							View::renderErrors(array($e->getMessage()));
+						}
 		}
 
 		/*public function mostrar_proveedores(){

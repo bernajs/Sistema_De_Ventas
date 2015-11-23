@@ -17,6 +17,7 @@
 
 
 		public function listarInventarios(){
+			try{
 			$con = DBConexion::getInstance();
 			if (is_null($con)) {
 				throw new Exception("Error en la conexion a la base de datos, verifique",1);
@@ -26,8 +27,13 @@
 
 			return $clientes;
 		}
+		catch (Exception $e) {
+			throw $e;	
+		}
+		}
 
 		public function listarProductos(){
+			try{
 			$con = DBConexion::getInstance();
 			if (is_null($con)) {
 				throw new Exception("Error en la conexion a la base de datos, verifique",1);
@@ -37,8 +43,13 @@
 
 			return $productos;
 		}
+		catch (Exception $e) {
+			throw $e;	
+		}
+		}
 
 		public function registrarPedido($formaPago,$fecha,$estado,$direccionEnvio,$CLIENTE_dni,$PRODUCTO_codigo,$cantProducto){
+			try{
 			$this->formaPago = $formaPago;
 			$this->fecha = $fecha;
 			$this->estado = $estado;
@@ -50,8 +61,13 @@
 
 			$this->guardar();
 		}
+		catch (Exception $e) {
+			throw $e;	
+		}
+		}
 
 		public function guardar(){
+			try{
 			$con = DBConexion::getInstance();
 			$params = array(
 					$this->formaPago,
@@ -74,11 +90,14 @@
 			echo $this->PEDIDO_idPedido;
 			//return $idPedido;
 			$this->registarProductohaspedido();
-
-
+		}
+		catch (Exception $e) {
+			throw $e;	
+		}
 		}
 
 		public function registarProductohaspedido(){
+			try{
 			$con = DBConexion::getInstance();
 			//echo "jeje lol";			
 			$sql="SELECT precioUnitario FROM producto where codigo = $this->PRODUCTO_codigo;";
@@ -97,6 +116,10 @@
 			$sql2 = vsprintf("INSERT INTO producto_has_pedido(PRODUCTO_codigo,PEDIDO_idPedido,costoTotal,cantProducto) VALUES(%s, %s, %s,%s);", $params1);
 			$con->executeUpdate(array($sql2));
 			echo "LISTOOOOOOO";
+		}
+		catch (Exception $e) {
+			throw $e;	
+		}
 
 
 			//echo $precioUni;

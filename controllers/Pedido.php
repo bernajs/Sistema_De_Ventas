@@ -12,12 +12,16 @@
 		}
 
 		public function pedido_inicio(){
-
+			try{
 			$this->view->render(explode("\\",get_class($this))[1], "pedido_inicio",$this->getErrores());
+			}
+			catch (Exception $e) {
+							View::renderErrors(array($e->getMessage()));
+						}		
+					}
 
-		}
-
-		public function guardar_pedido($params=array()){				
+		public function guardar_pedido($params=array()){	
+		try{			
 			$clientes=$this->model->listarInventarios();
 			$productos=$this->model->listarProductos();	
 			$productos1=$this->model->listarProductos();
@@ -41,8 +45,13 @@
 			}
 			$this->view->render3(explode("\\",get_class($this))[1], "guardar_pedido",$clientes,$productos,$productos1,$this->getErrores());			
 		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
+		}
 
 		public function registrarPedido($params){
+			try{
 			//echo "registrarPedido";
 			$formaPago = $params['formaPago'];
 			$fecha = $params['fecha'];
@@ -66,6 +75,10 @@
 					$this->errores['global']=$e->getMessage();
 				}
 		    }
+		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
 
 		}
 

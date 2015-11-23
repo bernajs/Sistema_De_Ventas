@@ -18,14 +18,20 @@ class direccionClientesModel {
 	}
 
 	public function listarDirecciones(){
+		try{
 		$con = DBConexion::getInstance();
 
 		$direcciones = $con->executeQuery('SELECT * FROM direccion_cliente;',null,'direccionClientesModel');
 		return $direcciones;
+	}
+	catch (Exception $e) {
+		throw $e;	
+	}
 
 	}
 
 	public function crearInventario($nombre, $aPaterno, $aMaterno, $fechaNacimiento/*, $DIRECCION_idDireccion*/){
+		try{
 		//Dia de trabajo en el ingenio.
 		$this->nombre=$nombre;
 		//Produccion y demanda del dia
@@ -37,4 +43,8 @@ class direccionClientesModel {
 		
 		echo "holaaa";
 		$this->guardar();
+	}
+	catch (Exception $e) {
+		throw $e;	
+	}
 	}

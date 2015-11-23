@@ -21,6 +21,7 @@
 		public $PROVEEDOR_rfc;
 
 		public function crearProveedor($rfc,$nombre,$telefono,$representanteLegal,$fax,$correoElectronico,$webProveedor,$observaciones,$ciudad,$cp,$colonia,$calle,$numero,$detalle){
+			try{
 			//Dia de trabajo en el ingenio.
 			$this->rfc=$rfc;
 			//Produccion y demanda del dia
@@ -45,8 +46,13 @@
 			echo "holaaa";
 			$this->guardar();
 		}
+		catch (Exception $e) {
+			throw $e;	
+		}
+		}
 
 		public function guardar(){
+			try{
 		//Solicito un objeto conexion, usando el patron Singleton
 		$con = DBConexion::getInstance();
 		$params = array(			
@@ -105,11 +111,14 @@ echo "holsfdasd";
 		$con->executeUpdate(array($sql3));
 		echo $sql3;
 		echo "PASOOO TODO";
-		
-
+	}
+	catch (Exception $e) {
+		throw $e;	
+	}
 	}
 
 	public function listarInventarios(){
+		try{
 		$con = DBConexion::getInstance();
 		if (is_null($con)) {
 			throw new Exception("Error en la conexion a la base de datos, verifique",1);
@@ -119,8 +128,13 @@ echo "holsfdasd";
 
 		return $proveedores;
 	}
+	catch (Exception $e) {
+		throw $e;	
+	}
+	}
 
 	public function getProveedorById($id){
+		try{
 		$con = DBConexion::getInstance();
 		if (is_null($con)) {
 			throw new Exception("Error en la conexion a la base de datos, verifique",1);
@@ -130,9 +144,14 @@ echo "holsfdasd";
 
 		return $proveedor;
 	}
+	catch (Exception $e) {
+		throw $e;	
+	}
+	}
 
 		
 	public function getProveedorDireccionById($id){
+		try{
 		$con = DBConexion::getInstance();
 		if (is_null($con)) {
 			throw new Exception("Error en la conexion a la base de datos, verifique",1);
@@ -142,7 +161,9 @@ echo "holsfdasd";
 		//var_dump($dir);
 		return $dir;
 	}
-
-
+	catch (Exception $e) {
+		throw $e;	
+	}
+	}
 
 	}

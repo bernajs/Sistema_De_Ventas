@@ -16,10 +16,16 @@ class InventarioModel {
 	public $costo_total;
 
 	public function __construct(){
+		try{
 		$this->costo_faltante = 0.0;
+	}
+	catch (Exception $e) {
+		throw $e;	
+	}
 	}
 
 	public function obtenerInventarioDia($dia){
+		try{
 		//Solicito el unico objeto de conexion que usaran todas la clases, usando el patron Singleton		
 		$con = DBConexion::getInstance();
 
@@ -28,8 +34,13 @@ class InventarioModel {
 
 		return $inventarios;
 	}
+	catch (Exception $e) {
+		throw $e;	
+	}
+	}
 
 	public function crearInventario($dia, $produccion, $demanda){
+		try{
 		//Dia de trabajo en el ingenio.
 		$this->dia=$dia;
 		//Produccion y demanda del dia
@@ -77,8 +88,13 @@ class InventarioModel {
 		//Guardando el inventario del dia
 		$this->guardar();
 	}
+	catch (Exception $e) {
+		throw $e;	
+	}
+	}
 
 	public function guardar(){
+		try{
 		//Solicito un objeto conexion, usando el patron Singleton
 		$con = DBConexion::getInstance();
 		$params = array(			
@@ -97,10 +113,15 @@ class InventarioModel {
 		$sql1 = vsprintf("INSERT INTO inventario VALUES(%s, %s, %s,%s,%s, %s, %s,%s,%s,%s);", $params);
 		
 		$con->executeUpdate(array($sql1));
+	}
+	catch (Exception $e) {
+		throw $e;	
+	}
 
 	}
 
 	public function listarInventarios(){
+		try{
 		$con = DBConexion::getInstance();
 		if (is_null($con)) {
 			throw new Exception("Error en la conexion a la base de datos, verifique",1);
@@ -110,7 +131,10 @@ class InventarioModel {
 
 		return $inventarios;
 	}
-
+}
+catch (Exception $e) {
+	throw $e;	
+}
 
 }
 

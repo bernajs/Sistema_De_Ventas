@@ -17,6 +17,7 @@
 		}
 
 		public function crear($params=array()){
+			try{
 			//Llamando al metodo del modelo
 			if(isset($params['dia']) && isset($params['demanda']) && isset($params['produccion'])){
 				$this->crearInventario($params);
@@ -24,9 +25,13 @@
 			//Renderizando la vista asociada
 			$this->view->render(explode("\\",get_class($this))[1], "crear",$this->getErrores());
 		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
+		}
 
 		public function crearInventario($params){
-			
+			try{
 		    $dia = $params['dia'];
 		    $produccion = $params['produccion'];
 		    $demanda = $params['demanda'];
@@ -54,6 +59,10 @@
 					$this->errores['global']=$e->getMessage();
 				}
 		    }
+		}
+		catch (Exception $e) {
+						View::renderErrors(array($e->getMessage()));
+					}
 				
 		}
 	}

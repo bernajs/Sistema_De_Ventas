@@ -874,3 +874,17 @@
 
 2015-11-19 14:46:02 (CST)      Undefined index: pass C:\Apache24\htdocs\proyectoEjemplo\views\Inicio\login.php 69
 
+2015-11-20 11:57:28 (CST)      PDO::__construct():  C:\Apache24\htdocs\proyectoEjemplo\libs\DBConexion.php 22
+
+2015-11-20 11:57:52 (CST)      Undefined variable: cliente C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\mostrar_clientes.php 191
+
+2015-11-20 11:57:52 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\mostrar_clientes.php 191
+
+2015-11-20 11:57:52 (CST)      Undefined variable: cliente C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\mostrar_clientes.php 223
+
+2015-11-20 11:57:52 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\mostrar_clientes.php 223
+
+2015-11-20 11:57:52 (CST)      Undefined variable: cliente C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\mostrar_clientes.php 223
+
+2015-11-20 11:57:52 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\mostrar_clientes.php 223
+
