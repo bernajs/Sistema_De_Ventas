@@ -116,35 +116,32 @@
               }
               </style>
               <script>
-                function mostrar()
-                        {
-                          loadDoc(null,"<?php echo URL_BASE."/views/Usuario";?>/mensajes.php",function()
-                            {
-                            if (xmlhttp.readyState==4 && xmlhttp.status==200)
-                            {
-                            document.getElementById("historial").innerHTML=xmlhttp.responseText;
-                            }
-                            });
-                        }
-
-                        setInterval(mostrar,3000);
-
-                        function agregar()
-                        {
-                          var u=document.getElementById('nombre').value;
-                          var c=document.getElementById('contenido').value;
-
-                          if(u!="" && c!=""){
-                            loadDoc("usuario="+u+"&cont="+c,"<?php echo URL_BASE."/views/Usuario";?>/proceso.php",function()
-                              {
-                              if (xmlhttp.readyState==4 && xmlhttp.status==200)
-                              {
-                              document.getElementById("historial").innerHTML=xmlhttp.responseText;
-                              }
-                              });
-                              
-                          }else{ alert("No deje campos vacios"); }
-                        }
+              function mostrar()
+              {
+              loadDoc(null,"<?php echo URL_BASE."/views/Usuario";?>/mensajes.php",function()
+              {
+              if (xmlhttp.readyState==4 && xmlhttp.status==200)
+              {
+              document.getElementById("historial").innerHTML=xmlhttp.responseText;
+              }
+              });
+              }
+              setInterval(mostrar,3000);
+              function agregar()
+              {
+              var u=document.getElementById('nombre').value;
+              var c=document.getElementById('contenido').value;
+              if(u!="" && c!=""){
+              loadDoc("usuario="+u+"&cont="+c,"<?php echo URL_BASE."/views/Usuario";?>/proceso.php",function()
+              {
+              if (xmlhttp.readyState==4 && xmlhttp.status==200)
+              {
+              document.getElementById("historial").innerHTML=xmlhttp.responseText;
+              }
+              });
+              
+              }else{ alert("No deje campos vacios"); }
+              }
               </script>
               
               
@@ -221,8 +218,8 @@
                           </div>
                           <!--</div>-->
                           <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
-                          <!-- JQUERY SCRIPTS -->                                                                              
-                        </div>                        
+                          <!-- JQUERY SCRIPTS -->
+                        </div>
                         <!--<div class="modal-footer">
                           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
                         </div>-->
@@ -238,86 +235,98 @@
                       <div class="col-md-3 col-sm-6 col-xs-6">
                         <div class="panel panel-back noti-box">
                           <span class="icon-box bg-color-red set-icon">
-                            <i class="fa fa-user-plus"></i>
+                            <i class="fa fa-user"></i>
                           </span>
                           <div class="text-box" >
-                            <a  class="" href="#success" data-toggle="modal">
+                            <a  href="<?php echo URL_BASE;?>/index.php/Usuario/guardar_usuario">
                               <p class="main-text">Registrar usuario</p></a>
                               <!--<p class="text-muted">Messages</p>-->
                             </div>
                           </div>
                         </div>
-                        <!-- <div class="col-md-3 col-sm-6 col-xs-6">
+                        <!--<div class="col-md-3 col-sm-6 col-xs-6">
                           <div class="panel panel-back noti-box">
-                            <span class="icon-box bg-color-green set-icon">
-                              <i class="fa fa-user"></i>
+                            <span class="icon-box bg-color-red set-icon">
+                              <i class="fa fa-user-plus"></i>
                             </span>
                             <div class="text-box" >
-                              <a  href="buscar_usuario.html">
-                                <p class="main-text">Modificar usuario</p></a>
+                              <a  class="" href="#success" data-toggle="modal">
+                                <p class="main-text">Registrar usuario</p></a>
+                                
                               </div>
                             </div>
                           </div>-->
-                          <!--<div class="col-md-3 col-sm-6 col-xs-6">
+                          <!-- <div class="col-md-3 col-sm-6 col-xs-6">
                             <div class="panel panel-back noti-box">
-                              <span class="icon-box bg-color-blue set-icon">
-                                <i class="fa fa-user-times"></i>
+                              <span class="icon-box bg-color-green set-icon">
+                                <i class="fa fa-user"></i>
                               </span>
                               <div class="text-box" >
                                 <a  href="buscar_usuario.html">
-                                  <p class="main-text">Eliminar usuario</p></a>
+                                  <p class="main-text">Modificar usuario</p></a>
                                 </div>
                               </div>
                             </div>-->
-                            <div class="col-md-3 col-sm-6 col-xs-6">
+                            <!--<div class="col-md-3 col-sm-6 col-xs-6">
                               <div class="panel panel-back noti-box">
-                                <span class="icon-box bg-color-brown set-icon">
-                                  <i class="fa fa-search"></i>
+                                <span class="icon-box bg-color-blue set-icon">
+                                  <i class="fa fa-user-times"></i>
                                 </span>
                                 <div class="text-box" >
-                                  <a  href="consulta_usuario.html">
-                                    <p class="main-text">Consultar usuario</p></a>
-                                    <!--<p class="text-muted">Pending</p>-->
+                                  <a  href="buscar_usuario.html">
+                                    <p class="main-text">Eliminar usuario</p></a>
+                                  </div>
+                                </div>
+                              </div>-->
+                              <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="panel panel-back noti-box">
+                                  <span class="icon-box bg-color-brown set-icon">
+                                    <i class="fa fa-search"></i>
+                                  </span>
+                                  <div class="text-box" >
+                                    <a  href="consulta_usuario.html">
+                                      <p class="main-text">Consultar usuario</p></a>
+                                      <!--<p class="text-muted">Pending</p>-->
+                                    </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                            <!-- /. ROW  -->
-                            
-                            <!-- /. PAGE INNER  -->
-                          </div>
-                          <!-- /. PAGE WRAPPER  -->
-                        </div>
-                        <!-- /. WRAPPER  -->
-                        <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
-                        <!-- JQUERY SCRIPTS -->
-                        <script src="<?php echo URL_BASE."/public/assets/js/jquery-1.10.2.js";?>"></script>
-                        <!-- BOOTSTRAP SCRIPTS -->
-                        <script src="<?php echo URL_BASE."/public/assets/js/bootstrap.min.js";?>"></script>
-                        <!-- METISMENU SCRIPTS -->
-                        <script src="<?php echo URL_BASE."/public/assets/js/jquery.metisMenu.js";?>"></script>
-                        <!-- MORRIS CHART SCRIPTS -->
-                        <script src="<?php echo URL_BASE."/public/assets/js/morris/raphael-2.1.0.min.js";?>"></script>
-                        <script src="<?php echo URL_BASE."/public/assets/js/morris/morris.js";?>"></script>
-                        <!-- CUSTOM SCRIPTS -->
-                        <script src="<?php echo URL_BASE."/public/assets/js/custom.js";?>"></script>
-                        <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header modal-header-primary">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                <h1><i class="glyphicon glyphicon-thumbs-up"></i> Primary Modal</h1>
-                              </div>
-                              <div class="modal-body">
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                              </div>
-                              </div><!-- /.modal-content -->
-                              </div><!-- /.modal-dialog -->
-                              </div><!-- /.modal -->
-                              <script src="<?php echo URL_BASE."/views/Usuario";?>/ajax.js"></script>
-                              <script src="<?php echo URL_BASE."/public/js/chat.js";?>"></script>
+                              <!-- /. ROW  -->
                               
-                            </body>
-                          </html>
+                              <!-- /. PAGE INNER  -->
+                            </div>
+                            <!-- /. PAGE WRAPPER  -->
+                          </div>
+                          <!-- /. WRAPPER  -->
+                          <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+                          <!-- JQUERY SCRIPTS -->
+                          <script src="<?php echo URL_BASE."/public/assets/js/jquery-1.10.2.js";?>"></script>
+                          <!-- BOOTSTRAP SCRIPTS -->
+                          <script src="<?php echo URL_BASE."/public/assets/js/bootstrap.min.js";?>"></script>
+                          <!-- METISMENU SCRIPTS -->
+                          <script src="<?php echo URL_BASE."/public/assets/js/jquery.metisMenu.js";?>"></script>
+                          <!-- MORRIS CHART SCRIPTS -->
+                          <script src="<?php echo URL_BASE."/public/assets/js/morris/raphael-2.1.0.min.js";?>"></script>
+                          <script src="<?php echo URL_BASE."/public/assets/js/morris/morris.js";?>"></script>
+                          <!-- CUSTOM SCRIPTS -->
+                          <script src="<?php echo URL_BASE."/public/assets/js/custom.js";?>"></script>
+                          <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header modal-header-primary">
+                                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                  <h1><i class="glyphicon glyphicon-thumbs-up"></i> Primary Modal</h1>
+                                </div>
+                                <div class="modal-body">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                                </div>
+                                </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                                </div><!-- /.modal -->
+                                <script src="<?php echo URL_BASE."/views/Usuario";?>/ajax.js"></script>
+                                <script src="<?php echo URL_BASE."/public/js/chat.js";?>"></script>
+                                
+                              </body>
+                            </html>
