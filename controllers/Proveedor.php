@@ -31,46 +31,106 @@
 					}
 		}
 
-		public function modificar_proveedor($params=array()){
-			try{
-			if(count($params) > 0){
-				$p = $this->model->getProveedorById($params['identificador']);
-				$d = $this->model->getProveedorDireccionById($params['identificador']);
-				$var = $params['identificador'];
-
-				//var_dump($d);
-				if(empty($p)){
-					View::renderErrors(array("No existe el proveedor con identificador ".$params['identificador']));
-				}
-				else{
-					$this->view->render2(explode("\\",get_class($this))[1], "modificar_proveedor", $p[0], $d[0], $this->getErrores());
-					//if(isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
-						//$this->guardarDireccion($params1);
-
-					/*	print_r($params);
-						$this->updateCliente($params);
-				
-					}*/
-				}
-				
-			}
-			else{
-				
-				View::renderErrors(array("No se envio el identificador del cliente"));	
+		public function eliminar_proveedor($params=array()){
+			try {
+				$this->model->eliminarProveedor($params['identificadorr']);
+				echo "<script language='javascript'>"; 
+				echo "alert('Proveedor eliminado correctamente.')"; 
+				echo "</script>";
+				$this->proveedor_inicio();
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
 			}
 		}
-		catch (Exception $e) {
-						View::renderErrors(array($e->getMessage()));
+
+		public function modificar_proveedor($params=array()){
+			try{
+				if(count($params) > 0){
+					$p = $this->model->getProveedorById($params['identificador']);
+					$d = $this->model->getProveedorDireccionById($params['identificador']);
+					//$var = $params['identificador'];
+
+					//var_dump($d);
+					if(empty($p)){
+						View::renderErrors(array("No existe el proveedor con identificador ".$params['identificador']));
 					}
+					else{
+						$this->view->render3(explode("\\",get_class($this))[1], "modificar_proveedor", $p[0], $d[0],$params, $this->getErrores());
+						//if(isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
+							//$this->guardarDireccion($params1);
+
+						/*	print_r($params);
+							$this->updateCliente($params);
+					
+						}*/
+					}
+					
+				}
+				else{
+					
+					View::renderErrors(array("No se envio el identificador del cliente"));	
+				}
+			}
+			catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
 			
 		}
 
+		public function actualizar_proveedor($params=array()){
+			try {
+				if(isset($params['rfc']) && isset($params['nombre']) && isset($params['telefono']) && isset($params['representanteLegal']) && isset($params['fax']) && isset($params['correoElectronico']) && isset($params['webProveedor']) && isset($params['observaciones']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])){
+					//$this->guardarDireccion($params1);
+
+					//print_r($params);
+					$this->updateProveedor($params);
+					echo "<script language='javascript'>"; 
+					echo "alert('Proveedor actualizado correctamente.')"; 
+					echo "</script>";
+					$this->proveedor_inicio();
+				
+				}
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
+		}
+
+		public function updateProveedor($params){
+			try {
+				$rfc = $params['rfc'];
+			    $nombre = $params['nombre'];
+			    $telefono = $params['telefono'];
+			    $representanteLegal = $params['representanteLegal'];
+			    $fax = $params['fax'];
+			    $correoElectronico = $params['correoElectronico'];
+			    $webProveedor = $params['webProveedor'];
+			    $observaciones = $params['observaciones'];
+			    $ciudad = $params['ciudad'];
+			    $cp = $params['cp'];
+			    $colonia = $params['colonia'];
+			    $calle = $params['calle'];
+			    $numero = $params['numero'];
+			    $detalle = $params['detalle'];	
+
+			    if(count($this->errores) ==0 ){
+			    	try{
+			        	$this->model->actualizarProveedor($rfc,$nombre,$telefono,$representanteLegal,$fax,$correoElectronico,$webProveedor,$observaciones,$ciudad,$cp,$colonia,$calle,$numero,$detalle);
+			    	}
+			    	catch(\Exception $e){
+						$this->errores['global']=$e->getMessage();
+					}
+		    	}			
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
+		}		
+
 		public function guardar_proveedor($params=array()){
 			try{
-			if(isset($params['rfc']) && isset($params['nombre']) && isset($params['telefono']) && isset($params['representanteLegal']) && isset($params['fax']) && isset($params['correoElectronico']) && isset($params['webProveedor']) && isset($params['observaciones']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
+			if(isset($params['rfc']) && isset($params['nombre']) && isset($params['telefono']) && isset($params['representanteLegal']) && isset($params['fax']) && isset($params['correoElectronico']) && isset($params['webProveedor']) && isset($params['observaciones']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])){
 				//$this->guardarDireccion($params1);
 
-				print_r($params);
+				//print_r($params);
 				$this->crearProveedor($params);
 				
 			}
