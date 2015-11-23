@@ -31,16 +31,16 @@
 padding: 15px 50px 5px 50px;
 float: right;
 font-size: 16px;">
-<?php
-    $visit = $_COOKIE['lastVisit'];
-$timeframe = 90 * 60 * 24 * 60 + time();
-setcookie('lastVisit', date("G:i - m/d/y"), $timeframe);
-if(isset($_COOKIE['lastVisit']))
-    $visit = $_COOKIE['lastVisit'];
-else
-echo "Welcome to out web page!";
-echo "Último acceso: ". $visit;
-?>
+<!--<?php
+//    $visit = $_COOKIE['lastVisit'];
+//$timeframe = 90 * 60 * 24 * 60 + time();
+//setcookie('lastVisit', date("G:i - m/d/y"), $timeframe);
+//if(isset($_COOKIE['lastVisit']))
+//    $visit = $_COOKIE['lastVisit'];
+//else
+//echo "Welcome to out web page!";
+//echo "Último acceso: ". $visit;
+?>-->
 &nbsp;<a href="#" class="btn btn-danger square-btn-adjust">Salir</a> </div>
         </nav>   
            <!-- /. NAV TOP  -->
