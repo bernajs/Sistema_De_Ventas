@@ -43,7 +43,7 @@
 
 							
 			//Guardando el proveedor*/
-			echo "holaaa";
+			//echo "holaaa";
 			$this->guardar();
 		}
 		catch (Exception $e) {
@@ -76,16 +76,16 @@
 			//ciudad,$cp,$colonia,$calle,$numero,$detall
 			);*/
 		//print_r($params1);
-echo "holsfdasd";
+	//echo "holsfdasd";
 		$sql1 = vsprintf("INSERT INTO proveedor(rfc,nombre,telefono,representanteLegal,fax,correoElectronico,webProveedor,observaciones) VALUES('%s', '%s', '%s', '%s', '%s','%s','%s','%s');", $params);
-		echo $sql1;
+	//	echo $sql1;
 		$con->executeUpdate(array($sql1));
 		//$sql2 = vsprintf("SELECT max(dni) as dni FROM cliente;");
 
 		//echo $sql2;
 
 		//$CLIENTE_dni = $con->executeUpdate(array($sql2));
-		echo "HASTA AQUI BIEN";
+	//	echo "HASTA AQUI BIEN";
 		//$CLIENTE_dni = $con->executeQuery('SELECT max(dni) as dni FROM cliente;',null, __NAMESPACE__.'\ClienteModel');
 		//$sql= "SELECT max(dni) as dni FROM cliente;";
 		//$DNI = $con->executeQuery($sql);
@@ -105,17 +105,94 @@ echo "holsfdasd";
 			$this->detalle,
 			$this->PROVEEDOR_rfc
 			);
-		print_r($params1);
+		//print_r($params1);
 		$sql3 = vsprintf("INSERT INTO direccion_proveedor(ciudad,cp,colonia,calle,numero,detalle,PROVEEDOR_rfc) VALUES('%s', %s, '%s', '%s', %s, '%s', '%s');", $params1);
-		echo $sql3;
+		//echo $sql3;
 		$con->executeUpdate(array($sql3));
-		echo $sql3;
-		echo "PASOOO TODO";
+		//echo $sql3;
+		//echo "PASOOO TODO";
 	}
 	catch (Exception $e) {
 		throw $e;	
 	}
 	}
+
+
+	public function actualizarProveedor($rfc,$nombre,$telefono,$representanteLegal,$fax,$correoElectronico,$webProveedor,$observaciones,$ciudad,$cp,$colonia,$calle,$numero,$detalle){
+		try {
+			$this->rfc=$rfc;			
+			$this->nombre = $nombre;
+			$this->telefono = $telefono;
+			$this->representanteLegal = $representanteLegal;
+			$this->fax = $fax;
+			$this->correoElectronico = $correoElectronico;
+			$this->webProveedor = $webProveedor;
+			$this->observaciones = $observaciones;
+			$this->ciudad = $ciudad;
+			$this->cp = $cp;
+			$this->colonia = $colonia;
+			$this->calle = $calle;
+			$this->numero = $numero;
+			$this->detalle = $detalle;
+			$this->PROVEEDOR_rfc = $rfc;
+
+			$this->update();
+		} catch (Exception $e) {
+			throw $e;
+		}
+	}
+
+	public function update(){
+		try {
+			$con = DBConexion::getInstance();
+
+			$params = array(					
+					$this->nombre,
+					$this->telefono,
+					$this->representanteLegal,
+					$this->fax,
+					$this->correoElectronico,
+					$this->webProveedor,
+					$this->observaciones
+				);
+
+			$sql1 = vsprintf("UPDATE proveedor SET nombre='%s', telefono='%s',representanteLegal='%s',fax='%s',correoElectronico='%s',webProveedor='%s',observaciones='%s' WHERE rfc=$this->rfc;", $params);
+			$con->executeUpdate(array($sql1));
+
+			$params1 = array(
+					$this->ciudad,
+					$this->cp,
+					$this->colonia,
+					$this->calle,
+					$this->numero,
+					$this->detalle
+				);
+
+			$sql2 = vsprintf("UPDATE direccion_proveedor SET ciudad='%s', cp=%s,colonia='%s',calle='%s',numero=%s,detalle='%s' WHERE PROVEEDOR_rfc=$this->PROVEEDOR_rfc;", $params1);
+			$con->executeUpdate(array($sql2));
+		} catch (Exception $e) {
+			throw $e;	
+		}
+	}
+
+	public function eliminarProveedor($id){
+		try {
+			$con = DBConexion::getInstance();
+
+			if (is_null($con)) {
+			throw new Exception("Error en la conexion a la base de datos, verifique",1);
+			}
+
+			$sql1 = vsprintf("DELETE FROM proveedor WHERE rfc = '%s'", $id);			
+			$con->executeUpdate(array($sql1));
+
+		} catch (Exception $e) {
+			throw $e;
+		}
+	}
+
+
+
 
 	public function listarInventarios(){
 		try{
