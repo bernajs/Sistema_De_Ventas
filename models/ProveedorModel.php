@@ -135,7 +135,9 @@
 			$this->numero = $numero;
 			$this->detalle = $detalle;
 			$this->PROVEEDOR_rfc = $rfc;
-
+			echo "<script language='javascript'>"; 
+			echo "alert('LLEGO.')"; 
+			echo "</script>";
 			$this->update();
 		} catch (Exception $e) {
 			throw $e;
@@ -153,10 +155,11 @@
 					$this->fax,
 					$this->correoElectronico,
 					$this->webProveedor,
-					$this->observaciones
+					$this->observaciones,
+					$this->rfc
 				);
 
-			$sql1 = vsprintf("UPDATE proveedor SET nombre='%s', telefono='%s',representanteLegal='%s',fax='%s',correoElectronico='%s',webProveedor='%s',observaciones='%s' WHERE rfc=$this->rfc;", $params);
+			$sql1 = vsprintf("UPDATE proveedor SET nombre='%s', telefono='%s',representanteLegal='%s',fax='%s',correoElectronico='%s',webProveedor='%s',observaciones='%s' WHERE rfc='%s';", $params);					
 			$con->executeUpdate(array($sql1));
 
 			$params1 = array(
@@ -165,11 +168,14 @@
 					$this->colonia,
 					$this->calle,
 					$this->numero,
-					$this->detalle
+					$this->detalle,
+					$this->PROVEEDOR_rfc
 				);
 
-			$sql2 = vsprintf("UPDATE direccion_proveedor SET ciudad='%s', cp=%s,colonia='%s',calle='%s',numero=%s,detalle='%s' WHERE PROVEEDOR_rfc=$this->PROVEEDOR_rfc;", $params1);
+			$sql2 = vsprintf("UPDATE direccion_proveedor SET ciudad='%s', cp=%s,colonia='%s',calle='%s',numero=%s,detalle='%s' WHERE PROVEEDOR_rfc='%s';", $params1);
+			
 			$con->executeUpdate(array($sql2));
+
 		} catch (Exception $e) {
 			throw $e;	
 		}
