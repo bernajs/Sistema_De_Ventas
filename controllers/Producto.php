@@ -27,6 +27,7 @@
 			try{
 			if(count($params) > 0){
 				$p = $this->model->getProductoById($params['identificador']);
+				$proveedores=$this->model->listarInventarios();
 				//$d = $this->model->getClienteDireccionById($params['identificador']);
 				//$var = $params['identificador'];
 
@@ -35,7 +36,7 @@
 					View::renderErrors(array("No existe el producto con identificador ".$params['identificador']));
 				}
 				else{
-					$this->view->render(explode("\\",get_class($this))[1], "modificar_producto", $p[0], $this->getErrores());
+					$this->view->render3(explode("\\",get_class($this))[1], "modificar_producto", $p[0],$proveedores,$params, $this->getErrores());
 					//if(isset($params['nombre']) && isset($params['aPaterno']) && isset($params['aMaterno']) && isset($params['fechaNacimiento']) && isset($params['ciudad']) && isset($params['cp']) && isset($params['colonia']) && isset($params['calle']) && isset($params['numero']) && isset($params['detalle'])/*/*&& isset($params['DIRECCION_idDireccion'])*/){
 						//$this->guardarDireccion($params1);
 
@@ -57,6 +58,73 @@
 			
 		}
 
+		public function actualizar_producto($params=array()){
+			try {
+				if(isset($params['codigo']) && isset($params['nombre']) && isset($params['precioUnitario']) && isset($params['descripcion']) && isset($params['cantidad']) && isset($params['PROVEEDOR_rfc'])) {
+				//$this->guardarProducto($params);
+				//echo "lol";
+				//print_r($params);
+				$this->updateProducto($params);
+				echo "<script language='javascript'>"; 
+				echo "alert('Producto actualizado correctamente.')"; 
+				echo "</script>"; 
+				$this->producto_inicio();
+				//$proveedores=$this->model->listarInventarios();
+				//$this->crearProveedor($params);
+				
+				}				
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
+		}
+
+		public function updateProducto($params){
+			try {
+				$codigo = $params['codigo'];
+				$nombre = $params['nombre'];
+				$precioUnitario = $params['precioUnitario'];
+				$descripcion = $params['descripcion'];
+				$cantidad = $params['cantidad'];
+				$PROVEEDOR_rfc = $params['PROVEEDOR_rfc'];
+
+				if(count($this->errores) ==0 ){
+			    	try{
+			        	$this->model->actualizarProducto($codigo,$nombre,$precioUnitario,$descripcion,$cantidad,$PROVEEDOR_rfc);
+			    	}
+			    	catch(\Exception $e){
+						$this->errores['global']=$e->getMessage();
+					}
+			    }				
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
+		}
+
+		public function eliminar_producto($params=array()){
+			try {
+				//$b = $params['identificadorr'];
+				//echo "<script language='javascript'>"; 
+				//echo "alert('HOLA')"; 
+				//echo "</script>";
+				//echo "<script language='javascript'>"; 
+				//echo "alert('$b')"; 
+				//echo "</script>";
+				//if (count($params) > 0) {
+				$this->model->eliminarProducto($params['identificadorr']);
+				echo "<script language='javascript'>"; 
+				echo "alert('Producto eliminado correctamente.')"; 
+				echo "</script>";
+				$this->cliente_inicio();
+				
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
+
+			
+			//}
+			  
+		}		
+
 
 
 		public function producto_inicio(){
@@ -75,8 +143,8 @@
 			//$this->guardar($params);
 			if(isset($params['nombre']) && isset($params['precioUnitario']) && isset($params['descripcion']) && isset($params['cantidad']) && isset($params['PROVEEDOR_rfc'])) {
 				//$this->guardarProducto($params);
-				echo "lol";
-				print_r($params);
+				//echo "lol";
+				//print_r($params);
 				$this->guardarProducto($params);
 				//$proveedores=$this->model->listarInventarios();
 				//$this->crearProveedor($params);
@@ -91,11 +159,11 @@
 
 		public function guardarProducto($params){
 			try{
-			$nombre = $params['nombre'];
-		    $precioUnitario = $params['precioUnitario'];
-		    $descripcion = $params['descripcion'];
-		    $cantidad = $params['cantidad'];
-		    $PROVEEDOR_rfc = $params['PROVEEDOR_rfc'];
+				$nombre = $params['nombre'];
+			    $precioUnitario = $params['precioUnitario'];
+			    $descripcion = $params['descripcion'];
+			    $cantidad = $params['cantidad'];
+			    $PROVEEDOR_rfc = $params['PROVEEDOR_rfc'];
 
 		    if(count($this->errores) ==0 ){
 		    	try{
