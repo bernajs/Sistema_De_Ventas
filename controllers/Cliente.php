@@ -20,8 +20,8 @@
 			$this->view->render(explode("\\",get_class($this))[1], "mostrar_clientes", $clientes,$this->getErrores());
 		}
 		catch (Exception $e) {
-						View::renderErrors(array($e->getMessage()));
-					}
+				View::renderErrors(array($e->getMessage()));
+			}
 		}
 
 		public function eliminar_cliente($params=array()){
