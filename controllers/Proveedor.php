@@ -97,6 +97,9 @@
 
 		public function updateProveedor($params){
 			try {
+				echo "<script language='javascript'>"; 
+				echo "alert('HOLI.')"; 
+				echo "</script>";
 				$rfc = $params['rfc'];
 			    $nombre = $params['nombre'];
 			    $telefono = $params['telefono'];
