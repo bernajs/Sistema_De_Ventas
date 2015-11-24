@@ -888,3 +888,5 @@
 
 2015-11-20 11:57:52 (CST)      Trying to get property of non-object C:\Apache24\htdocs\proyectoEjemplo\views\Cliente\mostrar_clientes.php 223
 
+2015-11-24 00:10:24 (CST)      Fichero models\DateTime no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
