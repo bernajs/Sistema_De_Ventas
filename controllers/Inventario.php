@@ -17,6 +17,9 @@
 		public function listarInventario(){
 			$inventarios = $this->model->listarInventarios();
 			$this->view->render(explode("\\",get_class($this))[1], "listar", $inventarios, $this->getErrores());
+			$a=getdate();
+			var_dump($a);
+
 
 		}
 

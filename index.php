@@ -5,7 +5,7 @@
 	require_once("utils/errorLogging.php");
 
 
-	$url = ( isset($_GET['url']) ) ? $_GET['url'] : "Main/index"; 
+	$url = ( isset($_GET['url']) && !empty($_GET['url']) ) ? $_GET['url'] : "Main/index"; 
 	//echo $url."</br>";
 	//Dividiendo la url
 	$url = explode("/", $url);

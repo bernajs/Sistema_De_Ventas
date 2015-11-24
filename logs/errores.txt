@@ -1056,3 +1056,155 @@
 
 2015-11-24 08:34:27 (CST)      Undefined index: global C:\Apache24\htdocs\Sistema_De_Ventas\views\Inventario\crear.php 18
 
+2015-11-24 09:26:37 (CST)      Array to string conversion C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Inventario.php 21
+
+2015-11-24 09:46:05 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:46:08 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:46:08 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:46:08 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:46:08 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:46:08 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:46:08 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:46:09 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:46:09 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:46:09 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:46:09 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:49:09 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:49:17 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:51:50 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:51:52 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:51:52 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:51:53 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:51:53 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:51:53 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:19 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:21 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:22 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:22 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:22 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:22 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:23 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:23 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:23 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:23 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:24 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:24 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:24 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:24 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:25 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:25 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:25 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:25 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:26 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:53:26 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:54:23 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:54:25 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:54:25 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:54:26 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:54:26 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:54:26 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:55:33 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:55:35 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:55:35 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:55:35 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:55:35 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:55:35 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inventario_db.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:30 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:31 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:31 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:31 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:31 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:31 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:32 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:32 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:32 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:32 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:32 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:56:32 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:57:57 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:57:58 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:57:58 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:57:59 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:57:59 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:59:27 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 09:59:29 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 10:01:55 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 10:01:56 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 10:01:56 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 10:01:57 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-24 10:01:57 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
