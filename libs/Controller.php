@@ -43,6 +43,10 @@ abstract class Controller{
 		}
 	}
 
+	public function redirect($controlador=CONTROLADOR_DEFECTO,$metodo=ACCION_DEFECTO){
+        header("Location: ".URL_BASE."/index.php/".$controlador."/".$metodo);
+    }
+
 	public function getErrorstoString(){
 		return implode("\n", $this->errores);
 	}
