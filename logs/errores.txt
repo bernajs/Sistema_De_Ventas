@@ -890,3 +890,169 @@
 
 2015-11-24 00:10:24 (CST)      Fichero models\DateTime no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
 
+2015-11-24 08:17:47 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:49 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:50 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:50 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:50 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:51 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:51 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:52 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:52 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:52 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:55 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:56 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:56 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:56 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:56 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:56 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:57 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:57 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:57 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:57 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:58 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:58 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:58 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:58 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:59 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:59 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:17:59 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:00 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:00 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:00 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:00 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:01 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:01 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:01 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:01 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:01 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:02 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:06 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:06 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:06 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:06 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:07 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:07 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:07 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:08 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:20 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:21 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:21 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:21 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:22 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:22 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:22 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:23 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:23 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:23 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:23 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:24 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:24 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:24 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:36 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:38 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:38 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:38 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:38 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:38 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:38 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:39 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:18:39 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:19:04 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:04 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:07 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:07 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:07 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:07 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:07 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:08 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:08 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:08 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:08 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:21:09 (CST)      Fichero libs\Validation no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-24 08:25:11 (CST)      Undefined index: global C:\Apache24\htdocs\Sistema_De_Ventas\views\Inventario\crear.php 18
+
+2015-11-24 08:33:31 (CST)      Undefined index: global C:\Apache24\htdocs\Sistema_De_Ventas\views\Inventario\crear.php 18
+
+2015-11-24 08:34:27 (CST)      Undefined index: global C:\Apache24\htdocs\Sistema_De_Ventas\views\Inventario\crear.php 18
+

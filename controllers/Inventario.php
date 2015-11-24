@@ -1,70 +1,72 @@
 <?php
 	namespace controllers;	
 	use libs\Controller;
+	use libs\Validation;
 	use libs\View;
 
 	class Inventario extends Controller {
+		private $valida;
 
 		public function __construct(){
 			parent::__construct();
+			$this->valida = new Validation();
 			$this->loadModel();
 			
 		}
 
 		public function listarInventario(){
-			$inventarios=$this->model->listarInventarios();
-			$this->view->render(explode("\\", get_class($this))[1], "listar", $inventarios, $this->getErrores);
+			$inventarios = $this->model->listarInventarios();
+			$this->view->render(explode("\\",get_class($this))[1], "listar", $inventarios, $this->getErrores());
+
 		}
 
+
 		public function crear($params=array()){
-			try{
 			//Llamando al metodo del modelo
 			if(isset($params['dia']) && isset($params['demanda']) && isset($params['produccion'])){
-				$this->crearInventario($params);
+				try{
+					$this->crearInventario($params);
+					//Renderizando la vista asociada
+					$this->view->render(explode("\\",get_class($this))[1], "crear",null,$this->getErrores());
+
+				}
+				catch(\Exception $e){
+
+					View::renderErrors(array($e->getMessage()));
+		
+		    
+				}
+				
 			}
-			//Renderizando la vista asociada
-			$this->view->render(explode("\\",get_class($this))[1], "crear",$this->getErrores());
-		}
-		catch (Exception $e) {
-						View::renderErrors(array($e->getMessage()));
-					}
+			else{
+				$this->view->render(explode("\\",get_class($this))[1], "crear",null,$this->getErrores());	
+			}
+			
+
+			
 		}
 
 		public function crearInventario($params){
-			try{
+			
 		    $dia = $params['dia'];
 		    $produccion = $params['produccion'];
 		    $demanda = $params['demanda'];
 
-		    if(!is_numeric($dia)){
-		        $this->errores['dia']="Oye el dia no es un numero, no seas bobo chico";
-		        
+		   
+		    $this->valida->validaNumeros($dia, 1, 9000, 'El dia no esta en los limites correctos o no es un numero');
+		    $this->valida->validaNumeros($produccion, 1, 9000, 'La demanda no esta en los limites correctos o no es un numero');
+		    $this->valida->validaNumeros($demanda, 1, 9000, 'La produccion no esta en los limites correctos o no es un numero');
+
+		    if(count($this->valida->getErroresValidacion()) == 0 ){
+		    	
+	        	$this->model->crearInventario($dia, $produccion, $demanda);
+		    	
+		    }else{
+		    	$this->view->render(explode("\\",get_class($this))[1], "crear",null,$this->valida->getErroresValidacion());
+		    	
 		    }
 		    
-		    if(!is_numeric($demanda)){
-		        $this->errores['demanda']="Oye la demanda no es un numero, no seas bobo chico";
-		        
-		    }
-
-		    if(!is_numeric($produccion)){
-		        $this->errores['produccion']="Oye la produccion no es un numero, analiza";
-		        
-		    }
-
-		    if(count($this->errores) ==0 ){
-		    	try{
-		        	$this->model->crearInventario($dia, $produccion, $demanda);
-		    	}
-		    	catch(\Exception $e){
-					$this->errores['global']=$e->getMessage();
-				}
-		    }
-		}
-		catch (Exception $e) {
-						View::renderErrors(array($e->getMessage()));
-					}
-				
-		}
+		}	    
 	}
 
 ?>

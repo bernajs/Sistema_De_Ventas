@@ -7,7 +7,7 @@ class DBConexion{
 	private $port="3306";
 	private $user ="root";
 	private $pass= "root";
-	private $dbname="sistema_ventas";
+	private $dbname="inventario_db";
 	public static $driver = "mysql";
 
 	private static $instance = null;

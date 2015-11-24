@@ -122,20 +122,20 @@ class InventarioModel {
 
 	public function listarInventarios(){
 		try{
-		$con = DBConexion::getInstance();
-		if (is_null($con)) {
-			throw new Exception("Error en la conexion a la base de datos, verifique",1);
+			$con = DBConexion::getInstance();
+			if (is_null($con)) {
+				throw new Exception("Error en la conexion a la base de datos, verifique",1);
+			}
+
+			$inventarios = $con->executeQuery('SELECT * FROM inventario;',null, __NAMESPACE__.'\InventarioModel');
+
+			return $inventarios;
+		}
+		catch (Exception $e) {
+			throw $e;	
+
 		}
 
-		$inventarios = $con->executeQuery('SELECT * FROM inventario;',null, __NAMESPACE__.'\InventarioModel');
-
-		return $inventarios;
 	}
 }
-catch (Exception $e) {
-	throw $e;	
-}
 
-}
-
-?>
