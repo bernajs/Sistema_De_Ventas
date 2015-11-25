@@ -50,24 +50,29 @@
 		}
 
 		public function crearInventario($params){
+			try {
+				$dia = $params['dia'];
+			    $produccion = $params['produccion'];
+			    $demanda = $params['demanda'];
+
+			   
+			    $this->valida->validaNumeros($dia, 1, 9000, 'El dia no esta en los limites correctos o no es un numero');
+			    $this->valida->validaNumeros($produccion, 1, 9000, 'La demanda no esta en los limites correctos o no es un numero');
+			    $this->valida->validaNumeros($demanda, 1, 9000, 'La produccion no esta en los limites correctos o no es un numero');
+
+			    if(count($this->valida->getErroresValidacion()) == 0 ){
+			    	
+		        	$this->model->crearInventario($dia, $produccion, $demanda);
+			    	
+			    }else{
+			    	$this->view->render(explode("\\",get_class($this))[1], "crear",null,$this->valida->getErroresValidacion());
+			    	
+			    }				
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
 			
-		    $dia = $params['dia'];
-		    $produccion = $params['produccion'];
-		    $demanda = $params['demanda'];
-
-		   
-		    $this->valida->validaNumeros($dia, 1, 9000, 'El dia no esta en los limites correctos o no es un numero');
-		    $this->valida->validaNumeros($produccion, 1, 9000, 'La demanda no esta en los limites correctos o no es un numero');
-		    $this->valida->validaNumeros($demanda, 1, 9000, 'La produccion no esta en los limites correctos o no es un numero');
-
-		    if(count($this->valida->getErroresValidacion()) == 0 ){
-		    	
-	        	$this->model->crearInventario($dia, $produccion, $demanda);
-		    	
-		    }else{
-		    	$this->view->render(explode("\\",get_class($this))[1], "crear",null,$this->valida->getErroresValidacion());
-		    	
-		    }
+		    
 		    
 		}	    
 	}

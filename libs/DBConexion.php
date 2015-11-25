@@ -6,8 +6,8 @@ class DBConexion{
 	private $host="localhost";
 	private $port="3306";
 	private $user ="root";
-	private $pass= "root";
-	private $dbname="sistema_ventas";
+	private $pass= "1234";
+	private $dbname="inventario_db";
 	public static $driver = "mysql";
 
 	private static $instance = null;
