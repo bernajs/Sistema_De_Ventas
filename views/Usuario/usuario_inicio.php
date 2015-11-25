@@ -284,7 +284,7 @@
                                     <i class="fa fa-search"></i>
                                   </span>
                                   <div class="text-box" >
-                                    <a  href="consulta_usuario.html">
+                                    <a  href="<?php echo URL_BASE;?>/index.php/Usuario/mostrar_usuarios">
                                       <p class="main-text">Consultar usuario</p></a>
                                       <!--<p class="text-muted">Pending</p>-->
                                     </div>
