@@ -169,7 +169,7 @@
 		    	try{
 		        	$this->model->crearInventario($nombre,$precioUnitario,$descripcion,$cantidad,$PROVEEDOR_rfc);
 		    	}
-		    	catch(\Exception $e){
+		    	catch(Exception $e){
 					$this->errores['global']=$e->getMessage();
 				}
 		    }
