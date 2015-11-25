@@ -75,6 +75,19 @@
 			}
 		}
 
+		public function getUsuarioById($id){
+			try {
+				$con = DBConexion::getInstance();
+				if (is_null($con)) {
+					throw new Exception("Error en la conexion a la base de datos, verifique",1);
+				}
+				$usuario = $con->executeQuery("SELECT * FROM usuario WHERE idUsuario = ?;",array($id),__NAMESPACE__.'\UsuarioModel');
+				return $usuario;
+			} catch (Exception $e) {
+				throw $e;
+			}
+		}
+
 
 
 	}

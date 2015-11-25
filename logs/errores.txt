@@ -1376,3 +1376,5 @@
 
 2015-11-25 13:03:38 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 69
 
+2015-11-25 13:55:25 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Usuario\modificar_usuario.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 21
+

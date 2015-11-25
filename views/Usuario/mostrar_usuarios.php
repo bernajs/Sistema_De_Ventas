@@ -274,7 +274,7 @@
                 $("#modal-edit").load("<?php echo URL_BASE;?>/index.php/Cliente/eliminar_cliente",{identificadorr:$(this).val()});
                 });
                 $(".prueba").on("click", function(){
-                $("#modal-edit").load("<?php echo URL_BASE;?>/index.php/Cliente/modificar_cliente", {identificador:$(this).val()});
+                $("#modal-edit").load("<?php echo URL_BASE;?>/index.php/Usuario/modificar_usuario", {identificador:$(this).val()});
                 });
                 </script>
                 

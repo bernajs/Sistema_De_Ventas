@@ -76,6 +76,26 @@
 			}
 		}
 
+		public function modificar_usuario($params=array()){
+			try {
+				if (count($params)>0) {
+					$u = $this->model->getUsuarioById($params['identificador']);
+					if (empty($u)) {
+						View::renderErrors(array("No existe el usuario con identificador ".$params['identificador']));
+					}else{
+						$this->view->render(explode("\\",get_class($this))[1], "modificar_usuario", $u[0], $this->getErrores());
+					}
+
+				}else{
+					View::renderErrors(array("No se envio el identificador del producto"));	
+				}
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
+		}
+
+
+
 		public function index(){
 			try{
 			$this->view->render(explode("\\",get_class($this))[1], "index",$this->getErrores());
