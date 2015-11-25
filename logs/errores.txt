@@ -1208,3 +1208,155 @@
 
 2015-11-24 10:01:57 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
 
+2015-11-24 15:27:43 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\producto_inicio.php 49
+
+2015-11-25 10:13:29 (CST)      Fichero models\DateTime no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-11-25 10:15:49 (CST)      date() expects at least 1 parameter, 0 given C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 42
+
+2015-11-25 10:16:22 (CST)      date() expects at least 1 parameter, 0 given C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 42
+
+2015-11-25 10:23:49 (CST)      SQLSTATE[HY000]: General error: 1364 Field 'idUsuario' doesn't have a default value C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-25 10:24:06 (CST)      SQLSTATE[HY000]: General error: 1364 Field 'idUsuario' doesn't have a default value C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-25 10:38:07 (CST)      SQLSTATE[HY000]: General error: 1364 Field 'idUsuario' doesn't have a default value C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-25 10:59:06 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.usuarios' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 69
+
+2015-11-25 11:00:31 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:00:31 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:00:31 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:00:31 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:00:31 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 225
+
+2015-11-25 11:00:31 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 225
+
+2015-11-25 11:00:31 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 225
+
+2015-11-25 11:00:31 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 225
+
+2015-11-25 11:01:11 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 11:01:11 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 11:01:11 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:11 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:11 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:11 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:12 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 11:01:12 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 11:01:12 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:12 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:12 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:12 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:31 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 11:01:31 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 11:01:31 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:31 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:31 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:01:31 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 223
+
+2015-11-25 11:02:06 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 11:02:06 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 11:02:50 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:02:50 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:02:50 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:02:50 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:03:14 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:03:14 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:03:14 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:03:14 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:03:20 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:03:20 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:03:20 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:03:20 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:03:23 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:03:23 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:03:23 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:03:23 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:03:27 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:03:27 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:03:27 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:03:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:04:08 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:04:08 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:04:08 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:04:08 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:04:12 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:04:12 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:04:12 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:04:12 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:04:20 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:04:20 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:04:20 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:04:20 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:04:29 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:04:29 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:04:29 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:04:29 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:05:49 (CST)      Undefined variable: clientes C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Usuario.php 73
+
+2015-11-25 11:05:49 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 141
+
+2015-11-25 11:05:49 (CST)      Undefined variable: usuario C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 11:05:49 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+

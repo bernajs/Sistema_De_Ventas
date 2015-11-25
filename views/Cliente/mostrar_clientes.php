@@ -220,7 +220,7 @@
                           </div>
                           <div class="modal-body">
                             
-                            <div class="alert alert-danger"><span class="glyphicon glyphicon-warning-sign"></span>¿Está seguro que desea eliminar el cliente <?php echo $cliente->nombre;?> <?php echo $cliente->aPaterno;?>?</div>
+                            <div class="alert alert-danger"><span class="glyphicon glyphicon-warning-sign"></span>¿Está seguro que desea eliminar el cliente <?php //echo $cliente->nombre;?> <?php //echo $cliente->aPaterno;?>?</div>
                             
                           </div>
                           <div class="modal-footer ">

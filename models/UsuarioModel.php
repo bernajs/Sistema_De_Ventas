@@ -32,13 +32,18 @@
 
 		public function guardar(){
 			try {
-				echo "<script language='javascript'>";
-				echo "alert('HOLAA')";
-				echo "</script>";
-				$this->dt = new DateTime();				
-				$this->ultima_entrada = $this->dt->format('Y-m-d H:i:s');
-				$this->dtt = new DateTime();
-				$this->fecha_creacion = $this->dtt->format('Y-m-d H:i:s');
+				//echo "<script language='javascript'>";
+				//echo "alert('HOLAA')";
+				//echo "</script>";
+				//$this->dt = new DateTime();				
+				//$this->ultima_entrada = $this->dt->format('Y-m-d H:i:s');
+				//$this->dtt = new DateTime();
+				//$this->fecha_creacion = $this->dtt->format('Y-m-d H:i:s');
+				$a = date("Y-m-d H:i:s");
+				//$b = date("h:i:sa");
+				$this->ultima_entrada = $a;
+				$this->fecha_creacion = $a;
+				//var_dump($a);
 				$con = DBConexion::getInstance();
 				$params = array(
 					$this->usuario,
@@ -56,4 +61,20 @@
 				throw $e;
 			}
 		}
+
+		public function listarUsuarios(){
+			try {
+				$con = DBConexion::getInstance();
+				if (is_null($con)) {
+					throw new Exception("Error en la conexion a la base de datos, verifique",1);				
+				}
+				$clientes = $con->executeQuery('SELECT * FROM usuario',null, __NAMESPACE__.'\UsuarioModel');				
+				return $clientes;
+			} catch (Exception $e) {
+				throw $e;
+			}
+		}
+
+
+
 	}
