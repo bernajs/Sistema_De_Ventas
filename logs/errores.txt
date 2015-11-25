@@ -1360,3 +1360,19 @@
 
 2015-11-25 11:05:49 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
 
+2015-11-25 12:40:30 (CST)      Undefined variable: usuario C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 12:40:30 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 12:45:27 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 12:45:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 12:49:34 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 12:49:34 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 191
+
+2015-11-25 13:03:38 (CST)      Undefined index: user C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 68
+
+2015-11-25 13:03:38 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 69
+
