@@ -271,7 +271,7 @@
                 $("#delete").load("<?php echo URL_BASE;?>/index.php/Cliente/eliminar_cliente",{identificadorr:$("#object_id").val()});
                 });*/
                 $(".prueba1").on("click",function(){
-                $("#modal-edit").load("<?php echo URL_BASE;?>/index.php/Cliente/eliminar_cliente",{identificadorr:$(this).val()});
+                $("#modal-edit").load("<?php echo URL_BASE;?>/index.php/Usuario/eliminar_usuario",{identificadorr:$(this).val()});
                 });
                 $(".prueba").on("click", function(){
                 $("#modal-edit").load("<?php echo URL_BASE;?>/index.php/Usuario/modificar_usuario", {identificador:$(this).val()});

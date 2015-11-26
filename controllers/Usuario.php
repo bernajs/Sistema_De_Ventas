@@ -134,6 +134,18 @@
 			}
 		}
 
+		public function eliminar_usuario($params=array()){
+			try {
+				$this->model->eliminarUsuario($params['identificadorr']);
+				echo "<script language='javascript'>"; 
+				echo "alert('Usuario eliminado correctamente.')"; 
+				echo "</script>";
+				$this->usuario_inicio();
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
+		}
+
 
 
 		public function index(){

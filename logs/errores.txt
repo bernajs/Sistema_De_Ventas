@@ -1398,3 +1398,55 @@
 
 2015-11-25 17:28:20 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
 
+2015-11-26 00:19:29 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:19:29 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:19:36 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:19:36 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:19:38 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:19:38 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:19:38 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:19:38 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:19:38 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:19:38 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:19:39 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:19:39 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:19:39 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:19:39 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:19:40 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:19:40 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:19:40 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:19:40 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:19:40 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:19:40 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:21:49 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:21:49 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:21:51 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:21:51 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-26 00:21:51 (CST)      Undefined variable: sql1 C:\Apache24\htdocs\Sistema_De_Ventas\models\UsuarioModel.php 132
+
+2015-11-26 00:21:51 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+

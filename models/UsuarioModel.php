@@ -122,6 +122,19 @@
 			}
 		}
 
+		public function eliminarUsuario($id){
+			try {
+				$con = DBConexion::getInstance();
+				if (is_null($con)) {
+					throw new Exception("Error en la conexion a la base de datos, verifique",1);
+				}
+				$sql = vsprintf("DELETE FROM usuario WHERE idUsuario = %s", $id);
+				$con->executeUpdate(array($sql));
+			} catch (Exception $e) {
+				throw $e;
+			}
+		}
+
 
 
 	}
