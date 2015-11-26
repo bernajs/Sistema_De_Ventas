@@ -14,6 +14,37 @@
 
 </head>
 <body>
+
+  <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="<?php echo URL_BASE;?>/index.php/Inicio/inicio">Sistema de Ventas</a> 
+            </div>
+  <div style="color: white;
+padding: 15px 50px 5px 50px;
+float: right;
+font-size: 16px"> 
+<?php
+    $visit = $_COOKIE['lastVisit'];
+$timeframe = 90 * 60 * 24 * 60 + time();
+setcookie('lastVisit', date("G:i - m/d/y"), $timeframe);
+if(isset($_COOKIE['lastVisit']))
+    $visit = $_COOKIE['lastVisit'];
+else
+echo "Welcome to out web page!";
+echo "Último acceso: ". $visit;
+?>
+ &nbsp;<a style="border-radius: 5px" href="#" class="btn btn-danger square-btn-adjust">Salir</a> </div>
+        </nav> 
+        </div>
+
+  
     <div class="container">
         <div class="row text-center ">
             <div class="col-md-12">

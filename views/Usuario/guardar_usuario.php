@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free Bootstrap Admin Template : Binary Admin</title>
+  <title>Tu Sistema de Ventas</title>
   <!-- BOOTSTRAP STYLES-->
   <link href="<?php echo URL_BASE."/public/assets/css/bootstrap.css";?>" rel="stylesheet">
   <!-- FONTAWESOME STYLES-->
@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo URL_BASE;?>/index.php/Inicio/inicio">Sistema de Ventas</a> 
+                <a class="navbar-brand" href="<?php echo URL_BASE;?>/index.php/Usuario/usuario_inicio">Sistema de Ventas</a> 
             </div>
   <div style="color: white;
 padding: 15px 50px 5px 50px;

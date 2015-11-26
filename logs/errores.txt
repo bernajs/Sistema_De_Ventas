@@ -1450,3 +1450,33 @@
 
 2015-11-26 00:21:51 (CST)      SQLSTATE[HY000]: General error: trying to execute an empty query C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
 
+2015-11-26 09:49:51 (CST)      Undefined index: user C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 68
+
+2015-11-26 09:49:51 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 69
+
+2015-11-26 09:50:42 (CST)      Undefined index: user C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 68
+
+2015-11-26 09:50:42 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 69
+
+2015-11-26 09:50:56 (CST)      Undefined index: user C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 68
+
+2015-11-26 09:50:56 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 69
+
+2015-11-26 09:51:18 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 34
+
+2015-11-26 09:51:18 (CST)      Undefined index: user C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 99
+
+2015-11-26 09:51:18 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 100
+
+2015-11-26 09:51:18 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 101
+
+2015-11-26 09:51:18 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 102
+
+2015-11-26 10:00:51 (CST)      Undefined index: user C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 99
+
+2015-11-26 10:00:51 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 100
+
+2015-11-26 10:00:51 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 101
+
+2015-11-26 10:00:51 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 102
+

@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo URL_BASE;?>/index.php/Inicio/inicio">Sistema de Ventas</a> 
+                <a class="navbar-brand" href="<?php echo URL_BASE;?>/index.php/Producto/producto_inicio">Sistema de Ventas</a> 
             </div>
   <div style="color: white;
 padding: 15px 50px 5px 50px;
