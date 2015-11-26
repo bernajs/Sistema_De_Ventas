@@ -26,7 +26,7 @@
 			$productos=$this->model->listarProductos();	
 			$productos1=$this->model->listarProductos();
 			//print_r($productos);
-			echo "lol";
+			//echo "lol";
 			//print_r($productos1);
 			//print_r($clientes);
 			//$this->view->render(explode("\\",get_class($this))[1], "guardar_producto",$proveedores,$this->getErrores());			

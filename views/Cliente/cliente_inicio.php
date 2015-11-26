@@ -59,7 +59,8 @@ echo "Welcome to out web page!";
 echo "Último acceso: ". $visit;
 ?>
  &nbsp;<a style="border-radius: 5px" href="#" class="btn btn-danger square-btn-adjust">Salir</a> </div>
-        </nav>   
+        </nav> 
+        </div>  
            <!-- /. NAV TOP  -->
                 <nav class="navbar-default navbar-side" role="navigation">
             <div class="sidebar-collapse">
