@@ -38,7 +38,7 @@
                 <?php if(isset($this->errores['usuario'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['usuario'];?></span><?php endif;?>
               </div>
               <div class="form-group input-group <?php if (isset($this->errores['contrasenya'])) echo 'has-error' ; ?>">
-                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
                 <input class="form-control" name="contrasenya" id="contrasenya" placeholder="Password" type="text">
                 <?php if(isset($this->errores['contrasenya'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['contrasenya'];?></span><?php endif;?>
               </div>

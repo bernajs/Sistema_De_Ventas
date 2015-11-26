@@ -101,7 +101,7 @@
                      else {
 
                           var x = document.createElement('select');
-                          x.setAttribute("name","selector");
+                          x.setAttribute("name","selector[]");
                           x.setAttribute("id","selector");
 
                           x.setAttribute("class","form-control");

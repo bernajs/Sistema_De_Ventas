@@ -1378,3 +1378,23 @@
 
 2015-11-25 13:55:25 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Usuario\modificar_usuario.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 21
 
+2015-11-25 14:18:07 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-25 14:18:15 (CST)      SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_ventas.sesion' doesn't exist C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 116
+
+2015-11-25 14:43:43 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Main\index.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 21
+
+2015-11-25 14:43:49 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Main\index.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 21
+
+2015-11-25 16:44:59 (CST)      Undefined variable: usuario C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 16:44:59 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 193
+
+2015-11-25 16:58:06 (CST)      Undefined variable: var C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\modificar_usuario.php 20
+
+2015-11-25 17:03:53 (CST)      Undefined variable: var C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\modificar_usuario.php 20
+
+2015-11-25 17:26:33 (CST)      Undefined variable: var C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\modificar_usuario.php 21
+
+2015-11-25 17:28:20 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
+

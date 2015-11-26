@@ -25,8 +25,7 @@
 			}
 			catch(\Exception $e){
 				View::renderErrors(array($e->getMessage()));
-			}
-			
+			}			
 			
 		}
 

@@ -4,6 +4,7 @@
 	use libs\DBConexion;
 
 	class UsuarioModel{
+		public $idUsuario;
 		public $usuario;
 		public $contrasenya;
 		public $nombre;
@@ -81,8 +82,41 @@
 				if (is_null($con)) {
 					throw new Exception("Error en la conexion a la base de datos, verifique",1);
 				}
-				$usuario = $con->executeQuery("SELECT * FROM usuario WHERE idUsuario = ?;",array($id),__NAMESPACE__.'\UsuarioModel');
+				$usuario = $con->executeQuery("SELECT usuario,contrasenya,nombre,apellidos,activo FROM usuario WHERE idUsuario = ?;",array($id),__NAMESPACE__.'\UsuarioModel');
 				return $usuario;
+			} catch (Exception $e) {
+				throw $e;
+			}
+		}
+
+		public function actualizarUsuario($idUsuario,$usuario,$contrasenya,$nombre,$apellidos,$activo){
+			try {
+				$this->idUsuario = $idUsuario;
+				$this->usuario = $usuario;
+				$this->contrasenya = $contrasenya;
+				$this->nombre = $nombre;
+				$this->apellidos = $apellidos;
+				$this->activo = $activo;
+
+				$this->update();
+			} catch (Exception $e) {
+				throw $e;
+			}
+		}
+
+		public function update(){
+			try {
+				$con = DBConexion::getInstance();
+				$params = array(
+					$this->usuario,
+					$this->contrasenya,
+					$this->nombre,
+					$this->apellidos,
+					$this->activo
+				);
+
+				$sql1 = vsprintf("UPDATE usuario SET usuario='%s', contrasenya='%s',nombre='%s',apellidos='%s',activo=%s WHERE idUsuario=$this->idUsuario;", $params);
+				$con->executeUpdate(array($sql1));
 			} catch (Exception $e) {
 				throw $e;
 			}
