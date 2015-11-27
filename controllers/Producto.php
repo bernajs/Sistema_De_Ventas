@@ -2,14 +2,15 @@
 	namespace controllers;	
 	use libs\Controller;
 	use libs\View;
+	use libs\Validation;
 
 	class Producto extends Controller{
 
+		private $valida;
 		public function __construct(){
 			parent::__construct();
+			$this->valida = new Validation();
 			$this->loadModel();
-
-			
 		}
 
 		public function mostrar_productos(){
@@ -87,6 +88,14 @@
 				$cantidad = $params['cantidad'];
 				$PROVEEDOR_rfc = $params['PROVEEDOR_rfc'];
 
+
+				    $this->valida->validaTexto($nombre, 2, 45, false, 'El nombre que ingresó es muy corto o largo');
+				    $this->valida->validaNumeros($precioUnitario, 0, 90000, 'El precio no es correcto');
+				    $this->valida->validaTexto($descripcion, 2, 45, true, 'El nombre que ingresó es muy corto o largo');
+				    $this->valida->validaNumeros($cantidad, 1, 45, 'El nombre que ingresó es muy corto o largo');
+
+
+				    if(count($this->valida->getErroresValidacion()) == 0 ){
 				if(count($this->errores) ==0 ){
 			    	try{
 			        	$this->model->actualizarProducto($codigo,$nombre,$precioUnitario,$descripcion,$cantidad,$PROVEEDOR_rfc);
@@ -94,7 +103,11 @@
 			    	catch(\Exception $e){
 						$this->errores['global']=$e->getMessage();
 					}
-			    }				
+			    }
+			    }	else{
+					    	$this->view->render(explode("\\",get_class($this))[1], "mostrar_productos",null,$this->valida->getErroresValidacion());
+					    	
+					    }			
 			} catch (Exception $e) {
 				View::renderErrors(array($e->getMessage()));
 			}
@@ -165,6 +178,12 @@
 			    $cantidad = $params['cantidad'];
 			    $PROVEEDOR_rfc = $params['PROVEEDOR_rfc'];
 
+			    $this->valida->validaTexto($nombre, 2, 45, false, 'El nombre que ingresó es muy corto o largo');
+			    $this->valida->validaNumeros($precioUnitario, 0, 90000, 'El precio no es correcto');
+			    $this->valida->validaTexto($descripcion, 2, 45, true, 'El nombre que ingresó es muy corto o largo');
+			    $this->valida->validaNumeros($cantidad, 1, 45, 'El nombre que ingresó es muy corto o largo');
+
+		if(count($this->valida->getErroresValidacion()) == 0 ){
 		    if(count($this->errores) ==0 ){
 		    	try{
 		        	$this->model->crearInventario($nombre,$precioUnitario,$descripcion,$cantidad,$PROVEEDOR_rfc);
@@ -173,6 +192,10 @@
 					$this->errores['global']=$e->getMessage();
 				}
 		    }
+		}else{
+					    	$this->view->render(explode("\\",get_class($this))[1], "guardar_producto",null,$this->valida->getErroresValidacion());
+					    	
+					    }
 			}
 			catch (Exception $e) {
 							View::renderErrors(array($e->getMessage()));

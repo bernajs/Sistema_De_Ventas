@@ -71,10 +71,20 @@
           
         </nav>
         <!-- /. NAV SIDE  -->
+
         <div id="page-wrapper" >
           <div id="page-inner">
             <div class="row">
               <div class="col-md-12">
+              <?php $errores = $this->getErrores();
+                  if(count($errores) > 0):?>
+                  <div class="alert alert-danger" role="alert">
+
+                  <?php foreach ($errores as  $error):?>
+                      <b><?php echo $error;?></b><br/>
+                  <?php endforeach;?>
+                  </div>
+              <?php endif;?>
                 <h2>Menú usuarios</h2>
                 <h5>Elige la acción que desees realizar. </h5>
               </div>

@@ -49,6 +49,17 @@ echo "Último acceso: ". $visit;
 
 
   <div class="container">
+
+  <?php $errores = $this->getErrores();
+      if(count($errores) > 0):?>
+      <div class="alert alert-danger" role="alert">
+
+      <?php foreach ($errores as  $error):?>
+          <b><?php echo $error;?></b><br/>
+      <?php endforeach;?>
+      </div>
+  <?php endif;?>
+  
     <div class="row text-center  ">
       <div class="col-md-12">
         <h2> Regístrate</h2>

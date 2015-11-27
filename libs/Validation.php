@@ -17,17 +17,17 @@ class Validation{
 			}
 		}
 		if(is_numeric($max)){
-			if(strlen($text) > $min){
+			if(strlen($text) > $max){
 				$this->errors[] = $mensaje.". El valor del campo es: ".$text;
 				return false;
 			}
 		}
 
 		if($espacios){
-			$res = ereg("^[A-Za-z0-9\ ]+$", $test);
+			$res = ereg("^[A-Za-z0-9\ ]+$", $text);
 		}
 		else{
-			$res = ereg("^[A-Za-z0-9]+$", $test);	
+			$res = ereg("^[A-Za-z0-9]+$", $text);	
 		}
 
 		if($res){

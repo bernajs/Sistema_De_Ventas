@@ -2,15 +2,17 @@
 	namespace controllers;	
 	use libs\Controller;
 	use libs\View;
+	use libs\Validation;
 
 	class Proveedor extends Controller {
+		private $valida;
 
 		public function __construct(){
 			parent::__construct();
+			$this->valida = new Validation();
 			$this->loadModel();
-
-			
 		}
+
 
 		public function proveedor_inicio(){
 			try{
@@ -153,7 +155,6 @@
 		    $representanteLegal = $params['representanteLegal'];
 		    $fax = $params['fax'];
 		    $correoElectronico = $params['correoElectronico'];
-		    $webProveedor = $params['webProveedor'];
 		    $observaciones = $params['observaciones'];
 		    $ciudad = $params['ciudad'];
 		    $cp = $params['cp'];
@@ -161,23 +162,25 @@
 		    $calle = $params['calle'];
 		    $numero = $params['numero'];
 		    $detalle = $params['detalle'];
-		    //$DIRECCION_idDireccion=$params['DIRECCION_idDireccion'];
+		    $webProveedor = $params['webProveedor'];
 
-		    /*if(!is_numeric($dia)){
-		        $this->errores['dia']="Oye el dia no es un numero, no seas bobo chico";
-		        
-		    }
-		    
-		    if(!is_numeric($demanda)){
-		        $this->errores['demanda']="Oye la demanda no es un numero, no seas bobo chico";
-		        
-		    }
+		    $this->valida->validaTexto($rfc, 6, 45, false, 'El RFC es incorrecto');
+		    $this->valida->validaTexto($nombre, 2, 45, true, 'El nombre que ingresó es muy corto o largo');
+		    $this->valida->validaTexto($telefono, 8, 12, true, 'El teléfono que ingresó es muy corto o largo');
+		    $this->valida->validaTexto($representanteLegal,2, 45, true, 'El representante legal no es correcto');
+		    $this->valida->validaTexto($fax, 6, 45, true, 'El fax que ingresó no es correcto');
+		    $this->valida->validaEmail($correoElectronico, ".", 'El e-mail no es correcto');
+		    //$this->valida->validaTexto($webProveedor, 2, 45, true, 'La URL no es correcta');
+		    $this->valida->validaTexto($observaciones, 0, 45, true, 'Las observaciones son muy largas');
+		    $this->valida->validaTexto($ciudad, 2, 45,true, 'La ciudad que ingresó no es correcta');
+		    $this->valida->validaTexto($colonia, 2, 500, true, 'La colonia ingresó es muy corto o largo');
+		    $this->valida->validaNumeros($cp, 1, 900000, 'El CP que ingresó no es correcto');
+		    $this->valida->validaTexto($calle, 1, 500, true, 'La calle que ingresó es muy corto o largo');
+		    $this->valida->validaNumeros($numero, 1, 500, 'El número que ingresó es muy corto o largo');
+		    $this->valida->validaTexto($detalle, 0, 500, true, 'Los detalles son muy largos');
 
-		    if(!is_numeric($produccion)){
-		        $this->errores['produccion']="Oye la produccion no es un numero, analiza";
-		        
-		    }*/
 
+		    if(count($this->valida->getErroresValidacion()) == 0 ){
 		    if(count($this->errores) ==0 ){
 		    	try{
 		        	$this->model->crearProveedor($rfc,$nombre,$telefono,$representanteLegal,$fax,$correoElectronico,$webProveedor,$observaciones,$ciudad,$cp,$colonia,$calle,$numero,$detalle/*,$DIRECCION_idDireccion*/);
@@ -185,7 +188,11 @@
 		    	catch(\Exception $e){
 					$this->errores['global']=$e->getMessage();
 				}
-		    }
+		}
+		    }else{
+		        	    	$this->view->render(explode("\\",get_class($this))[1], "guardar_proveedor",null,$this->valida->getErroresValidacion());
+		        	    	
+		        	    }
 		}
 		catch (Exception $e) {
 						View::renderErrors(array($e->getMessage()));

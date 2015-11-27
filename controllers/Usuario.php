@@ -2,12 +2,15 @@
 	namespace controllers;	
 	use libs\Controller;
 	use libs\View;
+	use libs\Validation;
 
 	class Usuario extends Controller{
 
+		private $valida;
 		public function __construct(){
 			try{
 			parent::__construct();
+			$this->valida = new Validation();
 			$this->loadModel();			
 		}
 		catch (Exception $e) {
@@ -54,13 +57,27 @@
 				$nombre = $params['nombre'];
 				$apellidos = $params['apellidos'];
 
-				if (count($this->errores)==0) {
-					try {
-						$this->model->crearUsuario($usuario,$contrasenya,$nombre,$apellidos);
-					} catch (Exception $e) {
-						$this->errores['global']=$e->getMessage();
-					}
-				}
+
+				$this->valida->validaTexto($usuario, 4, 45, false, 'El usuario que ingresó es muy corto o largo');
+				$this->valida->validaTexto($contrasenya, 6, 45, false, 'La contraseña debe tener mínimo 6 caracteres');
+				$this->valida->validaTexto($nombre, 3, 45, true, 'El nombre que ingresó es muy corto o largo');
+				$this->valida->validaTexto($apellidos, 2, 45, true, 'El nombre que ingresó es muy corto o largo');
+
+
+
+					    if(count($this->valida->getErroresValidacion()) == 0 ){
+							if (count($this->errores)==0) {
+								try {
+									$this->model->crearUsuario($usuario,$contrasenya,$nombre,$apellidos);
+									$this->view->render(explode("\\",get_class($this))[1], "guardar_usuario",null,$this->valida->getErroresValidacion());
+								} catch (Exception $e) {
+									$this->errores['global']=$e->getMessage();
+								}
+							}
+					    }else{
+					    	$this->view->render(explode("\\",get_class($this))[1], "guardar_usuario",null,$this->valida->getErroresValidacion());
+					    	
+					    }
 				
 			} catch (Exception $e) {
 				View::renderErrors(array($e->getMessage()));
@@ -122,13 +139,28 @@
 				$apellidos = $params['apellidos'];
 				$activo = $params['activo'];
 
-				if (count($this->errores)==0) {
-					try {
-						$this->model->actualizarUsuario($idUsuario,$usuario,$contrasenya,$nombre,$apellidos,$activo);
-					} catch (Exception $e) {
-						$this->errores['global']=$e->getMessage();
-					}
-				}
+				$this->valida->validaTexto($usuario, 4, 45, false, 'El usuario que ingresó es muy corto o largo');
+				$this->valida->validaTexto($contrasenya, 6, 45, false, 'La contraseña debe tener mínimo 6 caracteres');
+				$this->valida->validaTexto($nombre, 3, 45, true, 'El nombre que ingresó es muy corto o largo');
+				$this->valida->validaTexto($apellidos, 2, 45, true, 'El nombre que ingresó es muy corto o largo');
+				$this->valida->validaTexto($apellidos, 2, 45, true, 'Ingrese 1 para activo y 0 para inactivo');
+
+
+				    if(count($this->valida->getErroresValidacion()) == 0 ){
+
+				    	if (count($this->errores)==0) {
+				    		try {
+				    			$this->model->actualizarUsuario($idUsuario,$usuario,$contrasenya,$nombre,$apellidos,$activo);
+				    		} catch (Exception $e) {
+				    			$this->errores['global']=$e->getMessage();
+				    		}
+				    	}
+				    }else{
+				    	$this->view->render(explode("\\",get_class($this))[1], "mostrar_usuarios",null,$this->valida->getErroresValidacion());
+				    	
+				    }
+
+
 			} catch (Exception $e) {
 				View::renderErrors(array($e->getMessage()));
 			}
