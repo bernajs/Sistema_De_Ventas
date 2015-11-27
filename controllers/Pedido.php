@@ -98,16 +98,17 @@
 			try {
 				if (count($params)>0) {
 					$p = $this->model->getPedidoById($params['identificador']);
-					var_dump($p[]);
+					//$pp=$p[0];
+					//var_dump($pp[0]);
 
 					if (empty($p)) {
 						View::renderErrors(array("No existe el pedido con identificador ".$params['identificador']));
 					}else{
-						$this->view->render3(explode("\\",get_class($this))[1], "modificar_producto", $p[0],$proveedores,$params, $this->getErrores());
+						$this->view->render(explode("\\",get_class($this))[1], "modificar_pedido", $p[0], $this->getErrores());
 					}
 				}
 			} catch (Exception $e) {
-				View::renderErrors(array("No se envio el identificador del producto"));	
+				View::renderErrors(array("No se envio el identificador del pedido"));	
 			}
 		}
 	}	

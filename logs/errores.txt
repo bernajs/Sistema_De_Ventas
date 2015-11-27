@@ -2380,3 +2380,757 @@
 2015-11-26 23:36:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
 >>>>>>> origin/master
 
+2015-11-27 07:18:43 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 07:18:43 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 07:19:50 (CST)      Undefined index: CLIENTE_dni C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 101
+
+2015-11-27 07:19:50 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 07:19:50 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 07:20:01 (CST)      Undefined index: CLIENTE_dni C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 101
+
+2015-11-27 07:27:02 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:02 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 104
+
+2015-11-27 07:27:02 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 105
+
+2015-11-27 07:27:45 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:27:45 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 104
+
+2015-11-27 07:27:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 105
+
+2015-11-27 07:31:33 (CST)      Undefined index: CLIENTE_dni C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 101
+
+2015-11-27 07:31:33 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:33 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 104
+
+2015-11-27 07:31:33 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 105
+
+2015-11-27 07:31:48 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:31:48 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 104
+
+2015-11-27 07:31:48 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 105
+
+2015-11-27 07:32:45 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 107
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:32:45 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 104
+
+2015-11-27 07:32:45 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 105
+
+2015-11-27 07:33:56 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 107
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:33:56 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 102
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 104
+
+2015-11-27 07:33:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 105
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:40:37 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:40:37 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
+
+2015-11-27 07:40:37 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 100
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:49:27 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:49:27 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
+
+2015-11-27 07:49:27 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 100
+
+2015-11-27 07:58:18 (CST)      Array to string conversion C:\Apache24\htdocs\Sistema_De_Ventas\models\PedidoModel.php 178
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:18 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:58:18 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
+
+2015-11-27 07:58:18 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 100
+
+2015-11-27 07:58:40 (CST)      Object of class models\PedidoModel could not be converted to string C:\Apache24\htdocs\Sistema_De_Ventas\models\PedidoModel.php 178
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:58:40 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:58:40 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
+
+2015-11-27 07:58:40 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 100
+
+2015-11-27 07:59:07 (CST)      Object of class models\PedidoModel could not be converted to string C:\Apache24\htdocs\Sistema_De_Ventas\models\PedidoModel.php 179
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:07 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:59:07 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
+
+2015-11-27 07:59:07 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 100
+
+2015-11-27 07:59:13 (CST)      Object of class models\PedidoModel could not be converted to string C:\Apache24\htdocs\Sistema_De_Ventas\models\PedidoModel.php 179
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 07:59:13 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 07:59:13 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
+
+2015-11-27 07:59:13 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 100
+
+2015-11-27 08:00:35 (CST)      Undefined index: cliente_dni C:\Apache24\htdocs\Sistema_De_Ventas\models\PedidoModel.php 177
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:35 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 08:00:35 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
+
+2015-11-27 08:00:35 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 100
+
+2015-11-27 08:00:44 (CST)      Undefined index: cliente_dni C:\Apache24\htdocs\Sistema_De_Ventas\models\PedidoModel.php 177
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:44 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 08:00:44 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
+
+2015-11-27 08:00:44 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 100
+
+2015-11-27 08:00:57 (CST)      Undefined index: cliente_dni C:\Apache24\htdocs\Sistema_De_Ventas\models\PedidoModel.php 177
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 24
+
+2015-11-27 08:00:57 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 62
+
+2015-11-27 08:00:57 (CST)      Undefined property: libs\View::$datos2 C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 68
+
+2015-11-27 08:00:57 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 100
+

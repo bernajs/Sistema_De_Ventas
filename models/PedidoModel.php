@@ -173,6 +173,11 @@
 				}
 
 				$pedido = $con->executeQuery("SELECT * FROM pedido WHERE idPedido = ?;",array($id), __NAMESPACE__.'\PedidoModel');
+				$CLIENTE_dni = $con->executeQuery("SELECT CLIENTE_dni FROM pedido WHERE idPedido = ?;",array($id),__NAMESPACE__.'\PedidoModel');				
+				$jeje = $CLIENTE_dni['cliente_dni'];
+				echo "<script language='javascript'>"; 
+				echo "alert('$jeje')"; 
+				echo "</script>";
 
 				return $pedido;
 			} catch (Exception $e) {
