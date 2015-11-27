@@ -32,7 +32,18 @@
         <div style="color: white;
           padding: 15px 50px 5px 50px;
           float: right;
-          font-size: 16px"> Último acceso : 30 May 2014 &nbsp; <a style="border-radius: 5px" href="#" class="btn btn-danger square-btn-adjust">Salir</a> </div>
+          font-size: 16px">
+          <?php
+              $visit = $_COOKIE['lastVisit'];
+          $timeframe = 90 * 60 * 24 * 60 + time();
+          setcookie('lastVisit', date("G:i - m/d/y"), $timeframe);
+          if(isset($_COOKIE['lastVisit']))
+              $visit = $_COOKIE['lastVisit'];
+          else
+          echo "Welcome to out web page!";
+          echo "Último acceso: ". $visit;
+          ?>
+          <a style="border-radius: 5px" href="#" class="btn btn-danger square-btn-adjust">Salir</a> </div>
         </nav>
         <!-- /. NAV TOP  -->
         <nav class="navbar-default navbar-side" role="navigation">
@@ -76,6 +87,17 @@
           <div id="page-inner">
             <div class="row">
               <div class="col-md-12">
+
+              <?php $errores = $this->getErrores();
+                  if(count($errores) > 0):?>
+                  <div class="alert alert-danger" role="alert">
+
+                  <?php foreach ($errores as  $error):?>
+                      <b><?php echo $error;?></b><br/>
+                  <?php endforeach;?>
+                  </div>
+              <?php endif;?>
+
                 <h2>Menú clientes</h2>
                 <h5>Elige la acción que desees realizar. </h5>
               </div>
