@@ -1480,3 +1480,103 @@
 
 2015-11-26 10:00:51 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 102
 
+2015-11-26 20:07:20 (CST)      SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 22
+
+2015-11-26 20:48:07 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 192
+
+2015-11-26 20:48:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 192
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:56:08 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 21:01:18 (CST)      Array to string conversion C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Producto.php 155
+
+2015-11-26 21:08:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 21:08:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-27 02:12:34 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\mostrar_productos.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 21
+
+2015-11-27 02:16:25 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\mostrar_productos.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 21
+
+2015-11-27 02:38:14 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:38:14 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:39:03 (CST)      Undefined index: CLIENTE_dni C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 101
+
+2015-11-27 02:39:03 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:39:03 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:39:09 (CST)      Undefined index: CLIENTE_dni C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 101
+
+2015-11-27 02:39:24 (CST)      Undefined index: CLIENTE_dni C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 101
+
+2015-11-27 02:39:24 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:39:24 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:39:30 (CST)      Undefined index: CLIENTE_dni C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 101
+
+2015-11-27 02:39:30 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:39:30 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:39:47 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:39:47 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:40:22 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:40:22 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:43:33 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:43:33 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:44:36 (CST)      Undefined index: IdPedido C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 101
+
+2015-11-27 02:44:36 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:44:37 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:45:01 (CST)      Undefined index: idPedido C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 101
+
+2015-11-27 02:45:01 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:45:01 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:45:18 (CST)      Undefined offset: 1 C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 101
+
+2015-11-27 02:45:18 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:45:18 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:45:31 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:45:31 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+
+2015-11-27 02:46:05 (CST)      Undefined variable: proveedores C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Pedido.php 106
+
+2015-11-27 02:46:05 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Pedido\modificar_producto.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 52
+

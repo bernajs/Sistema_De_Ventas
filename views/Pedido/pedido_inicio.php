@@ -173,7 +173,7 @@ echo "Último acceso: ". $visit;
                     <i class="fa fa-search"></i>
                 </span>
                 <div class="text-box" >
-                    <a  href="buscar_pedido.html">
+                    <a  href="<?php echo URL_BASE;?>/index.php/Pedido/mostrar_pedidos">
                     <p class="main-text">Consultar pedido</p></a>
                     <!--<p class="text-muted">Pending</p>-->
                 </div>

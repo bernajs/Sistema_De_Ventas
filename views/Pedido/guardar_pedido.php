@@ -113,14 +113,21 @@ echo "Último acceso: ". $visit;
                   <?php endforeach;?>  
                   
 
-                  <input class='form-control pro' name='cantProducto' id='cantProducto' placeholder='Cantidad' type='text'>
-                  <?php if(isset($this->errores['cantProducto'])) :?> <span id='helpBlock' class='help-block'><?php echo $this->errores['cantProducto'];?></span><?php endif;?>
+                  <!--<input class='form-control pro' name='cantProducto' id='cantProducto' placeholder='Cantidad' type='text'>-->
+                  <!--<?php //if(isset($this->errores['cantProducto'])) :?> <span id='helpBlock' class='help-block'><?php //echo $this->errores['cantProducto'];?></span><?php //endif;?>-->
                 </select>                  
 
-                </div>                
+                </div> 
+                </div>
+
+                <div class="form-group input-group <?php if (isset($this->errores['cantProducto'])) echo 'has-error' ; ?>">
+                <span class="input-group-addon"><i class="fa fa-genderless"></i></span>
+                <input class="form-control" name="cantProducto" id="cantProducto" placeholder="Cantidad de producto" type="text">
+                <?php if(isset($this->errores['cantProducto'])) :?> <span id="helpBlock" class="help-block"><?php echo $this->errores['cantProducto'];?></span><?php endif;?>
+              </div>               
 
                 <script>
-                var counter = 2;
+                /*var counter = 2;
                 var id=0;
                 var limit = 21;
 
@@ -165,12 +172,12 @@ echo "Último acceso: ". $visit;
                           counter++;
                      }
 
-                }
+                }*/
                 </script>
 
                 
 
-              </div>
+              <!--</div>-->
               
               <!--</form>-->
               <!--<div class="pro form-group input-group <?php //if (isset($this->errores['cantProducto'])) echo 'has-error' ; ?>">
@@ -179,14 +186,14 @@ echo "Último acceso: ". $visit;
                 <?php //if(isset($this->errores['cantProducto'])) :?> <span id="helpBlock" class="help-block"><?php //echo $this->errores['cantProducto'];?></span><?php //endif;?>
               </div>-->
 
-              <input type="button" value="Add another text input" onClick="addInput('dynamicInput');">
+              <!--<input type="button" value="Add another text input" onClick="addInput('dynamicInput');">-->
 
-              <style>
+              <!--<style>
                 .pro{
                   display: inline-block;
                 }
-              </style>
-              <br><br>
+              </style>-->
+              
               
               
               <button name="enviarDatos" id="sendBtn" type="submit" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Guardar</button>

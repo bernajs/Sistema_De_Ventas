@@ -82,7 +82,32 @@
 
 		}
 
-		public function registarProductohaspedido(){
+		public function mostrar_pedidos(){
+			try {
+				$pedidos = $this->model->listarPedidos();
+				//$cliente = $this->model->listarPedidos1();
+				//$productoPedido = $this->model->listarProductosPedidos();
+				$this->view->render(explode("\\",get_class($this))[1], "mostrar_pedidos", $pedidos,$this->getErrores());
 
+			} catch (Exception $e) {
+				View::renderErrors(array($e->getMessage()));
+			}
+		}
+
+		public function modificar_pedido($params=array()){
+			try {
+				if (count($params)>0) {
+					$p = $this->model->getPedidoById($params['identificador']);
+					var_dump($p[]);
+
+					if (empty($p)) {
+						View::renderErrors(array("No existe el pedido con identificador ".$params['identificador']));
+					}else{
+						$this->view->render3(explode("\\",get_class($this))[1], "modificar_producto", $p[0],$proveedores,$params, $this->getErrores());
+					}
+				}
+			} catch (Exception $e) {
+				View::renderErrors(array("No se envio el identificador del producto"));	
+			}
 		}
 	}	

@@ -152,6 +152,7 @@
 		public function guardar_producto($params=array()){
 			try{
 			$proveedores=$this->model->listarInventarios();
+			//var_dump($proveedores);
 			//$this->view->render(explode("\\",get_class($this))[1], "guardar_producto",$proveedores,$this->getErrores());			
 			//$this->guardar($params);
 			if(isset($params['nombre']) && isset($params['precioUnitario']) && isset($params['descripcion']) && isset($params['cantidad']) && isset($params['PROVEEDOR_rfc'])) {

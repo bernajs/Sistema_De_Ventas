@@ -125,5 +125,59 @@
 			//echo $precioUni;
 			//echo "lolololol";			
 		}
+
+		public function listarPedidos(){
+			try {
+				$con = DBConexion::getInstance();
+				if (is_null($con)) {
+					throw new Exception("Error en la conexion a la base de datos, verifique",1);
+				}
+				$pedidos = $con->executeQuery('SELECT * FROM pedido;',null, __NAMESPACE__.'\PedidoModel');
+				return $pedidos;
+			} catch (Exception $e) {
+				throw $e;
+			}
+		}
+
+		public function listarProductosPedidos(){
+			try {
+				$con = DBConexion::getInstance();
+				if (is_null($con)) {
+					throw new Exception("Error en la conexion a la base de datos, verifique",1);
+				}
+				$productoPedido = $con->executeQuery('SELECT * FROM producto_has_pedido;',null, __NAMESPACE__.'\PedidoModel');
+				return $productoPedido;
+			} catch (Exception $e) {
+				throw $e;
+			}
+		}
+
+		public function listarPedidos1(){
+			try {
+				$con = DBConexion::getInstance();
+				if (is_null($con)) {
+					throw new Exception("Error en la conexion a la base de datos, verifique",1);
+				}
+				$pedidos = $con->executeQuery('SELECT * FROM pedido;',null, __NAMESPACE__.'\PedidoModel');
+				return $pedidos;
+			} catch (Exception $e) {
+				throw $e;
+			}
+		}
+
+		public function getPedidoById($id){
+			try {
+				$con = DBConexion::getInstance();
+				if (is_null($con)) {
+					throw new Exception("Error en la conexion a la base de datos, verifique",1);
+				}
+
+				$pedido = $con->executeQuery("SELECT * FROM pedido WHERE idPedido = ?;",array($id), __NAMESPACE__.'\PedidoModel');
+
+				return $pedido;
+			} catch (Exception $e) {
+				
+			}
+		}
 		
 	}
