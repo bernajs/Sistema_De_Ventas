@@ -1480,3 +1480,801 @@
 
 2015-11-26 10:00:51 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 102
 
+2015-11-26 17:25:50 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\usuario_inicio.php 63
+
+2015-11-26 17:25:53 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\cliente_inicio.php 52
+
+2015-11-26 17:28:52 (CST)      Undefined index: user C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 99
+
+2015-11-26 17:28:52 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 100
+
+2015-11-26 17:28:52 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 101
+
+2015-11-26 17:28:52 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 102
+
+2015-11-26 17:39:28 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:39:28 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:39:28 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:39:28 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:41:22 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:41:22 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:41:22 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:41:22 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:43:02 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:43:02 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:43:02 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:43:02 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:46:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:46:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:46:59 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 150
+
+2015-11-26 17:46:59 (CST)      Undefined variable: usuario C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 202
+
+2015-11-26 17:46:59 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 202
+
+2015-11-26 17:46:59 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php:100) C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\usuario_inicio.php 65
+
+2015-11-26 17:47:20 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:47:20 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:47:20 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:47:20 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 150
+
+2015-11-26 17:47:20 (CST)      Undefined variable: usuario C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 202
+
+2015-11-26 17:47:20 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 202
+
+2015-11-26 17:47:20 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php:100) C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\usuario_inicio.php 65
+
+2015-11-26 17:48:07 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:48:07 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:48:07 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 151
+
+2015-11-26 17:48:07 (CST)      Undefined variable: usuario C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 203
+
+2015-11-26 17:48:07 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 203
+
+2015-11-26 17:48:07 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php:85) C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\usuario_inicio.php 65
+
+2015-11-26 17:48:35 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:48:35 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:48:35 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:48:35 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:48:35 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:24 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:51:24 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:24 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:24 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:24 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:24 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:24 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:54 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 17:51:54 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:54 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:54 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:54 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:54 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:51:54 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 17:52:13 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\producto_inicio.php 49
+
+2015-11-26 17:56:01 (CST)      Undefined index: user C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 99
+
+2015-11-26 17:56:01 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 100
+
+2015-11-26 17:56:01 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 101
+
+2015-11-26 17:56:01 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 102
+
+2015-11-26 17:56:04 (CST)      Undefined index: user C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 99
+
+2015-11-26 17:56:04 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 100
+
+2015-11-26 17:56:04 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 101
+
+2015-11-26 17:56:04 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:96) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 102
+
+2015-11-26 18:03:29 (CST)      Undefined property: controllers\Producto::$valida C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Producto.php 168
+
+2015-11-26 18:04:47 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Producto\guardar_usuario.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 21
+
+2015-11-26 18:04:51 (CST)      No existe una vista asociada a esta peticiÃ³n: views\Producto\guardar_usuario.php no existe C:\Apache24\htdocs\Sistema_De_Ventas\libs\View.php 21
+
+2015-11-26 18:05:21 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\guardar_producto.php 103
+
+2015-11-26 18:06:11 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:06:11 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:06:11 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\guardar_producto.php 103
+
+2015-11-26 18:06:46 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\guardar_producto.php 103
+
+2015-11-26 18:07:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:07:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:12:17 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:12:17 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\mostrar_productos.php 207
+
+2015-11-26 18:12:17 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\mostrar_productos.php:113) C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\producto_inicio.php 51
+
+2015-11-26 18:12:24 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:12:24 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:13:42 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:13:42 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:14:16 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:14:16 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:18:04 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\Sistema_De_Ventas\views\Proveedor\guardar_proveedor.php 37
+
+2015-11-26 18:27:57 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:27:57 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:27:57 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:30:52 (CST)      Undefined variable: webProveedor C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Proveedor.php 172
+
+2015-11-26 18:30:52 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:30:52 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:31:44 (CST)      Undefined variable: webProveedor C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Proveedor.php 172
+
+2015-11-26 18:31:44 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:31:44 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:33:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:33:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:33:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:33:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:33:06 (CST)      Undefined variable: webProveedor C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Proveedor.php 172
+
+2015-11-26 18:33:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:33:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:33:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:33:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:33:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:34:58 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:34:58 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:34:58 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:34:58 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:34:58 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:34:58 (CST)      Undefined variable: webProveedor C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Proveedor.php 172
+
+2015-11-26 18:34:58 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:34:58 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:34:58 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:34:58 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:34:58 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:35:46 (CST)      Undefined variable: webProveedor C:\Apache24\htdocs\Sistema_De_Ventas\controllers\Proveedor.php 172
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:35:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:36:53 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:37:47 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:38:49 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 18:45:26 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\pedido_inicio.php 37
+
+2015-11-26 19:14:54 (CST)      Undefined index: lastVisit C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 35
+
+2015-11-26 19:14:54 (CST)      Undefined index: user C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 100
+
+2015-11-26 19:14:54 (CST)      Undefined index: pass C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 101
+
+2015-11-26 19:14:54 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:97) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 102
+
+2015-11-26 19:14:54 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php:97) C:\Apache24\htdocs\Sistema_De_Ventas\views\Inicio\login.php 103
+
+2015-11-26 19:18:23 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:18:23 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:18:23 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:18:23 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:18:56 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:18:56 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:18:56 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:18:56 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:19:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:19:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:19:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:19:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:20:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:20:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:20:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:20:06 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:20:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:20:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:20:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:20:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:21:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:21:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:21:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:21:46 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:23:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:23:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:23:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:23:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:23:33 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:23:33 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:23:33 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:25:56 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:25:56 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:25:56 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:25:56 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 152
+
+2015-11-26 19:25:56 (CST)      Undefined variable: usuario C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 204
+
+2015-11-26 19:25:56 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php 204
+
+2015-11-26 19:25:56 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\mostrar_usuarios.php:102) C:\Apache24\htdocs\Sistema_De_Ventas\views\Usuario\usuario_inicio.php 66
+
+2015-11-26 19:29:48 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:29:48 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\guardar_producto.php 104
+
+2015-11-26 19:30:05 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\guardar_producto.php 104
+
+2015-11-26 19:30:48 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:30:48 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:30:48 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\guardar_producto.php 104
+
+2015-11-26 19:31:15 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:31:15 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:31:43 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:31:43 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\mostrar_productos.php 208
+
+2015-11-26 19:31:43 (CST)      Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\mostrar_productos.php:114) C:\Apache24\htdocs\Sistema_De_Ventas\views\Producto\producto_inicio.php 52
+
+2015-11-26 19:32:11 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 19:32:11 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:37:42 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 19:37:42 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:37:42 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:37:42 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:38:21 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 19:38:21 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:38:21 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:38:21 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:38:21 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Proveedor\mostrar_proveedores.php 208
+
+2015-11-26 19:38:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:38:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 19:38:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:38:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:38:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:38:38 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Proveedor\mostrar_proveedores.php 208
+
+2015-11-26 19:39:12 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:12 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:12 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 19:39:12 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:12 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:12 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:12 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:12 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:12 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Proveedor\mostrar_proveedores.php 208
+
+2015-11-26 19:39:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 19:39:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:27 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:27 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Proveedor\mostrar_proveedores.php 208
+
+2015-11-26 19:39:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 19:39:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:59 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:39:59 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Proveedor\mostrar_proveedores.php 208
+
+2015-11-26 19:40:26 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:40:26 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:40:26 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:40:26 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:40:26 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 19:40:26 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:40:26 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:40:26 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:40:26 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:40:26 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:40:26 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Proveedor\mostrar_proveedores.php 208
+
+2015-11-26 19:41:14 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:14 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:14 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:14 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 19:41:14 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:14 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:14 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:14 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:14 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:14 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Proveedor\mostrar_proveedores.php 208
+
+2015-11-26 19:41:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 19:41:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 19:41:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:04 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 30
+
+2015-11-26 20:37:04 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 20:37:04 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:04 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 20:37:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:19 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:19 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Proveedor\mostrar_proveedores.php 208
+
+2015-11-26 20:37:30 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:30 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:30 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 20:37:30 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:30 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:30 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:30 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:30 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:30 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Proveedor\mostrar_proveedores.php 208
+
+2015-11-26 20:37:45 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:45 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:45 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:45 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:45 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 47
+
+2015-11-26 20:37:45 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:45 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:45 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:45 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 20:37:45 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:20 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:20 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:20 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:20 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:20 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:20 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:20 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 152
+
+2015-11-26 23:25:20 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 203
+
+2015-11-26 23:25:20 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 203
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:29 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:40 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:25:40 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 152
+
+2015-11-26 23:25:40 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 203
+
+2015-11-26 23:25:40 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 203
+
+2015-11-26 23:35:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:31 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:31 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 152
+
+2015-11-26 23:35:31 (CST)      Undefined variable: cliente C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 203
+
+2015-11-26 23:35:31 (CST)      Trying to get property of non-object C:\Apache24\htdocs\Sistema_De_Ventas\views\Cliente\mostrar_clientes.php 203
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:35:38 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:36:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:36:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:36:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:36:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:36:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:36:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
+2015-11-26 23:36:39 (CST)      Function ereg() is deprecated C:\Apache24\htdocs\Sistema_De_Ventas\libs\Validation.php 27
+
