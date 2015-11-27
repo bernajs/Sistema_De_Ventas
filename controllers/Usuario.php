@@ -58,10 +58,10 @@
 				$apellidos = $params['apellidos'];
 
 
-				$this->valida->validaTexto($usuario, 4, 45, false, 'El usuario que ingresó es muy corto o largo');
-				$this->valida->validaTexto($contrasenya, 6, 45, false, 'La contraseña debe tener mínimo 6 caracteres');
-				$this->valida->validaTexto($nombre, 3, 45, true, 'El nombre que ingresó es muy corto o largo');
-				$this->valida->validaTexto($apellidos, 2, 45, true, 'El nombre que ingresó es muy corto o largo');
+				$this->valida->validaTexto($usuario, 4, 45, false, 'El usuario que ingresó');
+				$this->valida->validaTexto($contrasenya, 6, 45, false, 'La contraseña');
+				$this->valida->validaTexto($nombre, 3, 45, true, 'El nombre');
+				$this->valida->validaTexto($apellidos, 2, 45, true, 'El apellido');
 
 
 
@@ -139,11 +139,11 @@
 				$apellidos = $params['apellidos'];
 				$activo = $params['activo'];
 
-				$this->valida->validaTexto($usuario, 4, 45, false, 'El usuario que ingresó es muy corto o largo');
-				$this->valida->validaTexto($contrasenya, 6, 45, false, 'La contraseña debe tener mínimo 6 caracteres');
-				$this->valida->validaTexto($nombre, 3, 45, true, 'El nombre que ingresó es muy corto o largo');
-				$this->valida->validaTexto($apellidos, 2, 45, true, 'El nombre que ingresó es muy corto o largo');
-				$this->valida->validaTexto($apellidos, 2, 45, true, 'Ingrese 1 para activo y 0 para inactivo');
+				$this->valida->validaTexto($usuario, 4, 45, false, 'El usuario que ingresó');
+				$this->valida->validaTexto($contrasenya, 6, 45, false, 'La contraseña que ingresó');
+				$this->valida->validaTexto($nombre, 3, 45, true, 'El nombre que ingresó');
+				$this->valida->validaTexto($apellidos, 2, 45, true, 'El nombre que ingresó');
+				//$this->valida->validaTexto($apellidos, 2, 45, true, 'Ingrese 1 para activo y 0 para inactivo');
 
 
 				    if(count($this->valida->getErroresValidacion()) == 0 ){

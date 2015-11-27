@@ -12,13 +12,13 @@ class Validation{
 		
 		if(is_numeric($min)){
 			if(strlen($text) < $min){
-				$this->errors[] = $mensaje.". El valor del campo es: ".$text;
+				$this->errors[] = $mensaje." es muy corto";
 				return false;
 			}
 		}
 		if(is_numeric($max)){
 			if(strlen($text) > $max){
-				$this->errors[] = $mensaje.". El valor del campo es: ".$text;
+				$this->errors[] = $mensaje." es muy largo";
 				return false;
 			}
 		}
@@ -34,7 +34,7 @@ class Validation{
 			return true;
 		}
 		else{
-			$this->errors[] = $mensaje.". El valor del campo es: ".$text;
+			$this->errors[] = $mensaje." es incorrecto".$text;
 			return false;
 		}
 
@@ -49,7 +49,7 @@ class Validation{
 			return true;
 		}
 		else{
-			$this->errors[] = $mensaje.". El valor del campo es: ".$email;
+			$this->errors[] = $mensaje." es incorrecto";
 			return false;
 		}
 
@@ -59,13 +59,13 @@ class Validation{
 	public function validaNumeros($num, $min=false, $max=false, $mensaje=''){
 		if(is_numeric($num) && is_numeric($min) && is_numeric($max)){
 			if($num < $min or $num > $max ){
-				$this->errors[] = $mensaje.". El valor del campo es: ".$num;
+				$this->errors[] = $mensaje." es muy pequeño";
 				return false;
 			}
 			return true;
 		}
 		else{
-			$this->errors[] = $mensaje.". El valor del campo es: ".$num;
+			$this->errors[] = $mensaje." es muy grande";
 			return false;
 		}
 	}

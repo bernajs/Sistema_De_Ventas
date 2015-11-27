@@ -99,9 +99,7 @@
 
 		public function updateProveedor($params){
 			try {
-				echo "<script language='javascript'>"; 
-				echo "alert('HOLI.')"; 
-				echo "</script>";
+
 				$rfc = $params['rfc'];
 			    $nombre = $params['nombre'];
 			    $telefono = $params['telefono'];
@@ -117,6 +115,23 @@
 			    $numero = $params['numero'];
 			    $detalle = $params['detalle'];	
 
+
+			    //$this->valida->validaTexto($rfc, 6, 45, false, 'El RFC');
+			    $this->valida->validaTexto($nombre, 2, 45, true, 'El nombre que ingresó');
+			    $this->valida->validaTexto($telefono, 8, 12, true, 'El teléfono que ingresó');
+			    $this->valida->validaTexto($representanteLegal,2, 45, true, 'El representante legal');
+			    $this->valida->validaTexto($fax, 6, 45, true, 'El fax que ingresó');
+			    $this->valida->validaEmail($correoElectronico, ".", 'El e-mail');
+			    //$this->valida->validaTexto($webProveedor, 2, 45, true, 'La URL no es correcta');
+			    $this->valida->validaTexto($observaciones, 0, 45, true, 'Las observaciones');
+			    $this->valida->validaTexto($ciudad, 2, 45,true, 'La ciudad que ingresó');
+			    $this->valida->validaTexto($colonia, 2, 500, true, 'La colonia ingresó');
+			    $this->valida->validaNumeros($cp, 1, 900000, 'El CP');
+			    $this->valida->validaTexto($calle, 1, 500, true, 'La calle que ingresó');
+			    $this->valida->validaNumeros($numero, 1, 90000, 'El número que ingresó');
+			    $this->valida->validaTexto($detalle, 0, 500, true, 'Los detalles');
+
+			    if(count($this->valida->getErroresValidacion()) == 0 ){
 			    if(count($this->errores) ==0 ){
 			    	try{
 			        	$this->model->actualizarProveedor($rfc,$nombre,$telefono,$representanteLegal,$fax,$correoElectronico,$webProveedor,$observaciones,$ciudad,$cp,$colonia,$calle,$numero,$detalle);
@@ -124,7 +139,12 @@
 			    	catch(\Exception $e){
 						$this->errores['global']=$e->getMessage();
 					}
-		    	}			
+		    	}
+		    	}
+		    	else{
+		    	$this->view->render(explode("\\",get_class($this))[1], "mostrar_proveedores",null,$this->valida->getErroresValidacion());
+		    			        	    	
+		    			        	    }			
 			} catch (Exception $e) {
 				View::renderErrors(array($e->getMessage()));
 			}
@@ -164,20 +184,20 @@
 		    $detalle = $params['detalle'];
 		    $webProveedor = $params['webProveedor'];
 
-		    $this->valida->validaTexto($rfc, 6, 45, false, 'El RFC es incorrecto');
-		    $this->valida->validaTexto($nombre, 2, 45, true, 'El nombre que ingresó es muy corto o largo');
-		    $this->valida->validaTexto($telefono, 8, 12, true, 'El teléfono que ingresó es muy corto o largo');
-		    $this->valida->validaTexto($representanteLegal,2, 45, true, 'El representante legal no es correcto');
-		    $this->valida->validaTexto($fax, 6, 45, true, 'El fax que ingresó no es correcto');
-		    $this->valida->validaEmail($correoElectronico, ".", 'El e-mail no es correcto');
+		    $this->valida->validaTexto($rfc, 6, 45, false, 'El RFC');
+		    $this->valida->validaTexto($nombre, 2, 45, true, 'El nombre que ingresó');
+		    $this->valida->validaTexto($telefono, 8, 12, true, 'El teléfono que ingresó');
+		    $this->valida->validaTexto($representanteLegal,2, 45, true, 'El representante legal');
+		    $this->valida->validaTexto($fax, 6, 45, true, 'El fax que ingresó');
+		    $this->valida->validaEmail($correoElectronico, ".", 'El e-mail');
 		    //$this->valida->validaTexto($webProveedor, 2, 45, true, 'La URL no es correcta');
-		    $this->valida->validaTexto($observaciones, 0, 45, true, 'Las observaciones son muy largas');
-		    $this->valida->validaTexto($ciudad, 2, 45,true, 'La ciudad que ingresó no es correcta');
-		    $this->valida->validaTexto($colonia, 2, 500, true, 'La colonia ingresó es muy corto o largo');
-		    $this->valida->validaNumeros($cp, 1, 900000, 'El CP que ingresó no es correcto');
-		    $this->valida->validaTexto($calle, 1, 500, true, 'La calle que ingresó es muy corto o largo');
-		    $this->valida->validaNumeros($numero, 1, 500, 'El número que ingresó es muy corto o largo');
-		    $this->valida->validaTexto($detalle, 0, 500, true, 'Los detalles son muy largos');
+		    $this->valida->validaTexto($observaciones, 0, 45, true, 'Las observaciones');
+		    $this->valida->validaTexto($ciudad, 2, 45,true, 'La ciudad que ingresó');
+		    $this->valida->validaTexto($colonia, 2, 500, true, 'La colonia ingresó');
+		    $this->valida->validaNumeros($cp, 1, 900000, 'El CP');
+		    $this->valida->validaTexto($calle, 1, 500, true, 'La calle que ingresó');
+		    $this->valida->validaNumeros($numero, 1, 90000, 'El número que ingresó');
+		    $this->valida->validaTexto($detalle, 0, 500, true, 'Los detalles');
 
 
 		    if(count($this->valida->getErroresValidacion()) == 0 ){

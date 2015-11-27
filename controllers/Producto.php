@@ -89,10 +89,10 @@
 				$PROVEEDOR_rfc = $params['PROVEEDOR_rfc'];
 
 
-				    $this->valida->validaTexto($nombre, 2, 45, false, 'El nombre que ingresó es muy corto o largo');
-				    $this->valida->validaNumeros($precioUnitario, 0, 90000, 'El precio no es correcto');
-				    $this->valida->validaTexto($descripcion, 2, 45, true, 'El nombre que ingresó es muy corto o largo');
-				    $this->valida->validaNumeros($cantidad, 1, 45, 'El nombre que ingresó es muy corto o largo');
+				    $this->valida->validaTexto($nombre, 2, 45, false, 'El nombre que ingresó');
+				    $this->valida->validaNumeros($precioUnitario, 0, 90000, 'El precio ');
+				    $this->valida->validaTexto($descripcion, 2, 45, true, 'La descripción');
+				    $this->valida->validaNumeros($cantidad, 1, 45, 'La cantidad');
 
 
 				    if(count($this->valida->getErroresValidacion()) == 0 ){
@@ -178,10 +178,10 @@
 			    $cantidad = $params['cantidad'];
 			    $PROVEEDOR_rfc = $params['PROVEEDOR_rfc'];
 
-			    $this->valida->validaTexto($nombre, 2, 45, false, 'El nombre que ingresó es muy corto o largo');
-			    $this->valida->validaNumeros($precioUnitario, 0, 90000, 'El precio no es correcto');
-			    $this->valida->validaTexto($descripcion, 2, 45, true, 'El nombre que ingresó es muy corto o largo');
-			    $this->valida->validaNumeros($cantidad, 1, 45, 'El nombre que ingresó es muy corto o largo');
+			    $this->valida->validaTexto($nombre, 2, 45, true, 'El nombre que ingresó');
+			    $this->valida->validaNumeros($precioUnitario, 0, 90000, 'El precio');
+			    $this->valida->validaTexto($descripcion, 2, 45, true, 'La descripción');
+			    $this->valida->validaNumeros($cantidad, 1, 45, 'La cantidad');
 
 		if(count($this->valida->getErroresValidacion()) == 0 ){
 		    if(count($this->errores) ==0 ){
