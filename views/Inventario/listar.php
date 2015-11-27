@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <link rel="icon" type="image/png" href="<?php echo URL_BASE;?>/public/images/icon.png" />
         <title>LISTADO DE INVENTARIO</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="Url tracker system"/>

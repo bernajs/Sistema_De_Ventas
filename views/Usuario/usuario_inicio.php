@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+  <link rel="icon" type="image/png" href="<?php echo URL_BASE;?>/public/images/icon.png" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tu Sistema de Ventas</title>
@@ -110,9 +111,18 @@
               height:400px;
               overflow:auto;
               color: white;
+              margin-left: 10px;
+              border-radius: 5px;
+              margin-bottom: 5px;
               }
               fieldset{
-              width:150px;
+              width:230px;
+              margin-left: 10px;
+              }
+
+              .inp{
+                padding-right: 65px;
+                border-radius: 5px;
               }
               </style>
               <script>
@@ -149,10 +159,10 @@
             <body>
               <hr />
               <div id="historial"><img src="<?php echo URL_BASE."/views/Usuario";?>/ajax-loader.gif" /></div>
-              <fieldset>
-                <input type="text" id="nombre" placeholder="usuario" /><br />
-                <textarea id="contenido" placeholder="mensaje"></textarea><br />
-                <button onclick="agregar()">Enviar</button>
+              <fieldset class="field">
+                <input class="inp" type="text" id="nombre" placeholder="usuario" /><br />
+                <textarea class="inp" id="contenido" placeholder="mensaje"></textarea><br />
+                <button class="inp" onclick="agregar()">Enviar</button>
               </fieldset>
               <hr />
             </ul>

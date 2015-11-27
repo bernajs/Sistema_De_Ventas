@@ -8,6 +8,7 @@
 border:1px solid gray;
 width:230px;
 height:400px;
+padding-right: 10px;
 overflow:auto;			
 }
 

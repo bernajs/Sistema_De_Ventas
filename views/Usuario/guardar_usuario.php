@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
+<link rel="icon" type="image/png" href="<?php echo URL_BASE;?>/public/images/icon.png" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tu Sistema de Ventas</title>
