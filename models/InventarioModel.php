@@ -17,8 +17,8 @@ class InventarioModel {
 
 	public function __construct(){
 		try{
-		$this->costo_faltante = 0.0;
-	}
+			$this->costo_faltante = 0.0;
+		}
 	catch (Exception $e) {
 		throw $e;	
 	}

@@ -1,9 +1,10 @@
 <?php
 	namespace models;
 
-	use libs\DBConexion;
+//	use libs\DBConexion;
+	use libs\BaseModel;
 
-	class ProductoModel{
+	class ProductoModel extends BaseModel{
 
 		public $codigo;
 		public $nombre;
@@ -12,58 +13,63 @@
 		public $cantidad;
 		public $PROVEEDOR_rfc;
 
-		public function listarInventarios(){
+		public function __construct(){
+			parent::__construct('producto');
+		}
+
+		public function listarProveedores(){
 			try{
-			$con = DBConexion::getInstance();
-			if (is_null($con)) {
-				throw new Exception("Error en la conexion a la base de datos, verifique",1);
+				
+
+				$proveedores = $this->db->executeQuery('SELECT * FROM proveedor;',null, __NAMESPACE__.'\ProductoModel');
+
+				return $proveedores;
 			}
-
-			$proveedores = $con->executeQuery('SELECT * FROM proveedor;',null, __NAMESPACE__.'\ProductoModel');
-
-			return $proveedores;
-		}
-		catch (Exception $e) {
-			throw $e;	
-		}
+			catch (Exception $e) {
+				throw $e;	
+			}
 		}
 
-		public function crearInventario($nombre,$precioUnitario,$descripcion,$cantidad,$PROVEEDOR_rfc){
+		public function crearProducto($nombre,$precioUnitario,$descripcion,$cantidad,$PROVEEDOR_rfc){
 			try{
-			$this->nombre = $nombre;
-			$this->precioUnitario = $precioUnitario;
-			$this->descripcion = $descripcion;
-			$this->cantidad = $cantidad;
-			$this->PROVEEDOR_rfc = $PROVEEDOR_rfc;
+				$this->nombre = $nombre;
+				$this->precioUnitario = $precioUnitario;
+				$this->descripcion = $descripcion;
+				$this->cantidad = $cantidad;
+				$this->PROVEEDOR_rfc = $PROVEEDOR_rfc;
 
-			//echo "jiji";
-			$this->guardar();
-		}
-		catch (Exception $e) {
-			throw $e;	
-		}
+				//echo "jiji";
+				$this->guardar();
+			}
+			catch (Exception $e) {
+				throw $e;	
+			}
 		}
 
 		public function guardar(){
 			try{
-			$con = DBConexion::getInstance();
-			$params = array(
-					$this->nombre,
-					$this->precioUnitario,
-					$this->descripcion,
-					$this->cantidad,
-					$this->PROVEEDOR_rfc
-				);
+				//$con = DBConexion::getInstance();
+				$params = array(
+						$this->getTable(),
+						$this->nombre,
+						$this->precioUnitario,
+						$this->descripcion,
+						$this->cantidad,
+						$this->PROVEEDOR_rfc
+					);
 
-			$sql = vsprintf("INSERT INTO producto(nombre,precioUnitario,descripcion,cantidad,PROVEEDOR_rfc) VALUES('%s', %s, '%s',%s,'%s');", $params);
-			//echo $sql;
-			$con->executeUpdate(array($sql));
+				$sql = vsprintf("INSERT INTO %s(nombre,precioUnitario,descripcion,cantidad,PROVEEDOR_rfc) VALUES('%s', %s, '%s',%s,'%s');", $params);
+				//echo $sql;
+				if (!$this->db->executeUpdate(array($sql))) {
+					throw new \Exception("Error en la realizar la insercion de datos, chequear los registros de sistema");
+				}
+				//$con->executeUpdate(array($sql));
 
-			//echo "PASOO TODOO!";
-		}
-		catch (Exception $e) {
-			throw $e;	
-		}
+				//echo "PASOO TODOO!";
+			}
+			catch (Exception $e) {
+				throw $e;	
+			}
 
 		}
 

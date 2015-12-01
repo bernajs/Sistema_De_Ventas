@@ -3134,3 +3134,63 @@
 
 2015-11-27 08:00:57 (CST)      Invalid argument supplied for foreach() C:\Apache24\htdocs\Sistema_De_Ventas\views\Pedido\modificar_pedido.php 100
 
+2015-12-01 09:33:34 (CST)      SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 22
+
+2015-12-01 09:33:36 (CST)      SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 22
+
+2015-12-01 10:04:05 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:06:14 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:06:14 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:06:14 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:15 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:15 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:16 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:16 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:16 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:16 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:16 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:31 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:32 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:32 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:32 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:38 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:38 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:39 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:39 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:39 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:07:39 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:08:28 (CST)      SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 22
+
+2015-12-01 10:08:29 (CST)      SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 22
+
+2015-12-01 10:08:29 (CST)      SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 22
+
+2015-12-01 10:08:29 (CST)      SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) C:\Apache24\htdocs\Sistema_De_Ventas\libs\DBConexion.php 22
+
+2015-12-01 10:08:36 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:08:36 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+
+2015-12-01 10:08:36 (CST)      Fichero models\DBConexion no existe C:\Apache24\htdocs\Sistema_De_Ventas\autoload.php 22
+

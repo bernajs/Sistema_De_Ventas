@@ -151,7 +151,7 @@
 
 		public function guardar_producto($params=array()){
 			try{
-			$proveedores=$this->model->listarInventarios();
+			$proveedores=$this->model->listarProveedores();
 			//var_dump($proveedores);
 			//$this->view->render(explode("\\",get_class($this))[1], "guardar_producto",$proveedores,$this->getErrores());			
 			//$this->guardar($params);
@@ -160,6 +160,9 @@
 				//echo "lol";
 				//print_r($params);
 				$this->guardarProducto($params);
+				echo "<script language='javascript'>"; 
+				echo "alert('Producto guardado correctamente.')"; 
+				echo "</script>";
 				//$proveedores=$this->model->listarInventarios();
 				//$this->crearProveedor($params);
 				
@@ -184,23 +187,23 @@
 			    $this->valida->validaTexto($descripcion, 2, 45, true, 'La descripción');
 			    $this->valida->validaNumeros($cantidad, 1, 45, 'La cantidad');
 
-		if(count($this->valida->getErroresValidacion()) == 0 ){
-		    if(count($this->errores) ==0 ){
-		    	try{
-		        	$this->model->crearInventario($nombre,$precioUnitario,$descripcion,$cantidad,$PROVEEDOR_rfc);
-		    	}
-		    	catch(Exception $e){
-					$this->errores['global']=$e->getMessage();
-				}
-		    }
-		}else{
-					    	$this->view->render(explode("\\",get_class($this))[1], "guardar_producto",null,$this->valida->getErroresValidacion());
+				if(count($this->valida->getErroresValidacion()) == 0 ){
+				    if(count($this->errores) ==0 ){
+				    	try{
+				        	$this->model->crearProducto($nombre,$precioUnitario,$descripcion,$cantidad,$PROVEEDOR_rfc);
+				    	}
+				    	catch(Exception $e){
+							$this->errores['global']=$e->getMessage();
+						}
+				    }
+				}else{
+					   $this->view->render(explode("\\",get_class($this))[1], "guardar_producto",null,$this->valida->getErroresValidacion());
 					    	
-					    }
+				}
 			}
 			catch (Exception $e) {
-							View::renderErrors(array($e->getMessage()));
-						}
+				View::renderErrors(array($e->getMessage()));
+			}
 		}
 
 		/*public function mostrar_proveedores(){
